@@ -1,0 +1,11 @@
+*.pdf
+*.txt
+*.docx
+*.png
+*.xlsx
+*.env
+.vercel
+chroma_db*
+chroma_db_pdfs/*
+.vscode*
+*.csv

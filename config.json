@@ -1,0 +1,8 @@
+{
+	"collection_name" : "pdf_documents_med",
+	"embedding_model" : "NeuML/pubmedbert-base-embeddings",
+	"llm_model_name" : "google/flan-t5-base",
+	"pipeline_name" : "text2text-generation",
+	"desired_way" : "pipeline",
+	"num_chunks" : 3
+}
