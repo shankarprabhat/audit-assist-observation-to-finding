@@ -15,11 +15,11 @@ def get_audit_findings():
     try:
         
         req_body = request.get_json()
-        input_observation = req_body.get('auditObservation')
-        example_string = af.prepare_data()  # Load the example data
+        # input_observation = req_body.get('auditObservation')
+        # example_string = af.prepare_data()  # Load the example data
 
         try:
-            audit_finding, status_code = af.return_audit_findings(input_observation, example_string)
+            audit_finding, status_code = af.return_audit_findings(req_body)
         except Exception as e:
             return jsonify(traceback.format_exception(e))
         
