@@ -65,8 +65,8 @@ def prepare_data():
     return example_string
 
 def prepare_context(input_payload):
-    document_name = input_payload['document_name']
-    doc_section = input_payload['document_section']
+    document_name = input_payload['reference_document_name']
+    doc_section = input_payload['clause_number']
 
     obtained_context = "GCP: 4.1.1. The investigator(s) should be qualified by education, training," \
     " and experience to assume responsibility for the proper conduct of the trial, should meet all" \
@@ -126,13 +126,14 @@ def generate_audit_findings(input_payload,run_config=None):
     input_context = prepare_context(input_payload)
 
     prompt = prepare_prompt(example_string, input_observation, input_context)
-    print(prompt)
+    # print(prompt)
     
     # If the run config is provided, get the model name from there
     if run_config:
-        llm_selection = run_config['model_name']
+        # llm_selection = run_config['model_name']
+        model_name = run_config['model_name']
 
-    if llm_selection == "local_ollama":
+    if llm_selection in "local_ollama":
 
         payload = {
             "model": model_name,
@@ -170,7 +171,7 @@ def bulk_output():
     embedding_model = "BAAI/bge-large-en-v1.5"  # Example embedding model
 
     data_sheet = ["21CFR Part 312","21CFR Part 50","21CFR Part 56"]
-    data_sheet = ["21CFR Part 50"]
+    # data_sheet = ["21CFR Part 50"]
     source_file = ["21 CFR Part 50.pdf","21 CFR Part 56.pdf","21 CFR Part 58.pdf","NITLT01.pdf","AZD9291.pdf","ich-gcp-r3.pdf"]
 
     run_config = {
@@ -181,19 +182,24 @@ def bulk_output():
     for model_llm in model_name:
         run_config["model_name"] = model_llm
         for sheet in data_sheet:
+            print(f"\nRunning workflow with model: {model_llm} sheet: {sheet}")
+            
             df = pd.read_excel('Observations To Finding Training Data.xlsx',sheet_name=sheet)
+            
+            df = df.iloc[:3,:]
             
             # List to store dictionaries of questions and responses
             qa_pairs = [] 
 
             for ii in range(0,df.shape[0]):
+                print(f"Question Number: {ii}")
                 
                 # Do the inference in try catch block for each observation
                 try:
                     tic = time.time()
                     short_observation = df['Short Observation'][ii]
                     protocol = df['Protocol'][ii]
-                    reference_document_name = df['Reference Document Name'][ii]
+                    reference_document_name = df['Reference Document Number'][ii]
                     clause_number = df['Clause Number'][ii]
                     category_name = df['Category Name'][ii]
                     long_observation = df['Long Observation'][ii]
@@ -206,7 +212,7 @@ def bulk_output():
                             "category_name" : category_name
                             }
     
-                    print(f"\nRunning workflow with sheet: {sheet} model: {model_llm}")
+                    
                     output_observation = generate_audit_findings(input_payload,run_config)
                     toc = time.time()
                     # Add the question and full response to our list
@@ -218,8 +224,12 @@ def bulk_output():
                         # "Retrieved_Files": unique_retrieved_filenames,
                         "time_taken": round(toc - tic,2)
                     })
+                    print(f"Time Question: {toc-tic} seconds")
                 except:
+                    toc = time.time()
                     print(f"Inference failed")
+                    traceback.print_exc()
+                    
                     qa_pairs.append({
                         "short_observation": short_observation,
                         "Ground_truth": long_observation,
@@ -233,11 +243,11 @@ def bulk_output():
             
             # Optional: Save the DataFrame to a CSV file
             csv_filename = "qa_responses.csv"
-            csv_filename = os.path.join("output", f"{run_config['sheet_name']}_{run_config['model_name']}_qa_responses.csv")    
+            csv_filename = os.path.join("output", f"{sheet}_{run_config['model_name']}_qa_responses.csv")    
             # Replace colons in filename to avoid issues on some filesystems
             csv_filename = csv_filename.replace(":", "_")  
             qa_df.to_csv(csv_filename, index=False, encoding="utf-8")
-            print(f"\nDataFrame saved to {csv_filename}")
+            print(f"\nDataFrame saved to {csv_filename} time taken: {toc-tic} seconds")
 
     return
 
@@ -248,15 +258,15 @@ if __name__ == "__main__":
     if run_type == 'single':
         input_payload = {
             "input_observations" : "Some study personnel had no documented GCP training. A study coordinator, with no ECG certification, conducted ECG assessments.",
-            "document_name" : "ich-gcp.pdf",
-            "document_section" : "5.4.3"
+            "reference_document_name" : "ich-gcp.pdf",
+            "clause_number" : "5.4.3"
             }
 
         tic = time.time()
         output_observation = generate_audit_findings(input_payload)
         toc = time.time()
 
-        print(output_observation)
+        # print(output_observation)
 
         # clean_string = output_observation[0]['response'].replace("\\n", " ")
         # print(clean_string)
