@@ -4,6 +4,7 @@ import traceback
 import os
 from dotenv import load_dotenv
 import time
+import re
 
 load_dotenv()  # Load variables from .env into the environment
 
@@ -127,7 +128,7 @@ def generate_audit_findings(input_payload,run_config=None):
 
     prompt = prepare_prompt(example_string, input_observation, input_context)
     # print(prompt)
-    
+
     # If the run config is provided, get the model name from there
     if run_config:
         # llm_selection = run_config['model_name']
@@ -163,7 +164,7 @@ def generate_audit_findings(input_payload,run_config=None):
         # Send the prompt to the model
         output = run_inference_query(payload)
 
-    return output
+    return output, input_context
 
 def bulk_output():
     inference_type = "local" # or online
@@ -171,7 +172,7 @@ def bulk_output():
     embedding_model = "BAAI/bge-large-en-v1.5"  # Example embedding model
 
     data_sheet = ["21CFR Part 312","21CFR Part 50","21CFR Part 56"]
-    # data_sheet = ["21CFR Part 50"]
+    data_sheet = ["21CFR Part 50"]
     source_file = ["21 CFR Part 50.pdf","21 CFR Part 56.pdf","21 CFR Part 58.pdf","NITLT01.pdf","AZD9291.pdf","ich-gcp-r3.pdf"]
 
     run_config = {
@@ -183,17 +184,17 @@ def bulk_output():
         run_config["model_name"] = model_llm
         for sheet in data_sheet:
             print(f"\nRunning workflow with model: {model_llm} sheet: {sheet}")
-            
+
             df = pd.read_excel('Observations To Finding Training Data.xlsx',sheet_name=sheet)
-            
+
             df = df.iloc[:3,:]
-            
+
             # List to store dictionaries of questions and responses
-            qa_pairs = [] 
+            qa_pairs = []
 
             for ii in range(0,df.shape[0]):
                 print(f"Question Number: {ii}")
-                
+
                 # Do the inference in try catch block for each observation
                 try:
                     tic = time.time()
@@ -203,7 +204,7 @@ def bulk_output():
                     clause_number = df['Clause Number'][ii]
                     category_name = df['Category Name'][ii]
                     long_observation = df['Long Observation'][ii]
-    
+
                     input_payload = {
                             "short_observations" : short_observation,
                             "protocol" : protocol,
@@ -211,15 +212,30 @@ def bulk_output():
                             "clause_number" : clause_number,
                             "category_name" : category_name
                             }
-    
-                    
-                    output_observation = generate_audit_findings(input_payload,run_config)
+
+
+                    output_observation, context = generate_audit_findings(input_payload,run_config)
+                    response = output_observation[0]['response']
+                    clean_response = response.replace("\\n", " ")
+                    # Using regular expressions to extract content
+                    match = re.search(r'<think>(.*?)</think>(.*)', clean_response, re.DOTALL)
+
+                    if match:
+                        out_think = match.group(1).strip()
+                        response = match.group(2).strip()
+                    else:
+                        out_think = ""
+                        response = clean_response # If no <think> tag, the whole thing is the response
+
+                    # out_think = []
                     toc = time.time()
                     # Add the question and full response to our list
                     qa_pairs.append({
                         "short_observation": short_observation,
                         "Ground_truth": long_observation,
-                        "output_oesponse": output_observation,
+                        "output_response": response,
+                        "input_context": context,
+                        "output_thinking": out_think,
                         # "Contexts": retrieved_contexts,
                         # "Retrieved_Files": unique_retrieved_filenames,
                         "time_taken": round(toc - tic,2)
@@ -229,23 +245,25 @@ def bulk_output():
                     toc = time.time()
                     print(f"Inference failed")
                     traceback.print_exc()
-                    
+
                     qa_pairs.append({
                         "short_observation": short_observation,
                         "Ground_truth": long_observation,
-                        "output_oesponse": [],
+                        "output_response": [],
+                        "input_context": context,
+                        "output_thinking": [],
                         # "Contexts": retrieved_contexts,
                         # "Retrieved_Files": unique_retrieved_filenames,
                         "time_taken": round(toc - tic,2)
                     })
             # All questions are finished, create the DataFrame
             qa_df = pd.DataFrame(qa_pairs)
-            
+
             # Optional: Save the DataFrame to a CSV file
             csv_filename = "qa_responses.csv"
-            csv_filename = os.path.join("output", f"{sheet}_{run_config['model_name']}_qa_responses.csv")    
+            csv_filename = os.path.join("output", f"{sheet}_{run_config['model_name']}_qa_responses.csv")
             # Replace colons in filename to avoid issues on some filesystems
-            csv_filename = csv_filename.replace(":", "_")  
+            csv_filename = csv_filename.replace(":", "_")
             qa_df.to_csv(csv_filename, index=False, encoding="utf-8")
             print(f"\nDataFrame saved to {csv_filename} time taken: {toc-tic} seconds")
 

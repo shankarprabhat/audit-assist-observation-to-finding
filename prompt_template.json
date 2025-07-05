@@ -1,0 +1,3 @@
+"prompt" : [{
+	"template1": "You are an Auditor for analyzing clinical trials reports. You are being provided an example of audit observation and its context, and are required to provide the finding for the real observation. One example is given. Provide the findings for real observation using the real context provided. Try to find the implications of the observations on the clinical trial."
+}]
