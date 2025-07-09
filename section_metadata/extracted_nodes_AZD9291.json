@@ -1,0 +1,794 @@
+[
+  {
+    "section_title": "Document Preamble",
+    "page_label": "1",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "0296c521-fc7b-48b0-895b-f0e0c7e76f8f",
+    "content": "i\n28 State Street, Suite 1100, Boston, MA 02109 p: 857.504.2900 f: 617. 589.0914 ecog-acrin.org\nJuly 16, 2021\nMartha Kruhm, MS RAC\nHead, Protocol and Information Office\nQuality Assurance Section\nCTEP, DCT, NCI\n6130 Executive Blvd, EPN Room 7000\nBethesda, MD 20892\nDear Ms. Kruhm:\nEnclosed is Addendum #29 to EAY131-E, MATCH Treatment Subprotocol E: AZD9291 in \nPatients with Tumors Having EGFR T790M Mutations or Rare Activating Mutations of EGFR\nPlease replace your current copy of the protocol and Informed Consent document with these \nupdated versions. We recommend that each institution maintain a file containing the original \nprotocol, Informed Consent, and all subsequent revisions/versions.\nIRB Review Requirements:\nThis addendum has been reviewed and approved by the Central IRB, which is the sole \nIRB of record for this study. Local IRB review and approval is unnecessary.\nImplementation of this addendum must occur on the activation date. Sites are not \npermitted to conduct the study utilizing outdated versions of any MATCH protocol documents \nafter the activation date of this addendum.\nRe: Review of Amendment #39 of Protocol #EAY131-E: “MATCH Treatment Subprotocol E: \nAZD9291 in Patients with Tumors Having EGFR T790M Mutations (Except Non-Small Cell Lung \nCancer) or Rare Activating Mutations of EGFR” dated 4/15/2021. The principal investigators \nresponses appear in bold below. \nI. Recommendations:\nSection Comments"
+  },
+  {
+    "section_title": "1. Global",
+    "page_label": "1",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "0296c521-fc7b-48b0-895b-f0e0c7e76f8f",
+    "node_id": "3cf569df-5e35-4c91-bf8a-4ebc2ca55cd9",
+    "content": "5.1\nWithin approximately 6 months the PMB-supplied investigational label AZD9291 \n(osimertinib) will transition to PMB-supplied commercial label osimertinib \n(AZD9291). There are no manufacturing differences between the \ninvestigational clinical supply and the marketed commercial supply.  At the \ntime of the next amendment please make the following administrative updates \nto facilitate the planned transition:\nx Update the primary agent name to the generic name osimertinib.  The \ncode name AZD9291 can be retained as a secondary name, such as \n“osimertinib (AZD9291)”."
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "2",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "35cf2145-8533-42da-a875-bafd557f7a15",
+    "content": "ii\nSection Comments\nReplace the entire pharmaceutical section with the updated CTEP/PMB drug \nmonograph (attached file: Osimertinib (AZD9291) - 781254 – 1120) for \nconsistency with the FDA approved package insert.\nPI Response: This has been revised throughout the documents.\nThe following revisions to the EAY131-E protocol have been made in this addendum:\nSection Change"
+  },
+  {
+    "section_title": "1. Global Administrative edits made throughout document.",
+    "page_label": "2",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "35cf2145-8533-42da-a875-bafd557f7a15",
+    "node_id": "13496de8-6d1b-428e-9331-96b1ca5d7f30",
+    "content": ""
+  },
+  {
+    "section_title": "2. Cover Page Updated study title.",
+    "page_label": "2",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "35cf2145-8533-42da-a875-bafd557f7a15",
+    "node_id": "36bb022c-de7b-4fc6-a76f-aecc934fa5d9",
+    "content": ""
+  },
+  {
+    "section_title": "3. Cover Page Updated Version Date and addendum number.",
+    "page_label": "2",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "35cf2145-8533-42da-a875-bafd557f7a15",
+    "node_id": "b9d47d77-9fdd-480a-951c-65f1bd3c6321",
+    "content": ""
+  },
+  {
+    "section_title": "4. 2.1.2.1 Revised eligibility criteria regarding eligible mutations for study.",
+    "page_label": "2",
+    "heading_level": 1,
+    "heading_id": "4",
+    "parent_node_id": "35cf2145-8533-42da-a875-bafd557f7a15",
+    "node_id": "c310ac8c-20c0-4ef1-a7c9-5b16d5f20647",
+    "content": ""
+  },
+  {
+    "section_title": "5. 2.1.4 First sentence, line 2; revised ‘prior to registration to treatment’ to “prior to",
+    "page_label": "2",
+    "heading_level": 1,
+    "heading_id": "5",
+    "parent_node_id": "35cf2145-8533-42da-a875-bafd557f7a15",
+    "node_id": "71803947-062e-4f82-b38a-7abd7a184fd8",
+    "content": "registration’."
+  },
+  {
+    "section_title": "6. 2.1.10 Revised ‘Male patients’ to ‘Patients’.",
+    "page_label": "2",
+    "heading_level": 1,
+    "heading_id": "6",
+    "parent_node_id": "35cf2145-8533-42da-a875-bafd557f7a15",
+    "node_id": "69100684-179f-4e91-aaa0-9f641f5de81b",
+    "content": ""
+  },
+  {
+    "section_title": "7. 3.2.2 Updated template language regarding the ‘Second Cancer Reporting",
+    "page_label": "2",
+    "heading_level": 1,
+    "heading_id": "7",
+    "parent_node_id": "35cf2145-8533-42da-a875-bafd557f7a15",
+    "node_id": "ba02bf3f-cf8d-48b4-a6ab-ef87df1c5663",
+    "content": "Requirements.’"
+  },
+  {
+    "section_title": "8. 3.4 Under ‘Adverse Events of Special Interest’, in item 1, 1st paragraph, lines 5&6;",
+    "page_label": "2",
+    "heading_level": 1,
+    "heading_id": "8",
+    "parent_node_id": "35cf2145-8533-42da-a875-bafd557f7a15",
+    "node_id": "9a552d6c-3801-4701-8073-56df25bd81a4",
+    "content": "revised ‘eCRF’ to ‘eCRF in Medidata Rave’"
+  },
+  {
+    "section_title": "9. 4 In footnote C, revised ‘women’ to ‘patients’.",
+    "page_label": "2",
+    "heading_level": 1,
+    "heading_id": "9",
+    "parent_node_id": "35cf2145-8533-42da-a875-bafd557f7a15",
+    "node_id": "41c4d3ca-92a3-46a3-acdd-d5bfa14936dc",
+    "content": ""
+  },
+  {
+    "section_title": "10. 5.1 Updated the primary agent name to the generic name Osimertinib throughout",
+    "page_label": "2",
+    "heading_level": 1,
+    "heading_id": "10",
+    "parent_node_id": "35cf2145-8533-42da-a875-bafd557f7a15",
+    "node_id": "8ced7055-1dfc-4d78-b658-81fa28f31579",
+    "content": "section.\nThe following revisions to the EAY131-E Informed Consent Document have been made in this \naddendum:\nSection Change"
+  },
+  {
+    "section_title": "1. Global Updated the primary agent name to the generic name Osimertinib (AZD9291)",
+    "page_label": "2",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "35cf2145-8533-42da-a875-bafd557f7a15",
+    "node_id": "7a43c725-1be9-4aeb-9b42-1c2982333bc1",
+    "content": "throughout document."
+  },
+  {
+    "section_title": "2. Cover Page Updated Version Date.",
+    "page_label": "2",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "35cf2145-8533-42da-a875-bafd557f7a15",
+    "node_id": "a16f4f13-d763-4b3b-bfaf-34f813795d40",
+    "content": "If you have any questions regarding this addendum, please contact aaagu@ecog-acrin.org or \n857-504-2900.\nWe request review and approval of this addendum to EAY131-E so ECOG-ACRIN may activate \nit promptly.  \nThank you.\nSincerely,\nPamela Cogliano\nSenior Director of Protocol Development"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "3",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "7603f9d8-c38e-4847-8cdc-4ed9d9362e3c",
+    "content": "EAY131-E\n1\nMolecular Analysis for Therapy \nChoice (MATCH)\nMATCH Treatment Subprotocol E: Osimertinib \n(AZD9291) in Patients with Tumors Having EGFR T790M \nMutations or Rare Activating Mutations of EGFR\nTREATMENT SUBPROTOCOL CHAIR: Lecia V. Sequist, MD\nTREATMENT SUBPROTOCOL CO-CHAIR: Helena Yu, MD\nTRANSLATIONAL CHAIR: Christine Lovly, MD\nVersion Date: July 16, 2021\nNCI Update Date: August 12, 2015\nNOTE: This subprotocol (EAY131-E) should \nbe used in conjunction with the \nMATCH Master Protocol (EAY131).\nSUBPROTOCOL ACTIVATION DATE\nAugust 12, 2015 (incorporated in Addendum #1)\nUpdate #2 – 8/15\nNOTE: As of 11/17, all protocol changes will\nbe noted by addendum number.\nAddendum #2 – 2/16\nAddendum #3 – 5/16\nAddendum #4 – 7/16\nAddendum #5 – 12/16\nAddendum #7 – 3/17\nAddendum #12\nAddendum #13\nAddendum #14\nAddendum #23\nAddendum #25\nAddendum #27\nAddendum #29\nAgent IND# NSC# Supply\nOsimertinib \n(AZD9291)\nIND Sponsor: DCTD, NCI 781254 NCI Supplied\nRev. Add12\nRev. Add25"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "4",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "9831c9f1-f90b-44d1-93f3-cf3417692cb8",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n2\nTable of Contents\nMolecular Analysis for Therapy Choice (MATCH) ...................................................... i \nMATCH Treatment Subprotocol E: Osimertinib (AZD9291) in Patients with Tumors \nHaving EGFR T790M Mutations or Rare Activating Mutations of EGFR ............. 1 \nTable of Contents ...................................................................................................... 2 \nSchema ...................................................................................................................... 4"
+  },
+  {
+    "section_title": "1. Introduction ........................................................................................................ 5",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "9831c9f1-f90b-44d1-93f3-cf3417692cb8",
+    "node_id": "a9baa720-ad5d-4743-9dd5-3764ed9b8b2a",
+    "content": "1.1 Supporting Preliminary Data ..................................................................... 5"
+  },
+  {
+    "section_title": "2. Selection of Patients ........................................................................................... 8",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "9831c9f1-f90b-44d1-93f3-cf3417692cb8",
+    "node_id": "4bb15203-dbcc-495e-ab87-9e159952dd3f",
+    "content": "2.1 Eligibility Criteria ....................................................................................... 8"
+  },
+  {
+    "section_title": "3. Osimertinib (AZD9291) Treatment Plan ........................................................... 10",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "9831c9f1-f90b-44d1-93f3-cf3417692cb8",
+    "node_id": "6e73c4b9-838b-474a-8d1e-c0a6e9f68108",
+    "content": "3.1 Administration Schedule ......................................................................... 10 \n3.2 Adverse Event Reportin g Requirements ................................................. 10 \n3.3 Comprehensive Adverse Events and Potential Risks List (CAEPR) for \nOsimertinib (AZD9291) (osimertinib, NSC 781254) ................................ 13 \n3.4 Dose Modifications ................................................................................. 16 \n3.5 Supportive Care ....................................................................................... 17 \n3.6 Duration of Agent-sp ecific treatment ..................................................... 17 \n3.7 Duration of Follow-Up ............................................................................. 18"
+  },
+  {
+    "section_title": "4. Study Parameters .............................................................................................. 19",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "4",
+    "parent_node_id": "9831c9f1-f90b-44d1-93f3-cf3417692cb8",
+    "node_id": "f7def921-4361-4b13-8ff5-1477c11b3bfc",
+    "content": "4.1 Therapeutic Parameters for Osimertinib (AZD9291) Treatment ............ 19"
+  },
+  {
+    "section_title": "5. Drug Formulation and Procurement ................................................................. 21",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "5",
+    "parent_node_id": "9831c9f1-f90b-44d1-93f3-cf3417692cb8",
+    "node_id": "a78e42f3-41d7-4554-8327-e90f8a4249eb",
+    "content": "5.1 Osimertinib (NSC #781254) ..................................................................... 22"
+  },
+  {
+    "section_title": "6. Translational Studies ......................................................................................... 24",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "6",
+    "parent_node_id": "9831c9f1-f90b-44d1-93f3-cf3417692cb8",
+    "node_id": "fcceaec9-ad36-4b47-884e-2374c7cf57e5",
+    "content": ""
+  },
+  {
+    "section_title": "7. References ........................................................................................................ 24",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "7",
+    "parent_node_id": "9831c9f1-f90b-44d1-93f3-cf3417692cb8",
+    "node_id": "6f7c0fa1-4a3f-4647-961d-453c26be1634",
+    "content": "Appendix I  Patient Pill Calendar ............................................................................. 25 \nAppendix II  Guidance Regarding Potential Interactions with Concomitant \nMedications ...................................................................................................... 27 \nAppendix III  PATIENT CLINICAL TRIAL WALLET CARD ............................................. 30 \nAppendix IV  Actionable Mutations for Sub-Protocol EAY131-E ............................. 31 \nAppendix V  Actions Required in Cases of Increases in Liver Biochemistry and \nEvaluation of Hy’s Law ...................................................................................... 32"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "5",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "9103936c-fb44-4ec3-8740-e764556acfde",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n3\nTREATMENT SUBPROTOCOL CHAIR\nLecia V. Sequist\nMassachusetts General Hospital\n55 Fruit Street, POB 212\nBoston, MA  02114\nPhone: 617-726-7812\nFax: 617-724-3166\nEmail: lvsequist@partners.org\nTREATMENT SUBPROTOCOL CO-CHAIR \nHelena Yu\nMemorial Sloan Kettering Cancer Center\n300 East 66th Street \nNew York, NY 10065\nPhone: 646-888-4634\nFax: 646-227-7276\nEmail: YuH@mskcc.org\nTRANSLATIONAL CHAIR\nChristine Lovly MD PhD\nVanderbilt-Ingram Cancer Center\n2220 Pierce Avenue South\n777 PRB\nNashville, TN 37232\nPhone: 615-936-3457\nFax: 615-343-7602\nEmail: christine.lovly@Vanderbilt.edu"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "6",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "19ebea10-6257-492c-a8f5-e06acf62f653",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n4\nSchema\nLong-Term Follow-Up\nOsimertinib (AZD9291) 80 \nmg orally daily continuously\nUntil progression or \nunacceptable toxicity\nCycle = 28 days\nAccrual Goal: 35"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "7",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "74c516dd-4fbb-494b-9c2c-fcc71b27b032",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n5"
+  },
+  {
+    "section_title": "1. Introduction",
+    "page_label": "7",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "74c516dd-4fbb-494b-9c2c-fcc71b27b032",
+    "node_id": "4ed0b07b-d429-4097-aa12-ff20c4d35b31",
+    "content": "1.1 Osimertinib (AZ9291)\nOsimertinib (AZD9291) is an irreversible, mutant specific EGFR tyrosine kinase \ninhibitor. It is effective in pre-clinical tumor models and clinical trials in patients \nwith TKI sensitizing and T790M resistant tumors. It is generally well tolerated and \nits most common side effects are mild rash and diarrhea.\n1.2 Supporting Preliminary Data\nActivating mutations within the epidermal growth factor receptor (EGFR) \nmutations are present in approximately 20% of all lung adenocarcinomas.  \nEGFR-mutant cancers are dependent on EGFR signaling for growth and survival, \nmaking inhibition of EGFR an attractive therapeutic target. EGFR tyrosine kinase \ninhibitors (TKIs) including erlotinib and afatinib are FDA approved for the \ntreatment of EGFR-mutant lung cancers based on superior responses and \nprogression free survival compared to cytotoxic chemotherapy.1,2 All patients that \nare treated with EGFR TKIs will eventually develop therapeutic resistance, on \naverage after 10-12 months of therapy.\n1,2Tumor cells from more than half of \npatients with such “acquired resistance” contain a recurrent second-site mutation \n(T790M) in the EGFR kinase domain.3,4 EGFR T790M is often described as a \ngatekeeper mutation, and this substitution results in steric hindrance that \nprevents drug binding and also changes the receptor affinity for ATP.5 At present, \nthere are no FDA approved therapies for patients with EGFR mutant lung cancer \nwho develop acquired resistance mediated by the T790M mutation. \nThe first- and second- generation EGFR TKIs (erlotinib and afatinib, respectively) \nwere designed to inhibit wild-type EGFR. Recently, a new class of pyrimidine-\nbased EGFR TKIs has been developed which irreversibly inhibits classically \nsensitizing (EGFR L858R, EGFR exon 19 deletions [ex19del]) and resistant \n(EGFR T790M) forms of EGFR. The first drug in this class was WZ4002, and \nadditional drugs include osimertinib (AZD9291), CO-1686, HM61713, EGF816 \nand ASP8273. Osimertinib (AZD9291) has a greater than 200 times selectivity \nfor EGFR L858R/T790M over wild-type EGFR (IC50s 480 nM to 1.8 μM across \ndifferent cell lines).6 Treatment with osimertinib (AZD9291) in EGFR L858R, \nEGFR ex19del,  EGFR L858R/T790M and EGFR ex19del/T790M xenograft \ntumors also led to profound tumor growth regression. Osimertinib (AZD9291) \nInvestigator’s Brochure 2014)\nThe phase 1 study of osimertinib (AZD9291) (NCT01802632) has shown \nextremely promising activity, specifically in patients with lung adenocarcinomas \nthat harbor EGFR T790M.7 A total of 127 patients with centrally confirmed EGFR \nT790M who could be evaluated for response: the response rate was 61% (95% \nCI 52-70) and median PFS was 9.6 months (95% CI, 8.3 to not reached). \nAmong all patients treated, no dose-limiting toxicities were seen at any of the \ndoses evaluated. The most common (>10%) adverse events were diarrhea, \nrash/acne, nausea, decreased appetite, dry skin, pruritis, fatigue, paronychia, \nconstipation, cough stomatitis, vomiting, anemia, dyspnea, upper respiratory tract \ninfection, headache as presented in the Janne et al 2015 paper. Please refer to \nthe Investigator’s Brochure for comprehensive safety data."
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "8",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "a83790ff-b61c-480f-ae8c-a009d7ebf35a",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n6\nAs of 9th February 2015, there were 25 (2.5%) ILD-like events reported out of \nmore than 993 patients exposed to osimertinib (AZD9291). Of these, 12 were \nCTCAE Grade 1-2 events, 8 were Grade 3-4 events and 3 fatal (Grade 5) events \n(0.3%) as outlined above. Two events haven’t had a CTCAE grade reported yet.\n11 patients experienced prolongation of the corrected QT (QTc) interval; none of \nthese 11 events resulted in reduction or discontinuation of osimertinib \n(AZD9291). There were 7 fatal adverse events; 1/7 of these events was a \npneumonia which was reported as being possibly drug-related.\nThe excellent responses of EGFR T790M harboring lung adenocarcinomas to \nosimertinib (AZD9291) provide the rationale to assess osimertinib (AZD9291) in \nother tumors with EGFR T790M. Osimertinib (AZD9291) is also active in pre-\nclinical studies against other types of EGFR mutations which suggest that the \ncompound may provide clinical benefit in tumors with other rare EGFR mutations \nas well.\nComprehensive mutation profiling allows us to identify rare, potentially actionable \nmutations in a wide array of cancer types. Figure 1 illustrates the frequency of \nEGFR mutations in various tumor types demonstrating that a broad array of \ncancers have a low frequency of these mutations of interest. EGFR T790M and \nother rare variants such as vIII, G719S, L861Q, exon 19 and 20 insertions \nrepresent a small minority of these EGFR mutations. In the COSMIC database, \nwe identified listings of EGFR T790M mutations in cancers of the upper \naerodigestive tract, the biliary tract, the large intestine, the central nervous \nsystem and the skin and we suspect these mutations will be more likely to be \ncommonly identified as comprehensive molecular testing becomes routine for all \ntumors.\nThe phase 1 study of osimertinib (AZD9291) was conducted in patients with \npredominantly EGFR L858R or EGFR ex19del and concurrent EGFR T790M; \nthere is no available clinical data to indicate whether osimertinib (AZD9291) has \nactivity against tumors with other rare EGFR mutations or with T790M alone. \nThere is preclinical data that demonstrates activity of osimertinib (AZD9291) in \ncells transfected with EGFR G719S, L861Q, exon 19 insertions, EGFR variant III,\nand HER2 exon 20 insertions.\n6 We propose studying AZD9291 in patients with \nEGFR T790M in cancers other than lung adenocarcinomas. We also propose \nassessing the activity of AZD9291 in cancers with rare EGFR mutations among \nwhich osimertinib (AZD9291) was efficacious in pre-clinical studies (providing \nMATCH Level 3 evidence – see MATCH Master Protocol).\nRev.2/16"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "9",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "89c73b1a-7aeb-4a78-b356-67a204871e25",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n7\nFigure 1\nFigure 1: Frequency of EGFR mutations in tumor types derived from the cBIO \nportal (http://www.cbioportal.org/public-portal/). The X-axis denotes the tumor \ntype and the genomic study from which the data was derived. The Y-axis \nrepresents the frequency of the EGFR alterations in the studies represented on \nthe X-axis."
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "10",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "fbf6d638-e160-4178-a6d0-5fb11d1b5d3d",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n8"
+  },
+  {
+    "section_title": "2. Selection of Patients",
+    "page_label": "10",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "fbf6d638-e160-4178-a6d0-5fb11d1b5d3d",
+    "node_id": "d3492527-3c07-4fcc-8cac-3d1a7ba0d0dc",
+    "content": "Each of the criteria in the checklist that follows must be met, along with the eligibility in \nthe MATCH Master Protocol, in order for a patient to be considered eligible for this \nstudy. Use the checklist to confirm a patient’s eligibility. For each patient, this checklist \nmust be photocopied, completed and maintained in the patient’s chart. \nIn calculating days of tests and measurements, the day a test or measurement is \ndone is considered Day 0. Therefore, if a test is done on a Monday, the Monday \nfour weeks later would be considered Day 28. \nECOG-ACRIN Patient No. ____________________________\nPatient’s Initials (L, F, M) _______________________\nPhysician Signature and Date ___________________\nNOTE: Policy does not allow for the issuance of waivers to any protocol specified \ncriteria (http://ctep.cancer.gov/protocolDevelopment/policies deviations.htm ). \nTherefore, all eligibility criteria listed in Section 2 must be met, without \nexception. The registration of individuals who do not meet all criteria listed in \nSection 2 can result in the participant being censored from the analysis of the \nstudy, and the citation of a major protocol violation during an audit. All\nquestions regarding clarification of eligibility criteria must be directed to the \nGroup's Executive Officer (EA.Execofficer@jimmy.harvard.edu) or the \nGroup's Regulatory Officer (EA.RegOfficer@jimmy.harvard.edu).\nNOTE: Institutions may use the eligibility checklist as source documentation if it has \nbeen reviewed, signed, and dated prior to registration/randomization by the \ntreating physician.\nNOTE: All patients must have signed the relevant treatment consent form.\n2.1 Eligibility Criteria\n2.1.1 Patient must fulfill all eligibility criteria outlined in Section 3.1 of \nMATCH Master Protocol (excluding Section 3.1.6) at the time of \nregistration to treatment step (Step 1, 3, 5, 7).\n2.1.2 Patients must have either of the below, or another aberration, as \ndetermined via the MATCH Master Protocol and according to \nAppendix IV:\n2.1.2.1 Any malignancy except NSCLC withEGFR T790M \nidentified in their tumor, with or without an activating \nmutation\nOR\n2.1.2.2 Any malignancy harboring any of the following mutations:\nEGFR G719A, G719C, G719D, G719S EGFR L861Q, \nS786I or an EGFR exon 19 in frame insertion mutation.\nSee Appendix IV for information on the targeted mutations and \ncorresponding Levels of Evidence.\n_____\n____________________\nRev.2/16\nRev.2/16\nRev. Add13\nRev. Add25\nRev. Add29\nRev. Add29\nRev. Add29"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "11",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "9074b9cb-d7f6-4d30-a245-893199b3cc33",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n9\n2.1.3 Patients must have an electroc ardiogram (ECG) within 8 weeks prior \nto treatment assignment and must have no clinically important \nabnormalities in rhythm, conduction or morphology of resting ECG \ne.g. complete left bundle branch block, third degree heart block, and \nsecond-degree heart block.\nDate of ECG:  _______________\n2.1.4 Patients must have an ECHO or a nuclear study (MUGA or First \nPass) within 4 weeks prior to registration and must not have a left \nventricular ejection fraction (LVEF) < institutional lower limit of normal \n(LLN). If the LLN is not defined at a site, the LVEF must be > 50% for \nthe patient to be eligible.\nDate of ECHO/Nuclear Study:  _______________\n2.1.5 Patients must not have known hypersensitivity to osimertinib \n(AZD9291) or compounds of similar chemical or biologic composition\nor any of the inactive excipients of the tablets.\n2.1.6 Patient must not have received  osimertinib (AZD9291), WZ4002, CO-\n1686, HM61713, EGF816 or ASP8273 previously.\n2.1.7 Patients known to harbor ge rmline EGFR T790M mutations are \nexcluded from the study. Prospective testing for germline mutations is \nnot required.\n2.1.8 Patients must not have a history of interstitial lung disease, idiopathic \npulmonary fibrosis, organizing pneumonia (eg, bronchiolitis \nobliterans), drug-induced pneumonitis, idiopathic pneumonitis, \nradiation pneumonitis requiring steroids, or evidence of active \npneumonitis on screening chest computerized tomography (CT) scan. \nHistory of radiation pneumonitis in the radiation field (fibrosis) is \npermitted.\n2.1.9 Patients must not currently be receiving treatment with potent \nCYP3A4 inducters or medications “known to prolong” the QT interval \nas defined in Appendix II. Drugs that “may possibly prolong” the QT \ninterval, as defined in Appendix II, are permitted if the patient has \nbeen stable on therapy for the period indicated for the specific \nmedication.\n2.1.10 Patients must agree to not donate sperm from the start of protocol \ntreatment until at least 4 months after the last dose of protocol \ntreatment.\nPhysician Signature Date\nOPTIONAL: This signature line is provided for use by institutions wishing to \nuse the eligibility checklist as source documentation.\n_____\n_____\n_____\n_____\nRev. 2/16\n_____\nRev. Add13\nRev. Add13\n_____Rev. Add13\nRev. Add13 _____\n_____Rev. Add13"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "12",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "62c32e41-46a1-4bac-a524-c5f34545ef9c",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n10"
+  },
+  {
+    "section_title": "3. Osimertinib (AZD9291) Treatment Plan",
+    "page_label": "12",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "62c32e41-46a1-4bac-a524-c5f34545ef9c",
+    "node_id": "886b8b24-8fed-499e-9944-01f9d4c89fa1",
+    "content": "3.1 Administration Schedule\nOsimertinib (AZD9291) is given orally. The dose will be 80mg orally once daily \ncontinuously. A cycle is defined as 28 days.\nPatients should be instructed that if they vomit after taking a dose, then they \nmust not “make it up” with an extra dose, but instead, resume subsequent doses \nas prescribed.  Any missed dose should be skipped and dosing resumed with \nsubsequent doses.\n3.2 Adverse Event Reporting Requirements\nThe Adverse Event Reporting Requirements for all EAY131 subprotocols are \noutlined in the MATCH MASTER protocol. Please refer to those guidelines when \ndetermining if an event qualifies as a Serious Adverse Event (SAE) and requires \nexpedited reporting via CTEP’s Adverse Event Reporting System (CTEP-AERS). \nIn addition, the following section outlines agent specific requirements and must \nbe followed to ensure all reporting requirements are met.\n3.2.1 Additional instructions, requirements and exceptions for protocol \nEAY131-E\nAdditional Instructions\nFor instructions on how to specifically report events that result in \npersistent or significant disability/incapacity, congenital anomaly, \nor birth defect events via CTEP\n-AERS, please contact the AEMD \nHelp Desk at aemd@tech-res.com or 301-897-7497.  This will\nneed to be discussed on a case-by-case basis.\nEAY131-E specific expedited reporting requirements:\nx Pregnancies: Pregnancies and suspected pregnancies \n(including a positive or inconclusive pregnancy test, regardless \nof age or disease state) occurring while the female patient is on \nosimertinib (AZD9291), or within 28 days of the female \npatient’s last dose of osimertinib (AZD9291), are considered \nimmediately reportable events. The pregnancy, suspected \npregnancy, or positive/ inconclusive pregnancy test must be \nreported via CTEP-AERS within 24 hours of the Investigator’s \nknowledge.  Please refer to Appendix VIII in MATCH Master \nProtocol for detailed instructions on how to report the \noccurrence of a pregnancy as well as the outcome of all \npregnancies.\nEAY131-E specific expedited reporting exceptions:\nFor study Subprotocol E, the adverse events listed below do not\nrequire expedited reporting via CTEP-AERS:\nRev. Add25\nRev. Add29"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "13",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "5a66c5d9-74c8-40a2-a195-56b9b59af445",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n11\nx If an AE meets the reporting requirements of the protocol, and \nit is listed on the SPEER, it should ONLY be reported via \nCTEP-AERS if the grade being reported exceeds the grade \nlisted in the parentheses next to the event.\n3.2.2 Second Primary Cancer Reporting Requirements\nAll cases of second primary cancers, including acute myeloid \nleukemia (AML) and myelodysplastic syndrome (MDS), that occur \nfollowing treatment on NCI-sponsored trials must be reported as\nfollows.\nx A second malignancy is a cancer that is UNRELATED to any \nprior anti-cancer treatment (including the treatment on this \nprotocol).  Second malignancies require ONLY routine reporting \nas follows:"
+  },
+  {
+    "section_title": "1. Complete a Second Primary Form in Medidata Rave within 14",
+    "page_label": "13",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "5a66c5d9-74c8-40a2-a195-56b9b59af445",
+    "node_id": "39c4b915-43da-4e3c-bffd-284834d14daf",
+    "content": "days."
+  },
+  {
+    "section_title": "2. Upload a copy of the pathol ogy report to ECOG-ACRIN via",
+    "page_label": "13",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "5a66c5d9-74c8-40a2-a195-56b9b59af445",
+    "node_id": "7810e72f-f954-4714-a979-cad87c0f70d0",
+    "content": "Medidata Rave confirming the diagnosis."
+  },
+  {
+    "section_title": "3. If the patient has been diagnosed with AML/MDS, upload a",
+    "page_label": "13",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "5a66c5d9-74c8-40a2-a195-56b9b59af445",
+    "node_id": "b8230225-13bf-41c4-bd58-1bb15b51ba94",
+    "content": "copy of the cytogenetics report (if available) to ECOG-ACRIN\nvia Medidata Rave.\nx A secondary malignancy is a cancer CAUSED BY any prior anti-\ncancer treatment (including the treatment on this protocol). \nSecondary malignancies require both routine and expedited \nreporting as follows:"
+  },
+  {
+    "section_title": "1. Complete a Second Primary Form in Medidata Rave within 14",
+    "page_label": "13",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "5a66c5d9-74c8-40a2-a195-56b9b59af445",
+    "node_id": "84bb3b36-ed74-48ff-963b-f0ac881b1ad8",
+    "content": "days"
+  },
+  {
+    "section_title": "2. Report the diagnosis on the Adverse Event Form or Late",
+    "page_label": "13",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "5a66c5d9-74c8-40a2-a195-56b9b59af445",
+    "node_id": "3f75134f-7c27-4663-8efd-6db37ba00fb1",
+    "content": "Adverse Event Form in the appropriate Treatment Cycle or \nPost Registration folder in Medidata Rave\nReport under a.) leukemia secondary to oncology \nchemotherapy, b.) myelodysplastic syndrome, or c.) treatment \nrelated secondary malignancy\nNOTE: When reporting attribution on the AE Form, assess \nthe relationship between the secondary malignancy \nand the current protocol treatment ONLY (and NOT \nrelationship to any anti-cancer treatment received \neither before or after protocol treatment)."
+  },
+  {
+    "section_title": "3. Report the diagnosis via CTEP-AERS at http://ctep.cancer.gov",
+    "page_label": "13",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "5a66c5d9-74c8-40a2-a195-56b9b59af445",
+    "node_id": "c1797965-0368-47ad-89f7-c6cd335487cd",
+    "content": ""
+  },
+  {
+    "section_title": "4. Upload a copy of the pathology report to ECOG-ACRIN via",
+    "page_label": "13",
+    "heading_level": 1,
+    "heading_id": "4",
+    "parent_node_id": "5a66c5d9-74c8-40a2-a195-56b9b59af445",
+    "node_id": "8e661f01-9d21-406f-a191-429eabc14a4b",
+    "content": "Medidata Rave and submit a copy to NCI/CTEP confirming the \ndiagnosis."
+  },
+  {
+    "section_title": "5. If the patient has been diagnosed with AML/MDS, upload a",
+    "page_label": "13",
+    "heading_level": 1,
+    "heading_id": "5",
+    "parent_node_id": "5a66c5d9-74c8-40a2-a195-56b9b59af445",
+    "node_id": "cf70111a-e06a-4f5a-8bad-259512c3f4d6",
+    "content": "copy of the cytogenetics report (if available) to ECOG-ACRIN \nvia Medidata Rave and submit a copy to NCI/CTEP."
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "14",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "18beeb28-90f2-4184-9fed-b0c96eb4da92",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n12\nNOTE: The Second Primary Form and the CTEP-AERS report \nshould not be used to report recurrence or development of \nmetastatic disease.\nNOTE: If a patient has been enrolled in more than one NCI-\nsponsored study, the Second Primary Form must be \nsubmitted for the most recent trial. ECOG-ACRIN must be \nprovided with a copy of the form and the associated \npathology report and cytogenetics report (if available) even \nif ECOG-ACRIN was not the patient's most recent trial.\nNOTE: Once data regarding survival and remission status are no \nlonger required by the protocol, no follow-up data should \nbe submitted via CTEP-AERS or by the Second Primary \nForm."
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "17",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "688aab18-0356-409e-a176-2a4f31369d85",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n15\nPIO@CTEP.NCI.NIH.GOV. Your name, the name of the investigator, the protocol and the agent should \nbe included in the e-mail.\n2 Interstitial lung disease includes the terms pneumonitis and interstitial lung disease. Dyspnea, cough and \nfever may be indicative of interstitial lung disease/pneumonitis.\n3 Nail changes may include the terms nail bed disorders, nail discoloration, nail disorder, nail loss, nail \npigmentation, nail toxicity, nail dystrophy, nail ridging, onychoclasis, onycholysis, and onychomadesis.\nAdverse events reported on AZD9291 (osimertinib) trials, but for which there is \ninsufficient evidence to suggest that there was a reasonable possibility that AZD9291 \n(osimertinib) caused the adverse event:\nCARDIAC DISORDERS - Atrial fibrillation; Atrial flutter; Cardiac arrest; Myocardial \ninfarction; Supraventricular tachycardia\nEYE DISORDERS - Vision decreased\nGASTROINTESTINAL DISORDERS - Constipation; Dry mouth; Dyspepsia; Dysphagia; \nGastritis; Gastrointestinal disorders - Other (intestinal ischemia); Pancreatitis\nGENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS -D e a t h  N O S ;  \nFatigue; Fever2; Flu like symptoms; Generalized edema; Non-cardiac chest pain\nINFECTIONS AND INFESTATIONS - Folliculitis; Lung infection; Nail infection; \nPapulopustular rash; Rash pustular; Shingles; Upper respiratory infection\nINJURY, POISONING AND PROCEDURAL COMPLICATIONS - Other (drug eruption)\nINVESTIGATIONS - Alanine aminotransferase increased; Aspartate aminotransferase \nincreased; CPK increased; GGT increased; Investigations - Other (electrocardiogram QT \ninterval abnormal); Weight loss\nMETABOLISM AND NUTRITION DISORDERS - Dehydration; Hyperglycemia; \nHypermagnesemia; Hypokalemia; Hyponatremia\nMUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS - Back pain; \nGeneralized muscle weakness; Neck pain\nNERVOUS SYSTEM DISORDERS - Dizziness; Headache; Ischemia cerebrovascular; \nStroke\nRESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS -C o u g h2; Dyspnea2;\nHypoxia; Pleural effusion; Respiratory failure\nSKIN AND SUBCUTANEOUS TISSUE DISORDERS - Eczema; Palmar-plantar \nerythrodysesthesia syndrome; Skin and subcutaneous tissue disorders - Other (skin \nerosion)\nVASCULAR DISORDERS - Hematoma; Thromboembolic event\nNOTE: AZD9291 (osimertinib) in combination with other agents could cause an exacerbation \nof any adverse event currently known to be caused by the other agent, or the \ncombination may result in events never previously associated with either agent."
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "18",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "8cf303c4-abbe-45cf-b0b4-91393e9794f1",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n16\n3.4 Dose Modifications \nAll toxicity grades below are described using the NCI Common Terminology \nCriteria for Adverse Events (CTCAE) version 4.0.\nAll appropriate treatment areas should have access to a copy of the CTCAE \nversion 4.0. A copy of the CTCAE version 4.0 can be downloaded from the \nCTEP website (http://ctep.cancer.gov).\nIf there is a clinically-significant AE or unacceptable toxicity of any kind (grade 3 \nof greater), the primary treatment strategy should be dose interruption and \nsupportive care aimed at the AE. The patient may resume osimertinib (AZD9291)\ndosing once the AE has resolved to grade 2 or less (see exceptions below). \nDosing may resume at 80mg QD or 40mg QD at the discretion of the investigator \nprovided the AE resolved to grade 2 or less within 21 days of dose interruption. If \nthe toxicity does not resolve within 21 days to grade 2 or less, the patient should \nbe removed from the protocol and followed until resolution.\nUpon resolution of toxicity within 21 days and resumption of study drug:\nx If a further episode of the same AE subsequently requires dose interruption, \nosimertinib (AZD9291) must restart at 40mg QD.\nx If a different AE subsequently requires dose interruption, osimertinib \n(AZD9291) may restart at either 80mg QD or 40mg QD at the investigator’s \ndiscretion \nAdverse Events of Special Interest"
+  },
+  {
+    "section_title": "1. Ophthalmic Events",
+    "page_label": "18",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "8cf303c4-abbe-45cf-b0b4-91393e9794f1",
+    "node_id": "12ab15d4-35a4-4471-ab58-6df36b532fc1",
+    "content": "Full ophthalmic assessment, including slit lamp examination, is required if a \npatient experiences any visual symptoms (including blurring of vision) (grade \n2 or greater), with additional tests if clinically indicated. Any clinically \nsignificant findings, including those confirmed by the ophthalmologist must be \nreported as an event on the eCRF in Medidata Rave. Ophthalmology \nexamination results should be collected in the eCRF in Medidata Rave.\nPatient will be advised to consult the clinic promptly if they have any \nconcerns.\nKeratitis\nKeratitis was reported in 0.7% (n=6) of the 833 patients treated with \nosimertinib in the AURA studies. Patients presenting with signs and \nsymptoms suggestive of keratitis such as acute or worsening: eye \ninflammation, lacrimation, light sensitivity, blurred vision, eye pain and/or red \neye should be referred promptly to an ophthalmology specialist."
+  },
+  {
+    "section_title": "2. Interstitial lung disease",
+    "page_label": "18",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "8cf303c4-abbe-45cf-b0b4-91393e9794f1",
+    "node_id": "81f2e4d9-7775-4238-9f46-370192e0be0f",
+    "content": "If new or worsening pulmonary symptoms (eg, dyspnea) or radiological \nabnormality suggestive of interstitial lung disease is observed, an interruption \nin study treatment dosing is required as well as a full diagnostic workup to \nexclude alternative causes such as lymphangitic carcinomatosis, infection, \nallergy, cardiogenic edema, or pulmonary hemorrhage. In the presence of \nconfirmatory High Resolution CT scans where other causes of respiratory \nsymptoms have been excluded, a diagnosis of interstitial lung disease should \nRev. Add13\nRev. Add13\nRev. Add29"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "19",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "81ab1056-7a28-45cc-8bef-6f43c368347c",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n17\nbe considered and study treatment permanently discontinued. In the absence \nof a diagnosis of interstitial lung disease study treatment may be restarted \nfollowing consultation with the study subprotocol PI’s."
+  },
+  {
+    "section_title": "3. Cardiovascular effects",
+    "page_label": "19",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "81ab1056-7a28-45cc-8bef-6f43c368347c",
+    "node_id": "e2ca0ec0-b797-4650-8bed-a49de701ecf8",
+    "content": "Exclusion criteria for unstable cardiac conditions and risk factors for QT \nprolongations are included in the clinical study protocol. Concomitant use of \nregular medications that may prolong the QT interval will be restricted \nwhenever feasible, but patients may receive any medication that is clinically \nindicated for the treatment of AEs. Electrolyte and vital sign assessments, \nincluding pulse rate and blood pressure, will be monitored regularly \nthroughout the study. ECG will be performed at enrollment and prior to each \ntreatment cycle. The investigator or designated physician will review each \nECG prior to discharge from the clinic and may refer to a local cardiologist if \nappropriate for immediate management of the patient. A paper copy should \nbe filed in the patient’s medical records. If an abnormal ECG finding at \nscreening or baseline is considered to be clinically significant by the \ninvestigator, it should be reported as a concurrent condition.\nQTc Prolongation\nPatients with QTcF prolongation fulfilling the following criteria (i.e., confirmed \nQTcF prolongation to > 500 msec absolute or a > 60 msec increase from \nbaseline) should have osimertinib (AZD9291) interrupted and regular ECGs \nperformed until resolution to baseline. If the toxicity does not resolve to < \ngrade 1 within 3 weeks the patient will be permanently withdrawn from\nosimertinib (AZD9291) treatment.\nChanges in Cardiac Contractility\nAcross clinical trials, Left Ventricular Ejection Fraction (LVEF) decreases \ngreater than or equal to 10% and a drop to less than 50% occurred in 4.0% \n(26/655) of patients treated with osimertinib who had baseline and at least \none follow-up LVEF assessment. Based on the available clinical trial data, a \ncausal relationship between effects on changes in cardiac contractility and \nosimertinib has not been established. In patients with cardiac risk factors and \nthose with conditions that can affect LVEF, cardiac monitoring, including an \nassessment of LVEF at baseline and during treatment, should be considered. \nIn patients who develop relevant cardiac signs/symptoms during treatment, \ncardiac monitoring including LVEF assessment should be considered.\n3.5 Supportive Care \nAll supportive measures consistent with optimal patient care will be given \nthroughout the study.\n3.6 Duration of Agent-specific treatment\nIn the absence of treatment delays due to adverse event(s), treatment may \ncontinue until one of the following criteria applies:\nx Extraordinary Medical Circumstances: If at any time the constraints of this \nprotocol are detrimental to the patient's health, protocol treatment should be \ndiscontinued. In this event submit forms according to the instructions in the \nMATCH Forms Packet.\nRev.2/16\nRev. Add13"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "20",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "50b42cff-3460-474a-aa44-a8c86b91a8e7",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n18\nx Patient withdraws consent.\nx Patient experiences unacceptable toxicity.\nx Non-protocol therapies are administered.\nx Disease progression\n3.7 Duration of Follow-Up\nRefer to the MATCH Master Protocol for specifics on the duration of follow-up."
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "21",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "b36a5a61-0ca1-4a1d-ab54-e02e42d22b56",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n19"
+  },
+  {
+    "section_title": "4. Study Parameters",
+    "page_label": "21",
+    "heading_level": 1,
+    "heading_id": "4",
+    "parent_node_id": "b36a5a61-0ca1-4a1d-ab54-e02e42d22b56",
+    "node_id": "8b019f13-cf06-4f2c-82b9-788d526a7aad",
+    "content": "4.1 Therapeutic Parameters for Osimertinib (AZD9291) Treatment\nNOTE: In addition to the study parameters listed in the MATCH Master Protocol, the below parameters must also be \nperformed for patients on osimertinib (AZD9291) treatment.\nNOTE: All assessments required prior to registration to treatment should be done ≤ 4 weeks prior to registration to \nSteps 1, 3, 5, 7, excluding the radiologic evaluation and electrocardiogram (ECG).\nTest/Assessment Prior to Registration \nto Treatment\nTreatment End of \nTreatment\nFollow \nUpFEvery Cycle, prior \nto treatment\nEvery 2 \nCycles\nH&P, Weight, Vital signsA X XJ X\nPerformance status X XJ X\nCBC w/diff, pltsB X XJ X\nSerum chemistryB X XJ X\nRadiologic evaluationD X XD XF\nE-HCGC X\nToxicity AssessmentG X X XF\nPill Count/DiaryH X X\nECGK X XI\nECHO/Nuclear Study X\nTumor biopsy and blood sample for MATCH Master ProtocolE X X\nEye evaluationL X\nA. History and physical, including vital signs and weight at the start of each cycle (up to 3 days before start of new cycle).\nB. Albumin, alkaline phosphatase, total bilirubin, bicarbonate, BUN, calcium, creatinine, glucose, phosphorus, potassium,  SGOT[AST], SGPT[ALT], \nsodium, magnesium and serum tumor markers (including LDH, PSA if appropriate).  For eligibility purposes, participants with creatinine levels \nabove institutional normal, Cockcroft-Gault will be used to calculate creatinine clearance.  CBC w/diff, platelets and serum chemistries should be \nperformed on cycle 1, day 1 (or up to 7 days prior), and at the start of each subsequent cycle (up to 3 days before start of new cycle). CBC with \ndifferential will be performed more frequently in patients with grade 4 neutropenia or thrombocytopenia until resolution to \n≤ grade 3. CBC and serum chemistries are only required in follow-up until values return to pre-treatment levels or until progressive disease.\nC. Blood pregnancy test (patients of childbearing potential) required prior to beginning treatment.\nRev. 2/16\nRev. 2/16\nRev. 12/16\nRev. 2/16\nRev.2/16\nRev. 5/16\nRev. 3/17\nRev. Add13\nRev. Add29"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "22",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "fbcbedbf-50e9-45f9-8402-53217be79caa",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n20\nD. Disease measurements are repeated every 2 cycles for the first 26 cycles, and every 3 cycles thereafter until PD or start of ano ther MATCH \ntreatment step. The baseline evaluation should be performed as closely as possible to the beginning of treatment and never more than 6 weeks \nbefore registration to treatment step. For multiple myeloma patients, please refer to Section 6.4 of the MATCH Master Protocol for additional \ninformation on myeloma response criteria and the required disease assessments. Documentation (radiologic) must be provided for patients \nremoved from study for progressive disease.\nE. Additional blood specimens and/or biopsies are to be submitted from consenting patients per Section 9.3.2 of the MATCH Master Protocol. Submit \nat the following time points, as applicable:\nx Blood specimens are to be submitted at the end of Cycle 2 (prior to start of Cycle 3 treatment). If patient progresses or treatment is \ndiscontinued prior to Cycle 3, collect the blood at that time instead. On-treatment kits for blood sample collections will be automatically shipped \nto sites upon registration to the treatment step.\nx Screening biopsies for additional aMOI assessments after registration to appropriate screening step, if applicable (Step 2 or Step 4).\nx At end of all MATCH study treatments, blood specimens and/or research biopsy after consent and registration to Step 8\nPlease refer to Section 4 of the MATCH Master Protocol to determine whether the patient proceeds to the next screening step or to follow-up (with \na potential end of treatment biopsy for research purposes on Step 8). Samples are to be submitted as outlined in Section 9 of the MATCH Master \nProtocol. To order Step 2/4 Screening or Step 8 kits, complete the EAY131 Collection and Shipping Kit Order Form (See Appendix XII of the\nMATCH Master Protocol) and fax to 713-563-6506.\nF. Every 3 months if patient is < 2 years from study entry, and every 6 months for year 3. Toxicity assessments and radiologic evaluations are not \nrequired to be done during Follow Up if progression has been previously reported; however if an adverse event occurs post treatment that meets \nthe SAE reporting requirements, it still must be reported via CTEP-AERS, even if progression has occurred.\nG. Site personnel should evaluate for toxicity and discuss treatment compliance with the patient in order to ensure the medication is taken correctly; \nthis evaluation may be conducted by telephone or in person. The Toxicity Assessment is not required prior to Cycle 1, but is required every \nsubsequent cycle.\nH. The pill calendar will be collected at the end of every cycle. The Pill Count/Diary is not required prior to Cycle 1, but is required every subsequent \ncycle.\nI. An electrocardiogram must be done on C1D1 approximately 2 hours after receiving the first dose of osimertinib (AZD9291), on C1D8, and then on\nD1 of each subsequent cycle.\nJ. For Cycle 1, if the following tests/assessments occurred within 7 days of Day 1, they do not need to be repeated at this timepoint: H&P, Weight, \nVital Signs; Performance Status; CBC w/diff, plts; Serum chemistry; Concomitant Medications.\nK. Within 8 weeks of treatment assignment.\nL. Patients should be asked about eye symptoms at baseline. Patients with unexplained eye symptoms should be referred to an ophthalmologist for\na full ophthalmic assessment.\nRev. 2/16\nRev. 2/16\nRev. 2/16\nRev. 3/17\nRev. Add13\nRev. Add13"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "23",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "db58eee6-2789-43ce-9672-4cbfbc92c44d",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n21"
+  },
+  {
+    "section_title": "5. Drug Formulation and Procurement",
+    "page_label": "23",
+    "heading_level": 1,
+    "heading_id": "5",
+    "parent_node_id": "db58eee6-2789-43ce-9672-4cbfbc92c44d",
+    "node_id": "b9bed66d-125f-4b44-ae45-2d712a6f8e6e",
+    "content": "This information has been prepared by the ECOG-ACRIN Pharmacy and Nursing \nCommittees.\nAvailability\nNO STARTER SUPPLIES MAY BE ORDERED. Subjects must be enrolled and assigned \nto the treatment subprotocol prior to submitting the clinical drug request to PMB.\nDrug Ordering: NCI supplied agents may be requested by eligible participating \nInvestigators (or their authorized designee) at each participating institution. \nPharmaceutical Management Branch (PMB) policy requires that drug be shipped directly \nto the institution where the patient is to be treated. PMB does not permit the transfer of \nagents between institutions (unless prior approval from PMB is obtained – see general \ninformation) The CTEP-assigned protocol number must be used for ordering all CTEP-\nsupplied investigational agents. The eligible participating investigators at each \nparticipating institution must be registered with CTEP, DCTD through an annual \nsubmission of FDA Form 1572 (Statement of Investigator), NCI Biosketch, Agent \nShipment Form, and Financial Disclosure Form (FDF).If there are several participating \ninvestigators at one institution, CTEP-supplied investigational agents for the study \nshould be ordered under the name of one lead investigator at that institution.\nSubmit agent requests through the PMB Online Agent Order Processing (OAOP)\napplication (https://ctepcore.nci.nih.gov/OAOP). Access to OAOP requires the \nestablishment of a CTEP Identity and Access Management (IAM) account \n(https://ctepcore.nci.nih.gov/iam/) and the maintenance of an “active” account status, a \n“current” password, and an active person registration status.\nNCI Supplied Agent(s) – General Information\nQuestions about drug orders, transfers, returns, or accountability should be \naddressed to the PMB by calling 240-276-6575 Monday through Friday between \n8:30 AM and 4:30 PM Eastern Time or email PMBAfterHours@mail.nih.gov\nanytime.\nDrug Returns: All undispensed drug supplies should be returned to the PMB. When it is \nnecessary to return study drug (e.g., sealed bottles remaining when PMB sends a stock \nrecovery letter), investigators should return the study drug to the PMB using the NCI \nReturn Agent Form available on the NCI home page (http://ctep.cancer.gov).\nDrug Accountability: The investigator, or a responsible party designated by the \ninvestigator, must maintain a careful record of the receipt, disposition, and return of \nagent received from the PMB using the NCI Investigational Agent Accountability Record \nForm for Oral Agents available on the NCI home page (http://ctep.cancer.gov).  Maintain \nseparate NCI Investigational Agent Accountability Records for each agent, strength, \nformulation and ordering investigator.\nInvestigator Brochure Availability: The current versions of the IBs for PMB-supplied \nagents will be accessible to site investigators and research staff through the PMB Online \nAgent Order Processing (OAOP) application. Access to OAOP requires the \nestablishment of a CTEP Identity and Access Management (IAM) account and the \nmaintenance of an “active” account status, a “current” password, and active person \nregistration status. Questions about IB access may be directed to the PMB IB \ncoordinator at IBCoordinator@mail.nih.gov.\nRev. 12/16\nRev. 3/17\nRev. Add13"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "24",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "642cd9ce-7832-43da-8d55-36d34b0aa25e",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n22\n5.1 Osimertinib (AZD 9291) (NSC #781254)\n5.1.1 Other Names \nTagrisso™, AZD9291 mesylate\n5.1.2 Classification\nEpidermal growth factor (EGFR) inhibitor\n5.1.3 Mode of Action\nOsimertinib (AZD9291) is a potent, oral, irreversible, tyrosine kinase \ninhibitor (TKI) of epidermal growth factor receptor (EGFR) mutation-\npositive (EGFRm) and T790M mutation-positive forms of EGFR\n5.1.4 Storage and Stability\nStorage: Store at room temperature 20° to 25°C (68° to 77°F), \nexcursions permitted between 15 to 30°C (59 to 85°F).\nIf a storage temperature excursion is identified, promptly return \nosimertinib (AZD9291) to controlled room temperature and quarantine \nthe supplies.  Provide a detailed report of the excursion (including \ndocumentation of temperature monitoring and duration of the \nexcursion) to PMBAfterHours@mail.nih.gov for determination of \nsuitability.\nStability: Refer to the package label for expiration\n5.1.5 Dose Specifics \nThe dose will be 80mg orally once daily continuously.\n5.1.6 How Supplied\nOsimertinib (AZD9291) tablets are supplied by AstraZeneca and \ndistributed by the Pharmaceutical Management Branch, \nCTEP/DCTD/NCI.  Tablets are packaged in 30-count bottles with \nmannitol, microcrystalline cellulose, low-substituted hydroxypropyl \ncellulose and sodium stearyl fumarate as inactive ingredients in the \nfollowing strengths:\nx 80 mg tablets: beige, oval and biconvex tablet marked with \n“AZ 80” on one side and plain on the reverse.\nx 40 mg tablets: beige, round and biconvex tablet marked with \n“AZ 40” on one side and plain on the reverse.\nThe tablet coating contains polyvinyl alcohol, titanium dioxide, \nmacrogol 3350, talc, ferric oxide yellow, ferric oxide red and ferric \noxide black.\n5.1.7 Route of Administration\nTake by mouth with or without food.  If a dose of osimertinib \n(AZD9291) is missed or vomited, do not make up the missed dose \nand take the next dose as scheduled.\nRev. 12/16\nRev. Add29"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "25",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "33092657-cda8-42a6-bd7a-346f9e3562da",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n23\n5.1.8 Incompatibilities\nThe main metabolic pathways of osimertinib (AZD9291) are oxidation \n(predominantly CYP3A4) and dealkylation in vitro.  Avoid concomitant \nuse of strong CYP3A4 inducers.  CYP3A4 inhibitors are not likely to \naffect the exposure of osimertinib (AZD9291).  Based on in vitro\nstudies, osimertinib (AZD9291) is a competitive inhibitor of CYP 3A4/5 \nbut not CYP1A2, 2A6, 2B6, 2C8, 2C9, 2C19, 2D6 and 2E1 at clinically \nrelevant concentrations. Osimertinib (AZD9291) is an inducer of \nCYP1A2.  Use caution with coadministration of CYP 3A4/5 and 1A2 \nsubstrates.\nOsimertinib (AZD9291) is a substrate of BCRP and P-gp but is \nunlikely to result in clinically relevant drug interactions.  Osimertinib \n(AZD9291) is not a substrate of OATP1B1 and OATP1B3 and does \nnot inhibit OAT1, OAT3, OATP1B1, OATP1B3, OCT2, MATE1 and \nMATE2K at clinically relevant concentrations.  Based on in vitro data, \nosimertinib (AZD9291) is an inhibitor of BCRP and may increase the \nexposure of BCRP substrates.  Osimertinib (AZD9291) does not \ninhibit P-gp at clinically relevant concentrations but has the potential \nto increase exposure of sensitive substrates.\nAvoid use of osimertinib (AZD9291) in patients with congenital long \nQT syndrome. For patients with normal QT interval at the trial \nenrollment, avoid use of concomitant drugs that are known to prolong \nQT interval and use caution with drugs that may prolong QT interval. \nRefer to a frequently updated drug information reference and to the \nprotocol for appropriate cardiac monitoring.\n5.1.9 Side Effects \nSee Section 3.3 for side effects.\n5.1.10 Patient Care Implications\nAdvise patients of reproductive potential to use effective methods of \ncontraception. Patients of child-bearing potential must use an \nappropriate double barrier method of birth control (such as female use \nof a diaphragm, intrauterine device (IUD), sponge and spermicide, in \naddition to the male use of a condom) or involve female use of \nprescribed “birth control pills” or a prescribed birth control implant. \nBoth double barrier contraception and birth control pill or implants \nmust be used for at least one week prior to the start of the study and \ncontinuing for 16 weeks after the last dose of the study drugs.\nMale patients must use barrier contraceptives (i.e., by use of \ncondoms) from the start of study and continue for 16 weeks after the \nleast dose of the study drugs.  Male patients should also refrain from \ndonating sperm from the start of study treatment until 4 months after \ndiscontinuing study treatment\nRev. 12/16"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "26",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "f2d9e5e2-7f7a-42f1-9ca0-9706fdb6914d",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n24"
+  },
+  {
+    "section_title": "6. Translational Studies",
+    "page_label": "26",
+    "heading_level": 1,
+    "heading_id": "6",
+    "parent_node_id": "f2d9e5e2-7f7a-42f1-9ca0-9706fdb6914d",
+    "node_id": "fcb1d6c0-8225-495e-9b56-313e1c3ab59d",
+    "content": "Please refer to the MATCH Master Protocol for information on the Translational Studies."
+  },
+  {
+    "section_title": "7. References",
+    "page_label": "26",
+    "heading_level": 1,
+    "heading_id": "7",
+    "parent_node_id": "f2d9e5e2-7f7a-42f1-9ca0-9706fdb6914d",
+    "node_id": "16cf0cd2-5dfa-4bb1-bfd9-5dd159e3524e",
+    "content": ""
+  },
+  {
+    "section_title": "1. Rosell R, Carcereny E, Gervais R, et al. Erlotinib versus standard chemotherapy as",
+    "page_label": "26",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "f2d9e5e2-7f7a-42f1-9ca0-9706fdb6914d",
+    "node_id": "fb75d866-de17-4606-a9ad-ea753b93f907",
+    "content": "first-line treatment for European patients with advanced EGFR mutation-positive \nnon-small-cell lung cancer (EURTAC): a multicentre, open-label, randomised phase \n3 trial. The Lancet Oncology 2012;13:239-46."
+  },
+  {
+    "section_title": "2. Sequist LV, Yang JC, Yamamoto N, O'Byrne K, Hirsh V, Mok T, et al. Phase III",
+    "page_label": "26",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "f2d9e5e2-7f7a-42f1-9ca0-9706fdb6914d",
+    "node_id": "d6ae335b-1796-4604-950d-b07a3f581e35",
+    "content": "Study of Afatinib or Cisplatin Plus Pemetrexed in Patients With Metastatic Lung \nAdenocarcinoma With EGFR Mutations. Journal of Clinical Oncology  2013; \n31(27):3327-34."
+  },
+  {
+    "section_title": "3. Sequist LV, Waltman BA, Dias-Santagata D, et al. Genotypic and histological",
+    "page_label": "26",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "f2d9e5e2-7f7a-42f1-9ca0-9706fdb6914d",
+    "node_id": "3ab236c2-f9eb-419b-9555-29f422402c8d",
+    "content": "evolution of lung cancers acquiring resistance to EGFR inhibitors. Science \nTranslational Medicine 2011;3:75ra26."
+  },
+  {
+    "section_title": "4. Yu H, Arcila ME, Rekhtman N, Sima CS , Zakowski MF, Pao W, et al. Analysis of",
+    "page_label": "26",
+    "heading_level": 1,
+    "heading_id": "4",
+    "parent_node_id": "f2d9e5e2-7f7a-42f1-9ca0-9706fdb6914d",
+    "node_id": "5aef55f9-8c0b-400e-ab67-ccb3b24cfbac",
+    "content": "Mechanisms of Acquired Resistance to EGFR TKI therapy in 155 patients with \nEGFR-mutant Lung Cancers. Clinical Cancer Research 2013; 19(8):2240-7."
+  },
+  {
+    "section_title": "5. Yun CH, Mengwasser KE, Toms AV, et al . The T790M mutation in EGFR kinase",
+    "page_label": "26",
+    "heading_level": 1,
+    "heading_id": "5",
+    "parent_node_id": "f2d9e5e2-7f7a-42f1-9ca0-9706fdb6914d",
+    "node_id": "c973bb7f-2467-4275-a548-015a9c6d1f7a",
+    "content": "causes drug resistance by increasing the affinity for ATP. Proceedings of the \nNational Academy of Sciences of the United States of America 2008;105:2070-5."
+  },
+  {
+    "section_title": "6. Cross DA, Ashton SE, Ghiorghiu S, Eberle in C, Nebhan CA, Spitzler PJ, et al.",
+    "page_label": "26",
+    "heading_level": 1,
+    "heading_id": "6",
+    "parent_node_id": "f2d9e5e2-7f7a-42f1-9ca0-9706fdb6914d",
+    "node_id": "8b765084-2556-4f05-8f8c-704b8fc75bab",
+    "content": "AZD9291, an irreversible EGFR TKI, overcomes T790M-mediated resistance to \nEGFR inhibitors in lung cancer. Cancer Discovery 2014; Sep;4(9):1046-61."
+  },
+  {
+    "section_title": "7. Janne PA et al N Engl J Med. 2015 Apr 30;372(18):1689-99.",
+    "page_label": "26",
+    "heading_level": 1,
+    "heading_id": "7",
+    "parent_node_id": "f2d9e5e2-7f7a-42f1-9ca0-9706fdb6914d",
+    "node_id": "4052ea19-6362-47f4-a87a-87f447554d87",
+    "content": ""
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "27",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "5d873ae1-6036-4158-945b-7c05124c8fa8",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n25\nMolecular Analysis for Therapy Choice (MATCH)\nMATCH Treatment Subprotocol E: Osimertinib (AZD9291)\nAppendix I\nPatient Pill Calendar\nPill Calendar Directions"
+  },
+  {
+    "section_title": "1. Take your scheduled dose of each tablet.",
+    "page_label": "27",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "5d873ae1-6036-4158-945b-7c05124c8fa8",
+    "node_id": "e5db72bf-1614-42a8-94ed-264ef080ea18",
+    "content": ""
+  },
+  {
+    "section_title": "2. If you forget, the missed tablets will not be taken later.",
+    "page_label": "27",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "5d873ae1-6036-4158-945b-7c05124c8fa8",
+    "node_id": "e6ff2843-3823-4670-8684-ef3a6715867c",
+    "content": ""
+  },
+  {
+    "section_title": "3. Please bring the empty bottle or any leftov er tablets and your pill calendar to your",
+    "page_label": "27",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "5d873ae1-6036-4158-945b-7c05124c8fa8",
+    "node_id": "3b5dcb00-6c1f-4261-a524-02e7ac278208",
+    "content": "next clinic visit."
+  },
+  {
+    "section_title": "4. Take AZD9291 once daily by  mouth, with or without food.",
+    "page_label": "27",
+    "heading_level": 1,
+    "heading_id": "4",
+    "parent_node_id": "5d873ae1-6036-4158-945b-7c05124c8fa8",
+    "node_id": "472a0e67-1374-4276-bfb3-ff1188fa0e79",
+    "content": ""
+  },
+  {
+    "section_title": "5. Swallow tablets whole. Do not crush or chew tablets.",
+    "page_label": "27",
+    "heading_level": 1,
+    "heading_id": "5",
+    "parent_node_id": "5d873ae1-6036-4158-945b-7c05124c8fa8",
+    "node_id": "330c4ea2-a5ed-4c84-84a2-1a1bf503b6a4",
+    "content": ""
+  },
+  {
+    "section_title": "6. Store tablets at room temperature.",
+    "page_label": "27",
+    "heading_level": 1,
+    "heading_id": "6",
+    "parent_node_id": "5d873ae1-6036-4158-945b-7c05124c8fa8",
+    "node_id": "03aa4946-4569-4859-98d6-f09ea5139f47",
+    "content": "Rev. 12/16, 3/17\nRev. Add29"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "28",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "941e071c-1533-49e1-a4a7-4e8938aa4c1e",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n26\nPatient Pill Calendar\nThis is a calendar on which you are to record the time and number of tablets you take \neach day. You should take your scheduled dose of each tablet. Note the times and the \nnumber of tablets that you take each day. If you develop any side effects, please \nrecord them and anything you would like to tell the doctor in the space provided. Bring \nany unused tablets and your completed pill calendar to your doctor’s visits.\nAZD9291\nDAY\nDate\nTime \ntablets\ntaken\nDose taken\nUse the space below to make notes \nabout things you would like to tell the \ndoctor (including unusual symptoms \nyou experience, other medicine you \nhave taken and anything else you think \nwould be of interest.)\nMonth Day Year\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\nPatient Signature: __________________________________ Date: _____________"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "29",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "26a05323-329a-4bcc-844d-776a4abc4960",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n27\nMolecular Analysis for Therapy Choice (MATCH)\nMATCH Treatment Subprotocol E: Osimertinib (AZD9291)\nAppendix II\nGuidance Regarding Potential Interactions with Concomitant Medications\nThe use of any natural/herbal products or other “folk remedies” should be discouraged, but use \nof these products, as well as use of all vitamins, nutritional supplements, and all other \nconcomitant medications must be recorded in the electronic case report form (eCRF)."
+  },
+  {
+    "section_title": "1. Drugs Inducing CYP3A4 Metabolism That  AstraZeneca Strongly Recommend Are Not",
+    "page_label": "29",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "26a05323-329a-4bcc-844d-776a4abc4960",
+    "node_id": "59d0327e-9ec7-432b-b8ca-b0997120f903",
+    "content": "Combined With Osimertinib\nOsimertinib is metabolised by CYP3A4 and CYP3A5 enzymes.\nA drug-drug interaction study of osimertinib evaluated in patients showed that there is \npotential for osimertinib being a victim when co-administered with strong inducers of \nCYP3A4 (osimertinib concentrations are decreased when co-dosed with rifampicin).\nThe following potent inducers of CYP3A4 must not be used during this study for any patient \nreceiving osimertinib.\nD1 Drugs Inducing CYP3A4\nContraindicated drugs Withdrawal period prior to osimertinib start\nCarbamazepine, phenobarbital, phenytoin, \nrifampicin, rifabutin, rifapentin\nSt John’s Wort\n3 weeks\nPhenobarbitone 5 weeks\nThis list is not intended to be exhaustive, and a similar restriction will apply to other agents that \nare known to strongly modulate CYP3A4 activity.  Appropriate medical judgment is required."
+  },
+  {
+    "section_title": "2. Medicines Whose Exposures May be Affected by Osimertinib That AstraZeneca",
+    "page_label": "29",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "26a05323-329a-4bcc-844d-776a4abc4960",
+    "node_id": "d856a041-f473-497b-b018-ddffa9dd64b5",
+    "content": "Considers May be Allowed With Caution\nOsimertinib may increase the concentration of sensitive breast cancer resistance protein \n(BCRP) substrates (concentration of the sensitive BCRP substrate, rosuvastatin, is \nincreased).\nD2 Exposure, Pharmacological Action and Toxicity May be Increased by Osimertinib\nWarning of possible \ninteraction\nAdvice\nRosuvastatin Drugs are permitted but caution should be exercised and patients \nmonitored closely for possible drug interactions.  Please refer to \nfull prescribing information for all drugs prior to co-administration \nwith osimertinib.\nSulfasalazine\nDoxorubicin\nDaunorubicin\nTopotecan\nRev. Add13\nRev. Add29"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "30",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "0d9fe636-4235-4a49-afef-e94299b62b04",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n28"
+  },
+  {
+    "section_title": "3. Drugs That May Prolong QT Interval",
+    "page_label": "30",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "0d9fe636-4235-4a49-afef-e94299b62b04",
+    "node_id": "d84cc637-04f0-4b64-accb-8e98b06d2dd8",
+    "content": "The drugs listed in this section are taken from information provided by The Arizona Center \nfor Education and Research on Therapeutics and The Critical Path Institute, Tucson, \nArizona and Rockville, Maryland. Ref: http://www.arizonacert.org/medical-pros/drug-\nlists/drug lists.htm.\n3.1 Drugs known to prolong QT interval\nThe following drugs are known to prolong QT interval or induce Torsades de Pointes \nand should not be combined with osimertinib. Recommended withdrawal periods \nfollowing cessation of treatment with these agents are provided in the table.\nD3 Drugs Prolonging QT Interval\nContraindicated drug Withdrawal period prior to osimertinib start\nClarithromycin, droperidol, erythromycin, \nprocainamide\n2 days\nCisapride, disopyramide, dofetilide, \ndomperidone, ibutilide, quinidine, sotalol, \nsparfloxacin, thioridazine\n7 days\nBepridil, chlorpromazine, halofantrine, \nhaloperidol, mesoridazine\n14 days\nLevomethadyl, methadone, pimozide 4 weeks\nArsenic trioxide 6 weeks a\nPentamidine 8 weeks\nAmiodarone, chloroquine 1 year\na Estimated value as pharmacokinetics of arsenic trioxide has not been studied\n3.2 Drugs that may possibly prolong QT interval\nThe use of the following drugs is permitted (notwithstanding other exclusions and \nrestrictions) provided the patient has been stable on therapy for the periods \nindicated.\nD4 Drugs That May Prolong QT Interval\nDrug Minimum treatment period on \nmedication prior to osimertinib start\nAlfuzosin, chloral hydrate, ciprofloxacin, dolasetron, \nfoscarnet, galantamine, gemifloxacin, isridipine, \nketoconazole, levofloxacin, mexiletine, nicardipine, \noctreotide, ofloxacin, ondansetron, quetiapine, \nranolazine, telithromycin, tizanidine, vardenafil, \nvenlafaxine, ziprasidone\n2 days\nAmantadine, amitriptyline, amoxapine, clozapine, \ndoxepin, felbamate, flecainide, fluconazole, \nfosphenytoin, gatifloxacin, granisetron, imipramine, \nindapamide, lithium, moexipril/HCTZ, moxifloxacin, \nrisperidone, roxithromycin, sertraline, trimethoprin-sulfa,\ntrimipramine, voriconazole\n7 days"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "31",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "d445b816-5e96-4676-b7e6-8eaffda9362e",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n29\nDrug Minimum treatment period on \nmedication prior to osimertinib start\nAzithromycin, citalopram, clomipramine, itraconazole, \nnortriptyline, paroxetine, solifenacin, tacrolimus\n14 days\nFluoxetine 5 weeks\nProtriptyline 6 weeks\nTamoxifen 8 weeks"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "33",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "df725ef4-fec4-432c-8744-b4dda4d35cc7",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n31\nMolecular Analysis for Therapy Choice (MATCH)\nMATCH Treatment Subprotocol E: Osimertinib (AZD9291)\nAppendix IV\nActionable Mutations for Sub-Protocol EAY131-E\nA function has been implemented in MATCHBOX to identify any in-frame insertions in exon 19 \nof the EGFR gene at Level of Evidence code 3. Please refer to Section 1.4.2 of the MATCH \nMaster Protocol for more information.\nGene Name Variant ID Variant \nType\nLevel of \nEvidence Code aMOI\nEGFR COSM6240 SNV 2 p.T790M\nEGFR COSM6252 SNV 3 p.G719S\nEGFR COSM6253 SNV 3 p.G719C\nEGFR COSM18425 SNV 3 p.G719D\nEGFR COSM6239 SNV 3 p.G719A\nEGFR COSM6213 SNV 3 p.L861Q\nEGFR COSM18441 MNV 3 p.G719C\nEGFR COSM6241 SNV 3 p.S768I\nEGFR COSM12423 Large Indel 3 p.V738_K739insKIPVaI\nEGFR COSM26443 Large Indel 3 p.V738_K739insKIPVaI\nEGFR COSM26444 Large Indel 3 p.I740_P741insPVaIKV\nEGFR COSM255152 Large Indel 3 p.I740_P741insPVaIKT\nEGFR COSM26720 Large Indel 3 p.A763_Y764insFQEA\nEGFR MVAR181 Large Indel 3 p. D770_N771insNPG\nEGFR COSM392166 Large Indel 3 p.V769_D770insASV\nEGFR COSM13428 Large Indel 3 p.D770_N771insSVD\nEGFR MVAR190 Large Indel 3 p.N771_P772insPGD\nEGFR COSM35508 SNV 3 p.R222C\nEGFR COSM13006 SNV 2 p.V774M\nEGFR EGFR-SEPT14.E24S10 Fusion 3 EGFR-SEPT14.E24S10\nRev. Add13\nRev. Add25\nRev. Add29"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "34",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "c6633e4a-ea65-47df-89a4-00bb933ba195",
+    "content": "ECOG-ACRIN EAY131-E\nCancer Research Group Version Date: July 16, 2021\nNCI Update Date: August 12, 2015\n32\nMolecular Analysis for Therapy Choice (MATCH)\nMATCH Treatment Subprotocol E: Osimertinib (AZD9291)\nAppendix V\nActions Required in Cases of Increases in Liver Biochemistry and Evaluation of Hy’s Law"
+  },
+  {
+    "section_title": "1. Introduction",
+    "page_label": "34",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "c6633e4a-ea65-47df-89a4-00bb933ba195",
+    "node_id": "6370d456-26dd-48fe-ba60-6e34c9c40017",
+    "content": "This Appendix describes the process to be followed in order to identify and appropriately \nreport cases of Hy’s Law.It is not intended to be a comprehensive guide to the management \nof elevated liver biochemistries. Specific guidance on the managing liver abnormalities can \nbe found in Section 3.4 of the protocol.\nDuring the course of the study the Investigator will remain vigilant for increases in liver \nbiochemistry. The Investigator is responsible for determining whether a patient meets \npotential Hy’s Law (PHL) criteria at any point during the study.\nThe Investigator participates, together with Sponsor clinical project representatives, in \nreview and assessment of cases meeting PHL criteria to agree whether Hy’s Law (HL) \ncriteria are met.  HL criteria are met if there is no alternative explanation for the elevations in \nliver biochemistry other than Drug Induced Liver Injury (DILI) caused by the Investigational \nMedicinal Product (IMP).\nThe Investigator is responsible for recording data pertaining to PHL/HL cases and for \nreporting Adverse Events (AE) and Serious Adverse Events (SAE) according to the outcome \nof the review and assessment in line with standard safety reporting processes."
+  },
+  {
+    "section_title": "2. Definitions",
+    "page_label": "34",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "c6633e4a-ea65-47df-89a4-00bb933ba195",
+    "node_id": "66302641-dfb1-4bea-8dbc-9e120ea1a6f6",
+    "content": "2A. Potential Hy’s Law (PHL)\nAspartate Aminotransferase (AST) or Alanine Aminotransferase (ALT) ≥ 3x Upper \nLimit of Normal (ULN) together with total bilirubin (TBL) ≥ 2xULN at any point during \nthe study following the start of study medication irrespective of an increase in Alkaline \nPhosphatase (ALP).\n2B. Hy’s Law (HL)\nAST or ALT ≥ 3x ULN  together with TBL ≥ 2xULN, where no other reason, other than \nthe IMP, can be found to explain the combination of increases, eg, elevated ALP \nindicating cholestasis, viral hepatitis, another drug.  \nFor PHL and HL the elevation in transaminases must precede or be coincident with \n(i.e. on the same day) the elevation in TBL, but there is no specified timeframe within \nwhich the elevations in transaminases and TBL must occur."
+  },
+  {
+    "section_title": "3. Identification of Potential Hy’s Law Cases",
+    "page_label": "34",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "c6633e4a-ea65-47df-89a4-00bb933ba195",
+    "node_id": "0b01884d-6668-4fea-bf7a-d21425c12611",
+    "content": "In order to identify cases of PHL it is important to perform a comprehensive review of \nlaboratory data for any patient who meets any of the following identification criteria in \nisolation or in combination:\nx ALT ≥ 3xULN\nx AST ≥ 3xULN\nx TBL ≥ 2xULN\nRev. Add13\nRev. Add29"
+  }
+]

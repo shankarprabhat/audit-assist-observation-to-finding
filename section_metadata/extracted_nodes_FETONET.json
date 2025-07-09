@@ -1,0 +1,1100 @@
+[
+  {
+    "section_title": "Full Document Content",
+    "page_label": "1",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "4a84c5bc-0254-4c55-8d64-0222ce205973",
+    "content": "FETONET study      version 3.5      12th December 2016 \n \n \n \n \n \n \nEvaluation of [18F]fluoroethyl triazole labelled [Tyr3]Octreotate \nanalogues for the imaging of Neuroendocrine tumours \n \n \n \nProtocol Number: FETONET \nEudraCT Number: 2013-003152-20 \n \n \n \n \nPrincipal Investigator: Dr Rohini Sharma \nDept of Experimental Toxicology, and Dept Molecular \nTherapeutics and Imaging \nImperial College London \nHammersmith Hospital Campus \nDu Cane Road \nLondon W12 0HS \nUnited Kingdom \n \nTel: +44 (0) 20 8383 3720 \nFax: +44 (0) 20 8383 1783 \n \n \nCo-Investigators: \n \nProfessor Eric Aboagye, \n \n \nDept Molecular Therapeutics and Imaging, \nImperial College London \nHammersmith Hospital Campus \nDu Cane Road \nLondon W12 0HS \nUnited Kingdom \nDr Suraiya Dubash \n \n \nDepartment of Surgery and Cancer \nImperial College London \nHammersmith Hospital Campus \nDu Cane Road \nLondon W12 0HS  \nUnited Kingdom"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "2",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "197474be-f192-424a-9662-1f2e4a9c62bb",
+    "content": "FETONET study      version 3.5      12th December 2016 \n \nMs Kasia Kozlowski \n \n \nClinical Research Practitioner \nDepartment of Surgery and Cancer \nImperial College London \nHammersmith Hospital Campus \nDu Cane Road \nLondon W12 0HS \nUnited Kingdom \n \n \n \nProfessor Adil Al-Nahhas, \nDept Nuclear Medicine Imperial \nCollege London Hammersmith \nHospital Campus Du Cane \nRoad \nLondon W12 0HS \nUnited Kingdom \n \n \n \n \n \nDr Saleem Azeem \n \n \nImanova Ltd, Centre for Imaging Sciences \nBurlington Danes Building \nImperial College London \nHammersmith Hospital \nDu Cane Road \nLondon, W12 0NN \n \n \n \nProfessor Andrea Frilling \nProfessor of Surgery, Chair in Endocrine Surgery \nHonorary Consultant Imperial College London \nHammersmith Hospital Campus \nDu Cane Road \nLondon W12 0HS,  \nUnited Kingdom"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "3",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "b45172ab-e81e-4dd5-a751-9e4c2505c4af",
+    "content": "FETONET study      version 3.5      12th December 2016 \n \nInvestigator Protocol Agreement Page \n \n \n \n I confirm agreement to conduct the study in compliance with the protocol. \n \n I acknowledge that I am responsible for overall study conduct. \n \n I agree to personally conduct or supervise the described clinical study in \naccordance with Good Clinical Practice requirements. \n \n I agree to ensure that all associates, colleagues and employees assisting \nin the conduct of the study are informed about their obligations. \n \n \n \nChief Investigator Name: Dr Rohini Sharma \nInvestigator Address: Imperial College London \nHammersmith Campus \nDu Cane Road \nLondon \nW12 0HS \n \nInvestigator Signature Date \n \n \n \n \nPrincipal Investigator \nName: \nDr Rohini Sharma \nInvestigator Address: Imperial College London \nHammersmith Campus \nDu Cane Road \nLondon \nW12 0HS \n \nInvestigator Signature Date"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "4",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "80b8d8df-f641-464b-a634-b90097aa03da",
+    "content": "FETONET study      version 3.5      12th December 2016"
+  },
+  {
+    "section_title": "1.   SYNOPSIS",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "80b8d8df-f641-464b-a634-b90097aa03da",
+    "node_id": "bb3aeeb6-52a1-4c2e-982f-6aa3ea8a4f26",
+    "content": "Name of Sponsor/Company: Imperial College. \nName of Finished Product:[18F]fluoroethyltriazole[Tyr3]Octreotate ([18F]-FET-βAG-TOCA) Injection \nName of Active Ingredient: [18F]-FET-βAG-TOCA \nTitle of Study: Evaluation of [18F]fluoroethyltriazole[Tyr3]Octreotate analogues for the imaging of \nneuroendocrine tumours. \nInvestigators and Study Centre(s): Imanova. \nPhase of Development: Phase 1 \nPrimary Objective: \nTo evaluate the utility of the [18F]fluoroethyl triazole labelled [Tyr3]Octreotate analogue, [18F]-FET-βAG-\nTOCA, in the accurate localisation of tumours in patients with a histologic diagnosis of NETs of any site. \nStudy Design: \nPrimary Endpoint: \nTo determine the biodistribution of [18F] following single i.v. administration of [18F]-FET-βAG-TOCA \ninjection \nTo assess tumoural uptake of [18F]-FET-βAG-TOCA \n \nSafety Endpoint: \nThe occurrence of one or more treatment-emergent adverse events (AEs) from administration of [18F]-FET-\nβAG-TOCA Injection throughout the study period, and changes in serum biochemistry, haematology, \ncoagulation, immunology, \nurinalysis, vital signs, ECG, injection site, and physical examination findings. \nSelection of Subjects: \nMain Inclusion Criteria:"
+  },
+  {
+    "section_title": "1. Written informed consent",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "80b8d8df-f641-464b-a634-b90097aa03da",
+    "node_id": "7962abce-5b1c-47e9-894d-e51f907f3f09",
+    "content": ""
+  },
+  {
+    "section_title": "2.  Age ≥ 18 years",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "80b8d8df-f641-464b-a634-b90097aa03da",
+    "node_id": "2187bc00-e771-434d-99ee-09c61ac504bc",
+    "content": ""
+  },
+  {
+    "section_title": "3.  Histological diagnosis of NET of any site, except where ENETS criteria does not mandate histology for",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "80b8d8df-f641-464b-a634-b90097aa03da",
+    "node_id": "7e856cec-bb24-44b6-b468-564dae061460",
+    "content": "confirmation of diagnosis or patients who have a positive 68Gallium-peptide scan in whom NET diagnosis is \npre-operatively definitive."
+  },
+  {
+    "section_title": "4.  Locally advanced or metastatic disease",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "4",
+    "parent_node_id": "80b8d8df-f641-464b-a634-b90097aa03da",
+    "node_id": "73430dfb-3e92-47cc-ba41-35164739132d",
+    "content": ""
+  },
+  {
+    "section_title": "5.  Eastern Cooperative Oncology Group (ECOG) performance status of <2 (appendix A)",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "5",
+    "parent_node_id": "80b8d8df-f641-464b-a634-b90097aa03da",
+    "node_id": "cf690dd8-3cee-486a-bbd5-7988f02a7399",
+    "content": ""
+  },
+  {
+    "section_title": "6.  Life expectancy > 3 months",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "6",
+    "parent_node_id": "80b8d8df-f641-464b-a634-b90097aa03da",
+    "node_id": "dcc11d6c-e99d-4d2d-88be-587a499f62d4",
+    "content": ""
+  },
+  {
+    "section_title": "7.  Measurable disease defined as a lesion that can be accurately measured in at least one dimension with the",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "7",
+    "parent_node_id": "80b8d8df-f641-464b-a634-b90097aa03da",
+    "node_id": "b611e180-2892-484e-82f4-cb27acda3d35",
+    "content": "longest diameter ≥10mm using conventional techniques"
+  },
+  {
+    "section_title": "8.  Somatostatin receptor imaging within 6 months. (if patient does not have somatostatin receptor imaging",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "8",
+    "parent_node_id": "80b8d8df-f641-464b-a634-b90097aa03da",
+    "node_id": "2a88f139-75fa-48ed-86c0-449b6e5e48db",
+    "content": "they may also be included provided they have measurable disease (≥10mm) on conventional imaging."
+  },
+  {
+    "section_title": "9.  Adequate organ system function as defined in Table 1",
+    "page_label": "4",
+    "heading_level": 1,
+    "heading_id": "9",
+    "parent_node_id": "80b8d8df-f641-464b-a634-b90097aa03da",
+    "node_id": "789fd8b5-7e8d-45f1-affd-13b42a85a8b2",
+    "content": "Main Exclusion Criteria: \n Patients received chemotherapy within 3 weeks of study or radiotherapy within 4 weeks of study \n Active uncontrolled infections, gastrointestinal disease, haemolysis or any serious co-existing medical \nillness \n Psychological, familial, sociological or geographical condition potentially hampering compliance \nwith the study protocol and follow-up schedule \n Pregnant or lactating women \n Females of childbearing potential who are unwilling to avoid pregnancy, for the duration of the study \n Presence of any underlying medical conditions which in the investigators opinion would make the \npatients unsuitable for treatment  \n Satisfactory baseline haematologic and organ function Patient not expected to be able to tolerate the \nscanning sessions \nNumber of Patients Planned: 56 patients with diagnosis of neuroendocrine tumours of any site"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "5",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "0fe15868-55c2-407a-8409-0b34697d0647",
+    "content": "FETONET study      version 3.5      12th December 2016 \n \nTreatment of Subjects: \nInvestigational Tracer: Subjects will receive a single i.v. bolus injection of 1-10 mL of [18F]-FET-\nβAG-TOCA i njection over a period of at least 30 seconds.   The tracer injection will be followed by a \nsaline flush.   Patients will receive a maximum 18F activity of 165 MBq. \nStatistical Methods and Planned Analysis: \nUsing results of dynamic scanning and metabolite analysis an appropriate protocol will be designed to analyse \nthe diagnostic static scans.  The internal radiation dosimetry as well as biodistribution of t he tracer will be \ncalculated. Comparison between FET-βAG-TOCA PET and standard of care somatostatin receptor imaging \nwill be made based on \nboth a per-patient and per-lesion based analysis. Non-parametric McNemar test with Bonferroni correction for \nmultiple comparison will be used.   The association between SSTR1-5 expression and imaging parameters \nobtained will be assessed. Data will be analysed using SPSS 16.0 for Windows. \n \nBio-distribution and Radiation Dosimetry  \nBio-distribution  data  in  patients  will  consist  of  18F  activity  content  in  organs  and  tissues  of  interest,  18F  activity \nconcentrations in whole blood and plasma and of 18F activity excreted in the urine.  Descriptive statistics will \nbe generated for bio-distribution data at each time point for each organ and tissue of interest. The amount of \n18F activity excreted in urine in patients will be calculated from the product of concentration of 18F activity \nmeasured in each sample and the volume of each sample for a subset of patients. \n \nSafety \n \nSafety parameters will be summarized using \ndescriptive statistics"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "6",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "0f4d54fd-1e36-400e-90fc-eaf00beb64e4",
+    "content": "6 \nFETONET study      version 3.5      12th December 2016 \n \n \n \nTABLE OF CONTENTS"
+  },
+  {
+    "section_title": "1.   SYNOPSIS ........................................................................................................................................ 4",
+    "page_label": "6",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "0f4d54fd-1e36-400e-90fc-eaf00beb64e4",
+    "node_id": "75d2bcb8-65ef-4d7e-b883-694522f22f1d",
+    "content": "2 Table of contents ............................................................................................................................... 6"
+  },
+  {
+    "section_title": "3. LIST OF ABBREVIATIONS and Definitions of Terms .......................................................................... 9",
+    "page_label": "6",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "0f4d54fd-1e36-400e-90fc-eaf00beb64e4",
+    "node_id": "b4a2fe91-0b96-4e5e-a14b-73d5e2fb3ddd",
+    "content": ""
+  },
+  {
+    "section_title": "4. SUMMARY ...................................................................................................................................... 10",
+    "page_label": "6",
+    "heading_level": 1,
+    "heading_id": "4",
+    "parent_node_id": "0f4d54fd-1e36-400e-90fc-eaf00beb64e4",
+    "node_id": "d1340231-2ab2-4f48-aa27-77350a7fa438",
+    "content": "4.1  Cohort  1.  . .............................................................................................................................. 10 \n4.2 Cohort 2.  .................................................................................................................................. 11"
+  },
+  {
+    "section_title": "5. BACKGROUND ................................................................................................................................ 12",
+    "page_label": "6",
+    "heading_level": 1,
+    "heading_id": "5",
+    "parent_node_id": "0f4d54fd-1e36-400e-90fc-eaf00beb64e4",
+    "node_id": "28cd86de-974f-4aba-8610-4c27da31e3e0",
+    "content": "5.1 [18F]-FET-βAG-TOCA-PET ......................................................................................................... 14 \n5.2 Rationale and evidence to date ............................................................................................... 15"
+  },
+  {
+    "section_title": "6. STUDY OBJECTIVES ......................................................................................................................... 16",
+    "page_label": "6",
+    "heading_level": 1,
+    "heading_id": "6",
+    "parent_node_id": "0f4d54fd-1e36-400e-90fc-eaf00beb64e4",
+    "node_id": "9995322e-6252-4b32-8949-15f36ef70e3a",
+    "content": "6.1 Primary objective ..................................................................................................................... 16"
+  },
+  {
+    "section_title": "7. STUDY ENDPOINTS ............................................................................ Error! Bookmark not defined.",
+    "page_label": "6",
+    "heading_level": 1,
+    "heading_id": "7",
+    "parent_node_id": "0f4d54fd-1e36-400e-90fc-eaf00beb64e4",
+    "node_id": "c959a5fc-da59-4085-a81b-bbb7a276a07a",
+    "content": "7.1.1 Primary .............................................................................................................................. 17 \n7.1.2 Translational end-points ................................................................................................... 17 \n7.2 Cohort 2 .................................................................................................................................... 17 \n7.2.1 Primary .............................................................................................................................. 17 \n7.2.2 Secondary .......................................................................................................................... 17 \n7.2.3 Translational end-points ................................................................................................... 18"
+  },
+  {
+    "section_title": "8. STUDY OUTLINE .............................................................................................................................. 18",
+    "page_label": "6",
+    "heading_level": 1,
+    "heading_id": "8",
+    "parent_node_id": "0f4d54fd-1e36-400e-90fc-eaf00beb64e4",
+    "node_id": "064b2eb2-9a12-4584-a5b3-7a545e14315a",
+    "content": "8.1 Study design and rational of the chosen approaches .............................................................. 18 \n8.1.1 Cohort 1. Dosimetry and safety study in patients with histological diagnosis of NETs of \nany site. ...................................................................................................................................... 18 \n8.1.2 Cohort 2. Open label study assessing tumoural uptake of [18F]-FET- βAG-TOCA –PET in \npatients with histological diagnosis of NETs of any site ............................................................. 18"
+  },
+  {
+    "section_title": "9. ELIGIBILITY ...................................................................................................................................... 19",
+    "page_label": "6",
+    "heading_level": 1,
+    "heading_id": "9",
+    "parent_node_id": "0f4d54fd-1e36-400e-90fc-eaf00beb64e4",
+    "node_id": "53da3ba6-d284-43b3-866c-529734eb8909",
+    "content": "9.1 Inclusion criteria ....................................................................................................................... 19 \n9.2 Exclusion Criteria ...................................................................................................................... 19"
+  },
+  {
+    "section_title": "10. COMPLETION OR EARLY WITHDRAWAL ....................................................................................... 20",
+    "page_label": "6",
+    "heading_level": 1,
+    "heading_id": "10",
+    "parent_node_id": "0f4d54fd-1e36-400e-90fc-eaf00beb64e4",
+    "node_id": "2d219651-99e8-41fe-ad0c-b0b0100732bb",
+    "content": "10.1 Subject completion ................................................................................................................ 20 \n2 \nTable \nof \nconte\nnts"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "7",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "ee5d57d4-119f-4483-9dd2-089d0f119a92",
+    "content": "7 \nFETONET study      version 3.5      12th December 2016 \n \n10.2 Withdrawal criteria ................................................................................................................ 20 \n10.3 Blinding ................................................................................................................................... 20"
+  },
+  {
+    "section_title": "11. STUDY PROCEDURES .................................................................................................................... 20",
+    "page_label": "7",
+    "heading_level": 1,
+    "heading_id": "11",
+    "parent_node_id": "ee5d57d4-119f-4483-9dd2-089d0f119a92",
+    "node_id": "6f39780c-f2f7-4054-9f3f-724f412a6a47",
+    "content": "11.1 Screening period (Day -30 to Day 0) .................................................................................. 23 \n11.2 PET Procedure (Day 0) ............................................................................................................ 24 \n11.3 Radiation dosimetry. .............................................................................................................. 24 \n11.4 PET parameters ...................................................................................................................... 25"
+  },
+  {
+    "section_title": "12. ASSESSMENT AND FOLLOW-UP ................................................................................................... 25",
+    "page_label": "7",
+    "heading_level": 1,
+    "heading_id": "12",
+    "parent_node_id": "ee5d57d4-119f-4483-9dd2-089d0f119a92",
+    "node_id": "34aedb5b-5e58-4e8d-8c1b-d9550ddfc3ee",
+    "content": "12.1 Clinical Assessments ............................................................................................................... 25 \n12.1.1 Screening ......................................................................................................................... 25 \n12.1.2 Cohort 1: day of scan (Day 0) .......................................................................................... 25 \n12.1.3 Cohort 1: Day 1 post scan................................................................................................ 25 \n12.1.4 Cohort 2: day of scan ....................................................................................................... 26"
+  },
+  {
+    "section_title": "13. COMPLICATIONS AND RADIATION DOSE ..................................................................................... 26",
+    "page_label": "7",
+    "heading_level": 1,
+    "heading_id": "13",
+    "parent_node_id": "ee5d57d4-119f-4483-9dd2-089d0f119a92",
+    "node_id": "6e8d8795-06ef-4633-8069-3b90bb684710",
+    "content": "13.1 Complications ......................................................................................................................... 26 \n13.2   Radiation dose ..................................................................................................................... 26"
+  },
+  {
+    "section_title": "14. STATISTICAL ANALYSIS AND SAMPLE SIZE CALCULATION ............................................................ 26",
+    "page_label": "7",
+    "heading_level": 1,
+    "heading_id": "14",
+    "parent_node_id": "ee5d57d4-119f-4483-9dd2-089d0f119a92",
+    "node_id": "ffa38036-721a-4b91-8aa5-8ced3d777f49",
+    "content": "14.1 Cohort 1 .................................................................................................................................. 26 \n14.1.1 Safety ............................................................................................................................... 27 \n14.1.2 Biodistribution ................................................................................................................. 27 \n14.1.3 Dosimetry ........................................................................................................................ 27 \n14.1.4 Somatostatin receptor expression .................................................................................. 27 \n14.2 Cohort 2 .................................................................................................................................. 27 \n14.2.1 Power and sample size determination ............................................................................ 27 \n14.2.3 Somatostatin receptor expression .................................................................................. 28"
+  },
+  {
+    "section_title": "15. PHARMACOVIGILANCE ................................................................................................................. 28",
+    "page_label": "7",
+    "heading_level": 1,
+    "heading_id": "15",
+    "parent_node_id": "ee5d57d4-119f-4483-9dd2-089d0f119a92",
+    "node_id": "3a08c78b-26d4-40f9-8dc6-bec4476563ad",
+    "content": "15.1 DEFINITIONS ........................................................................................................................... 28 \n15.2 CAUSALITY .............................................................................................................................. 29 \n15.3 REPORTING PROCEDURES ...................................................................................................... 29 \n15.3.1 Non serious AR/AEs ......................................................................................................... 29 \n15.3.2 Serious AR/AEs ................................................................................................................ 30"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "8",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "f7848e11-ca9f-4d5a-9420-c809fc0b01c6",
+    "content": "8 \nFETONET study      version 3.5      12th December 2016"
+  },
+  {
+    "section_title": "16. DATA MANAGEMENT ................................................................................................................... 30",
+    "page_label": "8",
+    "heading_level": 1,
+    "heading_id": "16",
+    "parent_node_id": "f7848e11-ca9f-4d5a-9420-c809fc0b01c6",
+    "node_id": "bbbebacd-62cc-47b8-bff0-55a9690eaa4f",
+    "content": ""
+  },
+  {
+    "section_title": "17. ADMINISTRATIVE AND LEGAL CONSIDERATIONS ........................................................................ 30",
+    "page_label": "8",
+    "heading_level": 1,
+    "heading_id": "17",
+    "parent_node_id": "f7848e11-ca9f-4d5a-9420-c809fc0b01c6",
+    "node_id": "7a055d9e-e1bc-4267-a6e5-eff5e6f0685c",
+    "content": "17.1   Pre-Trial Requirements ........................................................................................................ 30 \n17.2 General Legal Requirements .................................................................................................. 31 \n17.3 Protection of Subjects ............................................................................................................ 31 \n17.3.2 Informed Consent ............................................................................................................ 31 \n17.3.3 Privacy protection ........................................................................................................... 32 \n17.4 Protocol Amendments ....................................................................................................... 32 \n17.5 Premature Termination of the Trial ....................................................................................... 32 \n17.6 Record Retention ................................................................................................................... 33 \n17.7 Study Monitoring.................................................................................................................... 33 \n17.8 Final Report ............................................................................................................................ 33 \n17.9 Publications ............................................................................................................................ 34 \n17.10 Liability and insurance .......................................................................................................... 34 \n17.11 Audits and Inspections ........................................................................................................ 34"
+  },
+  {
+    "section_title": "18. REFERENCES ................................................................................................................................. 35",
+    "page_label": "8",
+    "heading_level": 1,
+    "heading_id": "18",
+    "parent_node_id": "f7848e11-ca9f-4d5a-9420-c809fc0b01c6",
+    "node_id": "bff18798-834f-40e5-995b-b43d0047208e",
+    "content": ""
+  },
+  {
+    "section_title": "19. Appendix A: WHO performance status scale ............................................................................... 36",
+    "page_label": "8",
+    "heading_level": 1,
+    "heading_id": "19",
+    "parent_node_id": "f7848e11-ca9f-4d5a-9420-c809fc0b01c6",
+    "node_id": "423eab51-ad67-4ff9-9a3a-3fb81343a7a0",
+    "content": "LIST OF TABLES \nTable 1.............................................................................................................................................19 \nTable 2.............................................................................................................................................21 \nTable 3.............................................................................................................................................22 \nTable 4.............................................................................................................................................23"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "9",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "9c0e15d7-8bd1-465e-b661-0f414969a924",
+    "content": "9 \nFETONET study      version 3.5      12th December 2016"
+  },
+  {
+    "section_title": "3. LIST OF ABBREVIATIONS and Definitions of Terms",
+    "page_label": "9",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "9c0e15d7-8bd1-465e-b661-0f414969a924",
+    "node_id": "36a60ed7-6033-440b-beef-37056ab6ba25",
+    "content": "18F Fluorine with an Atomic Mass of 18 \n68Ga \n99mTc \nGallium with an Atomic Mass of 68 \nMetastable Technetium with an Atomic Mass of 99 \nAE Adverse Event \nARSAC Administration of Radioactive Substances Advisory Committee \nBpm Beats per Minute (Heart Rate) \nCRF Case Report Form \nCT Computed Tomography \nECG Electrocardiogram \nECOG Eastern Cooperative Oncology Group \nED Effective Dose (ie, the sum of risk weighted organ absorbed radiation \ndose used as a measure of stochastic radiation risk) \nEUC Electrolytes, Urine, Creatinine \nGCP Good Clinical Practice GLP\n Good Laboratory Practice \nGMP Good Manufacturing Practice \nICH International Conference on Harmonisation \nIHC Immunohistochemistry \ni.v. Intravenous \nMBq \nMHRA \nMegabecquerel \nMedicines & Healthcare products Regulatory Agency \nMIRD Medical Internal Radiation Dose \nNET Neuroendocrine tumour \nPET Positron Emission Tomography \nPK \nSAE \nPharmacokinetics \nSerious Adverse Event \nSRS Somatostatin Receptor Scintigraphy \nSSTR Somatostatin Receptor"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "10",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "c192096b-f8fb-4faf-9a5f-9d7e5fda59e5",
+    "content": "10 \nFETONET study      version 3.5      12th December 2016"
+  },
+  {
+    "section_title": "4. SUMMARY",
+    "page_label": "10",
+    "heading_level": 1,
+    "heading_id": "4",
+    "parent_node_id": "c192096b-f8fb-4faf-9a5f-9d7e5fda59e5",
+    "node_id": "0903f04a-3d88-45bd-9f4c-6658a28a38ab",
+    "content": "4.1  Cohort  1.  Dosimetry  and  safety  study  in  patients  with  histological \ndiagnosis of NETs of any site. \n \n \n \n \nScreening Visit (D-30) \nInformed consent, Study entry criteria \nMedical history, current medication \nSafety monitoring* \nPregnancy test, \nStandard of care imaging within 6 months, \nIHC on diagnostic tumour biopsy \n \n \n \n \n \n \n \n \nIMAGING DAY (D0) \nBaseline assessment \nSafety monitoring* \nPregnancy test \n \n \nPET Imaging \n(Imaging performed 5 min - 4 hours after \ninjection) \nSafety monitoring* \nTransmission scan \nInjection site monitoring \nTracer administration \nVenous blood and urine for activity measurements \n \n \n \n \n \n \n \n \nSafety Follow-up* \n24 hours after tracer administration \n \n \n \n*For safety parameters please refer to the study schedules of events, Table 1 & Table 2"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "11",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "04fba30c-baaa-43a3-8ed9-170d5260d139",
+    "content": "11 \nFETONET study      version 3.5      12th December 2016 \n \n4.2 Cohort 2. Open label study comparing [18F]-FET-βAG-TOCA – PET with \n[68Ga]-DOTATATE-PET/CT in patients with histological diagnosis of NETs \nof any site. \n \n \n \nScreening Visit (≤D-30) \nInformed consent, Study entry criteria \nMedical history, current medication, \nSafety monitoring* \nPregnancy test \nStandard of care imaging within 6 months \n \n \n \n \n \n \n \n \nIMAGING DAY (D0) \nBaseline assessment \nSafety monitoring* \nPregnancy test \n \nStatic PET Imaging (D0) \nPET/CT scan which will last up to 70 \nminutes \n \n \n \n \n \n \n \n \n \nPatient discharged after scan \nIHC on diagnostic tumour biopsy \n \n \n \n \n \n \n*For safety parameters please refer to the study schedules of events, Table 1 & Table 3"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "12",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "9743d42b-3161-4960-8365-2f63b33b8c96",
+    "content": "12 \nFETONET study      version 3.5      12th December 2016"
+  },
+  {
+    "section_title": "5. BACKGROUND",
+    "page_label": "12",
+    "heading_level": 1,
+    "heading_id": "5",
+    "parent_node_id": "9743d42b-3161-4960-8365-2f63b33b8c96",
+    "node_id": "f0dca15c-99b0-462a-8949-6eea45cc1f4b",
+    "content": "Neuroendocrine  tumours  (NETs)  are  tumours  derived  from  enterochromaffin \ncells, which are characterised by the presence of neurosecretory granules \ncomposed of a variety of hormones and biogenic amines. These t umours can \nrelease vasoactive substances into the systemic circulation, resulting in episodic \nflushing, wheezing, diarrhoea, and eventual right-sided valvular heart disease. All \nof these symptoms negatively i mpact on patients’ quality of life. NETs can \noriginate at any sit e, however the common site of disease is the midgut \ncomprising of 40% to 70% of all NETs1. Whilst initially thought to be relatively \nrare, it is evident from the US Surveillance Epidemiology and End Results \ndatabase that the incidence and prevalence has increased s ubstantially \n(approximately 500%) over the past 30 years, and unlike most other solid \ntumours, the incidence continues to rise 2. Within the UK 3000 patients are \ndiagnosed each year making it the 11th most common cancer in the UK, and the \nsecond most prevalent tumour of the gastrointestinal tract. \n \nThe management of NETs is primarily determined by the stage of the disease. \nFor patients with localised or limited disease the primary modality of therapy is \nsurgery, whilst in patients with metastatic disease, systemic therapy is employed \nwith palliative intent.  Accurate imaging is therefore central to the management of \nthis disease. \n \nWhilst computer tomography is useful in the initial localisation of NETs, nuclear \nimaging using t umour-specific radiolabelled receptor analogues or amine \nprecursors are considerably more sensitive and specific methods for detecting \nNETs and their metastases. Five SSTR subtypes (1-5) have been identified in \nhuman tiss ues, with 70 – 90% of NETS expressing subtypes 2 and 5. \nSomatostatin analogues, such as octreotide, bind with high affinity to SSTR2 and \nSSTR5, and with varying affinity to SSTR3 and 4. When chelators such as \ndiethylenetriamine pentaacetic acid (DTPA) or 1,4,7,10-tetraazacyclododedcane- \nN, N’, N’’, N’’’ – tetraacetic acid (DOTA) are coupled to these analogues, they \ncan be labelled with [111In] or [99mTc] for scintigraphy in  order to stage NETs. \nFurthermore, positive uptake on these scans will predict the likelihood of patients \nresponding to therapy utilising radiolabelled somatostatin analogues.  Currently, \n[111In]-DTPA-octreotide SRS is the clinical gold standard for the imaging of these \ntumours, however there is an emerging clinical trend for the use of PET based on \nimproved sensitivity and specificity. \n \nIn a review of pooled data from over 1200 patients, [111In]-DTPA-octreotide SRS \nshowed a median detection rate of 89% (range 67% to 100%) and a median \nsensitivity of 84% (range 57% - 93%)3. Whilst SRS is accurate, false positive \nresults can be seen from the presence of inflammatory conditions that can be \nassociated with an increase in S STR expression such as in Crohn’s disease 4. \nFurthermore, NETs t hat are either too small or do not express high levels of \nSSTRs will not be detected. Other reasons for scan failure include low signal in \nareas of high background activity such as the liver and low spatial resolution."
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "13",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "31a10c99-f108-426a-9600-2c5f045a3f51",
+    "content": "13 \nFETONET study      version 3.5      12th December 2016 \n \nAcquisition time is also prolonged, up to 48hours, making it inconvenient for both \npatients and nuclear medicine departments. Therefore, there is clearly a need to \ndevelop more accurate imaging techniques. The utility of PET imaging for \nvisualising NETs has been highlighted with the development of [68Ga] -labelled \nsomatostatin analogues. PET has superior physical characteristics compared to \nSRS including spatial resolution, sensitivity and quantification, and [68Ga]-labelled \nligands also show higher affinity for SSTR 2 and 5 and more rapid clearance from  \nthe  blood  compared  with  [111-In]-labelled  tracers,  with  images  being obtained \n60-90min following tracer injection. Furthermore, the radiation dose is lower using \nthese tracers. \n \nPreclinical and clinical studies have described the use of a number of analogues \nincluding DOTA-Tyr3 octreotide (DOTA-TOC), DOTA-Tyr3,Thr8octreotide (DOTA- \nTATE) and DOTA-1-NaI3-octreotide (DOTA-NOC) in the imaging of NETs 5-8. \n[18F]-Fluorodeoxyglucose (FDG)-PET has been extensively st udied in NETs \nhowever the sensitivity of this imaging technique is low, 25 to 73%, because of \nthe relatively low metabolic activity of NETs, making [18F]-FDG-PET not suitable \nfor the routine clinical imaging, with its role currently limited to the visualisation of \npoorly differentiated tumours. Imaging with [68Ga]-DOTA-TOC PET has been \nreported to be more sensitive than [18F]-FDG PET in patients with primary or \nrecurrent  NETs  9.  Furthermore,  clinical  studies  comparing  [68Ga]-DOTA-TOC \nPET with [111In]-octreotide scintigraphy s uggest that [68Ga]-DOTA-TOC PET is \nmore sensitive than SRS in detecting NETs as a result of greater signal-to- \nbackground contrast 10,  11. Currently it is unclear which [68Ga] tracer - DOTA- \nTOC, DOTA-TATE or DOTA-NOC - is the best and there is no consensus for \ntheir use partly due to lack of a robust supply mechanism for the radiotracers for \nclinical trials. It is clear, however, that the sensitivities of these tracers are better \nthan SRS due to use of PET. \n \nThe main limitations with [68Ga]-DOTA-analogues PET are the requirement for an \non-site Gallium generator for tracer manufacture resulting from the much shorter \nhalf life of [68Ga] compared to [18F] tracers that can be shipped easily to several \nsites and the low throughput of such generators, the poorer resolution of [68Ga] \ncompared to [18F] and the paucity of clinical grade GMP radiotracer for large \nmulti-centre trials. We, therefore, sought to develop a fluorine-18 labelled \noctreotate analogue which can be effectively used to image NETs by employing \na versatile two-step GMP-compatible click chemistry method; embodied in the \ndesign of these fluorinated analogues, strategies to improve tumour uptake and \nsystemic PK 12. F luorinated somatostatin analogues have been previously \ndeveloped due to their superior physical properties f or PET imaging, however, \ntheir clinical utility have been limited by high background uptake making it very \ndifficult to visualise tumours particularly t hose within the liver, the main site of \nmetastatic disease.   We have developed a  novel [18F] labelled somatostatin \nanalogue with improved in vivo kinetics compared to previously published [18F] \nlabelled analogues."
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "14",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "cb22d239-8290-402a-86f0-b3ec9ddefe61",
+    "content": "14 \nFETONET study      version 3.5      12th December 2016 \n \n5.1 [18F]-FET-βAG-TOCA-PET \nWe have developed a novel [18F]fluoroethyl triazole labelled [Tyr3]Octreotate \nanalogue, [18F]-FET-βAG-TOCA, that has been shown to have more favourable \nkinetics  compared  to  other  fluorinated  somatostatin  analogues  and  [68Ga]- \nDOTATATE in vivo 12,  13. We propose to transition [18F]-FET-βAG-TOCA-PET \ninto humans within 2 cohorts of patients. Patients in cohort 1 will undergo ‘whole \nbody dynamic PET scanning’ with assessment of PK and safety. We will then \nuse this information to develop an optimal ‘ whole body static PET scanning’ \nprotocol that will be used for patients in cohort 2. We will directly compare the \nsensitivity and specificity of [18F]-FET-βAG-TOCA-PET to [68Ga]-DOTATATE \nPET/CT, in the accurate localisation of NETs. It is anticipated that this novel \ntracer will eventually be the new standard in the imaging of these tumours. \n."
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "15",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "a90cf43a-51c9-46f5-a2ac-d780d5cf1c29",
+    "content": "15 \nFETONET study      version 3.5      12th December 2016 \n \n \n \n \n \n \n5.2 Rationale and evidence to date \nNETs have a high density of SSTRs, in particular SSTR 2, on their cell surface. \nThis characteristic allows the use of labelled somatostatin analogues to visualise \nthese tumours. We developed five structurally-related [18F]fluoroethyltriazole- \n[Tyr3]octreotate analogues with suitable PK f or PET imaging: [18F]-FET-G-PEG- \nTOCA, [18F]-FETE-PEG-TOCA, [18F]-FET-G-TOCA, [18F]-FETE-TOCA, and [18F]- \nFET-βAG-TOCA.   To select a lead compound we compared the tissue PKs of \neach novel compound to the recently described [18F]-aluminium fluoride NOTA- \noctreotide ([18F]-AlF-NOTA) and [68Ga]-DOTA-TOCA, a radiotracer widely used in \nthe clinical assessment of NETs 14. All [19F]fluoroethyltriazole-[Tyr3]octreotate \ncompounds retained high agonist binding affinity to SSTR2 in vitro (EC50 of 4-19 \nnM versus somatostatin at 5.6 nM)12."
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "16",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "162cfe7a-bd0b-4b7f-b32f-4a6637247af1",
+    "content": "16 \nFETONET study      version 3.5      12th December 2016 \n \nUtilising the AR42J pancreatic cancer xenograft model, which expresses a high \nlevel of SSTR-2, dynamic PET imaging was performed following administration of \neach tracer.  Tumour uptake was maximal with FET-G-TOCA, followed by FET- \nβAG-TOCA and [18F]-AlF-NOTA, with the least tumour uptake seen with [68Ga]- \nDOTATATE.  Incorporation of polyethylene glycol (PEG) linkers to reduce non- \nspecific protein interactions and increase circulation time, as exemplified by \n[18F]- FET-G-PEG-TOCA and FETE-PEG-TOCA, resulted in reduced uptake in \nhigh SSTR2 expressing AR42J pancreatic cancer xenografts, and these were not \ntaken forward.  Whilst tumour uptake was maximal with [18F]-FET-G-TOCA, \nits slow hepatic clearance meant that this was not taken forward, and [18F]-FET- \nβAG-TOCA, which showed the lowest non-specific uptake in liver, was selected \nfor further d evelopment (13).The specificity of [18F]-FET-βAG-TOCA tumour \nuptake was illustrated through a number of experiments.  Firstly, a radiolabelled \nscrambled peptide derived from [ 18F]-FET-βAG-TOCA, [18F]-FET-βAG-[W-c-\n(CTFTYC)K], did not show t umour uptake. Secondly, there was a 2-fold lower \nuptake of [18F]-FET-βAG-TOCA in AR4 2J xenografts when mice were pre-\ntreated with 10 mg/kg of unlabelled octreotide. Finally t here was low uptake of \n[18F]-FET-βAG-TOCA in low SSTR-2 expressing HCT116 xenografts.  \n \nThe safety profile of [18F]-FET-βAG-TOCA as a single microdose study in rats \nwas assessed by a commercial GLP laboratory in accordance with MHRA/EMEA \nguidelines (see attached). There was no tracer (or precursor) related toxicity at \n1000x the intended human dose. Rat radiation dosimetry studies, conducted by \nGE Healthcare are complete. The radiotracer showed a suitable organ dose \nprofile. The new fluoroethyltriazole-[Tyr]3-octreotate radioligand, F ET-βAG- \nTOCA, combines high specific binding with rapid target localization for high \ncontrast PET imaging."
+  },
+  {
+    "section_title": "6. STUDY OBJECTIVES",
+    "page_label": "16",
+    "heading_level": 1,
+    "heading_id": "6",
+    "parent_node_id": "162cfe7a-bd0b-4b7f-b32f-4a6637247af1",
+    "node_id": "d532c660-6572-4eb0-8856-cf9a140c3194",
+    "content": "6.1 Primary objective \n To determine the bidistribution of [18F] following single i.v administration of \n[18F]-FET-βAG-TOCA injection. \n To assess tumoural uptake of [18F]-FET-βAG-TOCA \n6.2 Secondary objectives \nTo assess efficacy of [18F]-FET-βAG-TOCA PET/CT in patients with a histological \ndiagnosis of NET and with measurable disease, who have and have not had \n[68Ga]- DOTA-peptide imaging"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "17",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "6a99a946-f31f-4dd6-9c99-a752a04da7c8",
+    "content": "17 \nFETONET study      version 3.5      12th December 2016 \n \n \n \n6.3 Safety endpoints  \nThe occur rence of one or more treatment -emergent adverse events (AEs) from \nadministration of [18F]-FET-βAG-TOCA injection throughout the study period, and \nchanges in serum biochemistry, haematology, coagulation, immunology, urina lysis, \nvital signs, ECG, injection site and physical examination findings. \n \n \n7.1 Cohort 1 \n \n7.1.1 Primary"
+  },
+  {
+    "section_title": "1.  To determine the biodistribution (clearance from whole blood and plasma,",
+    "page_label": "17",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "6a99a946-f31f-4dd6-9c99-a752a04da7c8",
+    "node_id": "7f8a3d45-f9e9-46b0-bb20-0103215242f6",
+    "content": "and urinary excretion) of [18F] following single i.v. administration of \n[18F]-FET-βAG-TOCA injection in patients with a histological diagnosis \nof NET"
+  },
+  {
+    "section_title": "2.  To calculate the internal radiation dosimetry and the Effective Dose (ED)",
+    "page_label": "17",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "6a99a946-f31f-4dd6-9c99-a752a04da7c8",
+    "node_id": "e5e3c10d-fcfe-4cd3-a34c-87cf19bfc2a8",
+    "content": "7.1.2 Translational end-points"
+  },
+  {
+    "section_title": "1.  To assess the safety of [18F]-FET-βAG-TOCA",
+    "page_label": "17",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "6a99a946-f31f-4dd6-9c99-a752a04da7c8",
+    "node_id": "b4a6cc72-dfcb-4d7f-89bd-1fc0834fc218",
+    "content": ""
+  },
+  {
+    "section_title": "2.  Assess expression of SSTR1-5 in biopsy specimens and compare with",
+    "page_label": "17",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "6a99a946-f31f-4dd6-9c99-a752a04da7c8",
+    "node_id": "bc7a5e9d-5100-4bef-ae55-4256865a2a83",
+    "content": "PET parameters \n \n7.2 Cohort 2 \n \n7.2.1 Primary"
+  },
+  {
+    "section_title": "1. To assess tumoural uptake of [18F]-FET-βAG-TOCA –PET/CT",
+    "page_label": "17",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "6a99a946-f31f-4dd6-9c99-a752a04da7c8",
+    "node_id": "6af220ba-4cd2-496a-bd2c-38c57bf291dc",
+    "content": "7.2.2 Secondary"
+  },
+  {
+    "section_title": "2. Compare diagnostic efficacy of [18F] -FET-βAG-TOCA in those patients",
+    "page_label": "17",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "6a99a946-f31f-4dd6-9c99-a752a04da7c8",
+    "node_id": "1e826df8-b019-4398-be76-4e22aa71eb54",
+    "content": "who have had or not had or are d ue to have [68Ga] -DOTA-peptide \nimaging. A power of ≥ 80% has been chosen to conclude non -inferiority \nequivalence.  \n \nNote**(All patients with a histological diagnosis of NET and lesion on CT is ≥1cm \nirrespective of whether they have had a [68Ga] -DOTA-peptide scan or are waiting \nfor one as part of their management will be included in study)."
+  },
+  {
+    "section_title": "3. Comparison of [18F]-FET-AG-TOCA P ET/CT scan and central review",
+    "page_label": "17",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "6a99a946-f31f-4dd6-9c99-a752a04da7c8",
+    "node_id": "a7533315-b49f-4224-bb08-f761ec3aa631",
+    "content": "(nuclear medicine and radiology physician experts) of all imaging received \nby patient. (To account for any discrepancy that may exist between CT, \n[68]Ga-DOTA-peptide imaging and [18F]-FET-AG-TOCA PET/CT scan, \nthen patients will be offered an MRI scan."
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "18",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "e698092c-df51-4ee5-bceb-b077ad1b136d",
+    "content": "18 \nFETONET study      version 3.5      12th December 2016 \n \n7.2.3 Translational end-points"
+  },
+  {
+    "section_title": "1.  Assess expression of SSTR1-5 in biopsy specimens and compare with",
+    "page_label": "18",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "e698092c-df51-4ee5-bceb-b077ad1b136d",
+    "node_id": "60dcac75-d3da-46ee-8548-cf89710103a4",
+    "content": "PET parameters"
+  },
+  {
+    "section_title": "2.  Evaluation of possible adverse effects",
+    "page_label": "18",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "e698092c-df51-4ee5-bceb-b077ad1b136d",
+    "node_id": "b7c9f603-e482-4142-a96c-df2c6dd67e0f",
+    "content": ""
+  },
+  {
+    "section_title": "8. STUDY OUTLINE",
+    "page_label": "18",
+    "heading_level": 1,
+    "heading_id": "8",
+    "parent_node_id": "e698092c-df51-4ee5-bceb-b077ad1b136d",
+    "node_id": "06d4eb60-c459-41af-a3b3-1eb6f8e6b4e3",
+    "content": "8.1 Study design and rational of the chosen approaches \nThe total sample size will be 56 patients.  Patients from cohort 1 (n=8-12), 4-6 \nfemale and 4-6 male (each cohort minimum 3) will be used in the final analysis. \nPatients with locally advanced or metastatic NETs of any site will be recruited \nfrom the Endocrinology, Surgical and Oncology Outpatients clinic, Hammersmith \nand Royal Free Hospitals.  After obtaining informed consent, eligible patients will \nhave blood taken at baseline for FBC, EUC, LFTs (routine clinical practice), and \nserum biomarkers.   Patients will undergo routine staging.   In addition, patients \nwill undergo [18F]-FET-βAG-TOCA P ET/CT scanning at Imanova. Patients’ \noriginal diagnostic tumour biopsy (paraffin fixed) will be obtained. \n \n8.1.1 Cohort 1. Dosimetry and safety study in patients with histological \ndiagnosis of NETs of any site. \nIn this initial evaluation patients presenting for routine staging will be consented \nto undergo whole body dynamic scanning (multiple whole body scans up to 3.5 \nhours) with metabolite analysis in order to develop a suitable protocol for static \nscanning that will be used for patients in cohort 2. We will also calculate the \ninternal   radiation   dosimetry, which   may   alter   the   administered   dose   in \nsubsequent studies. Alt hough we do not expect any toxicity, we will conduct \ndetailed safety assessment in this group of patients. We require a minimum of 8 \npatients for final Dosimetry and safety analysis, which should include a minimum \nof either 3 male or 3 female subjects. To ensure both sexes are sufficiently \nrepresented in the final Dosimetry, for calculating effective dose, Co hort 1 will \ntherefore include a minimum of 8, but up to 12 subjects. \n \n8.1.2 Cohort 2. Open label study assessing tumoural uptake of [18F] -FET- \nβAG-TOCA –PET in patients with histological diagnosis of NETs of any site . \nPatients presenting for routine staging will be consented to also undergo a static \nPET/CT imaging with [18F]-FET-βAG-TOCA in order to compare the clinical utility \nof [18F]-FET-βAG-TOCA – PET/CT with standard of care somatostatin receptor \nimaging . As a translational endpoint, patients will also be consented for retrieval \nof their pre-treatment biopsy specimen. Immunohistochemistry (IHC) will be \nperformed for expression of SSTR1-5, which will be correlated with PET images \nfrom both tracers (see section 4.2 for Summary)"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "19",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "0cf7f719-a6d0-4175-9b41-3ba11b19efc6",
+    "content": "19 \nFETONET study      version 3.5      12th December 2016"
+  },
+  {
+    "section_title": "9. ELIGIBILITY",
+    "page_label": "19",
+    "heading_level": 1,
+    "heading_id": "9",
+    "parent_node_id": "0cf7f719-a6d0-4175-9b41-3ba11b19efc6",
+    "node_id": "bf0b222d-c71d-49e1-9a20-0eda5789a162",
+    "content": "9.1 Inclusion criteria"
+  },
+  {
+    "section_title": "1.  Written informed consent",
+    "page_label": "19",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "0cf7f719-a6d0-4175-9b41-3ba11b19efc6",
+    "node_id": "41c747f6-0a75-401f-b95e-548978237582",
+    "content": ""
+  },
+  {
+    "section_title": "2.  Age ≥ 18 years",
+    "page_label": "19",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "0cf7f719-a6d0-4175-9b41-3ba11b19efc6",
+    "node_id": "91bddf6f-cfad-4c53-be85-212663c52b12",
+    "content": ""
+  },
+  {
+    "section_title": "3.  Histological diagnosis of NET of any site, except where ENETS criteria",
+    "page_label": "19",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "0cf7f719-a6d0-4175-9b41-3ba11b19efc6",
+    "node_id": "d440bdb0-614d-4bf7-beb8-9e48e9ee8194",
+    "content": "does not mandate histology for confirmation of diagnosis or patients who \nhave a positive 68Gallium-peptide scan in whom NET diagnosis is pre -\noperatively definitive."
+  },
+  {
+    "section_title": "4.  Locally advanced or metastatic disease",
+    "page_label": "19",
+    "heading_level": 1,
+    "heading_id": "4",
+    "parent_node_id": "0cf7f719-a6d0-4175-9b41-3ba11b19efc6",
+    "node_id": "cfd8d5d3-4728-4801-b826-053c00128837",
+    "content": ""
+  },
+  {
+    "section_title": "5.  Eastern Cooperative Oncology Group (ECOG) performance status of <2",
+    "page_label": "19",
+    "heading_level": 1,
+    "heading_id": "5",
+    "parent_node_id": "0cf7f719-a6d0-4175-9b41-3ba11b19efc6",
+    "node_id": "3a18a4e2-306b-48d9-9caa-3853f6e86b9a",
+    "content": "(appendix A)"
+  },
+  {
+    "section_title": "6.  Life expectancy > 3 months",
+    "page_label": "19",
+    "heading_level": 1,
+    "heading_id": "6",
+    "parent_node_id": "0cf7f719-a6d0-4175-9b41-3ba11b19efc6",
+    "node_id": "8183f6f0-0ebf-4e36-a48a-aef3def5efa6",
+    "content": ""
+  },
+  {
+    "section_title": "7.  Measurable disease defined as a lesion that can be accurately measured",
+    "page_label": "19",
+    "heading_level": 1,
+    "heading_id": "7",
+    "parent_node_id": "0cf7f719-a6d0-4175-9b41-3ba11b19efc6",
+    "node_id": "e67aea79-e0a0-41ac-aa43-3fa60ccd4334",
+    "content": "in at least one dimension with the longest diameter ≥ 10mm using \nconventional techniques"
+  },
+  {
+    "section_title": "8.  Somatostatin receptor imaging within 6 months. (if patient does not have",
+    "page_label": "19",
+    "heading_level": 1,
+    "heading_id": "8",
+    "parent_node_id": "0cf7f719-a6d0-4175-9b41-3ba11b19efc6",
+    "node_id": "2d30936b-2223-4807-9b35-ed6c8c681ba9",
+    "content": "somatostatin receptor imaging they may also be included provided they have \nmeasurable disease (≥10mm) on conventional imaging."
+  },
+  {
+    "section_title": "9.  Adequate organ system function as defined in Table 1",
+    "page_label": "19",
+    "heading_level": 1,
+    "heading_id": "9",
+    "parent_node_id": "0cf7f719-a6d0-4175-9b41-3ba11b19efc6",
+    "node_id": "32dd7788-824a-4ca2-bc7b-5821a94e1c0b",
+    "content": "Table 1 clinical laboratory parameters \n \n \n \n \n \n \n9.2 Exclusion Criteria"
+  },
+  {
+    "section_title": "1.  Patients received chemotherapy within 3 weeks of study",
+    "page_label": "19",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "0cf7f719-a6d0-4175-9b41-3ba11b19efc6",
+    "node_id": "722054ac-aaf3-401c-ace1-2a2019fcd931",
+    "content": ""
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "20",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "7bc48176-082e-45c6-88bc-5d660acf67d8",
+    "content": "20 \nFETONET study      version 3.5      12th December 2016"
+  },
+  {
+    "section_title": "2.  Patients received radiotherapy within 4 weeks of study",
+    "page_label": "20",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "7bc48176-082e-45c6-88bc-5d660acf67d8",
+    "node_id": "0212e263-b6bf-49d1-bd06-73bf32d667c0",
+    "content": ""
+  },
+  {
+    "section_title": "3.  Active uncontrolled infections, gastrointestinal disease, haemolysis or",
+    "page_label": "20",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "7bc48176-082e-45c6-88bc-5d660acf67d8",
+    "node_id": "62f3937b-1e4a-4b2f-8360-823534938d5d",
+    "content": "any serious co-existing medical illness"
+  },
+  {
+    "section_title": "4. Psychological, familial, sociological or geographical condition potentially",
+    "page_label": "20",
+    "heading_level": 1,
+    "heading_id": "4",
+    "parent_node_id": "7bc48176-082e-45c6-88bc-5d660acf67d8",
+    "node_id": "cb332c9c-c89c-423f-9eff-a291b502dfff",
+    "content": "hampering compliance with the study protocol and follow-up schedule"
+  },
+  {
+    "section_title": "5.  Pregnant or lactating women",
+    "page_label": "20",
+    "heading_level": 1,
+    "heading_id": "5",
+    "parent_node_id": "7bc48176-082e-45c6-88bc-5d660acf67d8",
+    "node_id": "19952efb-f14c-4342-96b6-60f7e880ef50",
+    "content": ""
+  },
+  {
+    "section_title": "6.  Females of childbearing potential who are unwilling to avoid pregnancy,",
+    "page_label": "20",
+    "heading_level": 1,
+    "heading_id": "6",
+    "parent_node_id": "7bc48176-082e-45c6-88bc-5d660acf67d8",
+    "node_id": "69a1aa8b-6170-42e2-8277-4d543138b897",
+    "content": "for the duration of the study"
+  },
+  {
+    "section_title": "7.  Presence of any underlying medical conditions which   in   the",
+    "page_label": "20",
+    "heading_level": 1,
+    "heading_id": "7",
+    "parent_node_id": "7bc48176-082e-45c6-88bc-5d660acf67d8",
+    "node_id": "db03d788-9bdd-4b31-bd25-52be252c3a02",
+    "content": "investigators opinion would make the patients unsuitable for treatment"
+  },
+  {
+    "section_title": "8.  Patient not expected to be able to tolerate the scanning sessions",
+    "page_label": "20",
+    "heading_level": 1,
+    "heading_id": "8",
+    "parent_node_id": "7bc48176-082e-45c6-88bc-5d660acf67d8",
+    "node_id": "d8459dda-27e3-4521-b6ed-d2b02f5d8920",
+    "content": ""
+  },
+  {
+    "section_title": "10. COMPLETION OR EARLY WITHDRAWAL",
+    "page_label": "20",
+    "heading_level": 1,
+    "heading_id": "10",
+    "parent_node_id": "7bc48176-082e-45c6-88bc-5d660acf67d8",
+    "node_id": "cfa6210c-679b-46ea-98c9-074f899c5a60",
+    "content": "10.1 Subject completion \nA completed subject is one who has completed all phases of the study. \nThe end of the study is defined as the last subject’s last visit. \n \n \n \n10.2 Withdrawal criteria \nWhatever the disease status, the treatment will always be discontinued in case of \npatient refusal. \nEach patient is free to withdraw from the study at any time. \nA complete final evaluation at the time of the subject’s withdrawal will be made \nand an explanation given of why the patient is withdrawing or being withdrawn \nfrom the study. \nThe reason for non-completion and the date and time of the last contact with the \npatient must be noted in the case report form (CRF). \nIn the case of patients withdrawal before or after dosing (ie, non-evaluable \nsubjects) additional patients may be enrolled to reach a t otal of 56 evaluable \npatients. \n \n10.3 Blinding \nThis is an open label study, therefore blinding is not applicable."
+  },
+  {
+    "section_title": "11. STUDY PROCEDURES",
+    "page_label": "20",
+    "heading_level": 1,
+    "heading_id": "11",
+    "parent_node_id": "7bc48176-082e-45c6-88bc-5d660acf67d8",
+    "node_id": "f28badac-c7b1-474c-bf96-02d2d7e9b7bb",
+    "content": "Each patient will have one session of PET/CT scanning. Patients in cohort 1 will \nbe re quired to have an overnight stay following their scan whilst those in \ncohort 2 will have up to a 70  minute scan and will be discharged home \nfollowing the scan. All  efficacy and safety measurements obtained during the"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "21",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "bdf884be-2155-437a-a24d-b65d9283ac1a",
+    "content": "21 \nFETONET study      version 3.5      12th December 2016 \n \ncourse of the study are summarised in the Study Schedule of Events in table 1 \nand 2."
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "22",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "356460e6-7178-489e-8b8d-daff2fe6f1f1",
+    "content": "22 \nFETONET study      version 3.5      12th December 2016 \n \n \n-30 days \nscreening \n \n-30 to –5 min \n \n-2 min \n \nDose \n \n+2 min \n \n+5 min \n \n+10 min \n \n+15 min \n \n+30 min \n \n+ 1 hour \n+1 hour  30 \nmin \n \n+2 h 30 min \n \n+4 hours \n \n+ 24 hours \nInformed Consent               \nEntry Criteria               \nDemographic Information               \nMedical History               \nPrior/Concomitant Medication               \nPhysical Exam              \nInjection Site Monitoring       \nPregnancy Test               \nECG 1             \nPulse Oximetry 2            \nVital Signs              \nBlood (Serum Biochemistry, \nHaematology, Coagulation)3 \n             \nUrinalysis4       \nPre-administration Events              \nTransmission Scan               \n[18F]-FET-βAG-TOCA injection               \nPost-administration Events5     \nPET Imaging6        \nBlood and    Plasma for    Activity \nCounting \n              \nUrine4 for Activity Counting       \n \n \nTable 2. Study Schedule of Events for cohort 1. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nmin=minutes \n1 Continuous ECG performed from –5 min to +15 min.  Lead II may be used for continuous monitoring. \n12-lead  ECG  should  be  recorded  at  the  times  indicated  ECG  should  remain  under  continuous \nsupervision and additional print outs obtained if any abnormality is detected \n2 At baseline, before vital signs and pulse oximetry are measured, the subject should be resting for at least \n5 minutes (if possible) \n3 All blood samples for patients will be taken from venous blood. \n4 Time points indicated are preferred time points, urine will be collected as voided \n5 Events will be collected throughout the subjects participation in the study \n6 PET Imaging will be taken at 4 discrete time points for up to 4 hours post administration, with resting \nperiods in between \n*   Shaded areas depict continuous monitoring"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "23",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "aa64b90e-4309-4175-b9fa-3332a33c2337",
+    "content": "23 \nFETONET study      version 3.5      12th December 2016 \n \nTable 3. Study Schedule of Events for cohort 2. \n \n \n≤30 days  \nscreening  \n-180to –5 min \nDose \n≤70 - min \nEND OF \nSCAN \nInformed Consent      \nEntry Criteria      \nDemographic Information      \nMedical History      \nPrior/Concomitant Medication      \nPhysical Exam      \nPregnancy Test4,5      \nPulse Oximetry1,5      \nVital Signs1,5      \nBlood  (Serum  Biochemistry,  Haematology)2      \n[18F]-FET-βAG-TOCA injection (max 370MBq)      \nPET/CT Imaging      \nAdverse event monitoring 3      \n \nmin=minutes \n1 At baseline, before vital signs and pulse oximetry are measured, the subject should be resting for at least \n5 minutes (if possible) \n2 All blood samples for patients will be taken from venous blood. If blood results are available which have \nbeen taken as part of subjects standard care (within 30 days of study scan), these do not need to be repeated.  \n3 Events will be collected throughout the subjects participation in the study \n4    Women of childbearing potential.  \n5  Where screening and PET scan are on same day, procedure is done once \n*Shaded areas depict continuous monitoring \n \n11.1 Screening period (Day -30 to Day 0) \n Patients will be screened up to 30 days before tracer administration and \nconfirm eligibility. At the screening visit demographic data/baseline \ncharacteristics, medical history, and medication will be recorded.   All \nfemale subjects of childbearing potential will undergo a pregnancy test. \n Signed and dated informed consent must be obtained from all subjects \nprior to any protocol specific procedures being performed. \n Blood samples for serum biochemistry and haematology, will be drawn \nfrom venous blood if not already taken as part of subjects standard care \nwithin 30 days of tracer administration. ;.  \n Vital signs and pulse oximetry,  will  be  recorded and a physical \nexamination including a limited neurological examination will be \nperformed. \n If [68Ga]-DOTA-peptide imaging PET/CT ha s be en  performed within 6 \nmonths of [18F]-FET-βAG- TOCA PET/CT, scans will be retrieved."
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "24",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "f6f1ccf0-f076-48e3-a946-50a142f08895",
+    "content": "24 \nFETONET study      version 3.5      12th December 2016 \n \n11.2 PET Procedure (Day 0) \nThe tracer is made at GMP standards, at Imanova Limited which are GMP \ncertified \n PET/CT scans will be carried out in the Imanova Limited, at the \nHammersmith hospital site, Du Cane Road, London \n Transportation will be arranged as required for patients \n Between 30 min to 2 min before dosing the different parameters will \nbe assessed as reported in Table 2 (Cohort 1). Between 180 min to 5 \nmin before dosing the different parameters will be assessed as \nreported in Table 3 (Cohort 2). \n For p atients in cohort 1 two Intravenous cannulae will be placed in the \narm in order to inject the tracer, [18F]-FET-βAG-TOCA and for metabolites \n(approximately 200ml of blood samples will be taken from this line). \nFor patients in cohort 2 one Intravenous needle will be placed in the \narm in order to inject the tracer, [18F]-FET-βAG-TOCA. \n Patient will be asked to lie flat on the PET-CT scanner bed \n The bed will move into the scanner which looks like a short tunnel \n Patients in cohort 1 will have ECG monitoring. Vitals will be assessed \n (pre-specified time points, as reported in Table 2). \n  A non contrast enhanced CT will be performed to define the region \nof interest.   [18F]-FET-βAG-TOCA   will   be   injected   intravenously.   \nPET/CT scanning will be then s ubsequently performed.  In cohort 1 \npatients will undergo 5-6 whole body sweeps (vertex to mid thighs) lasting \napproximately 3-4 hours with a gap in between.  Patients in cohort 2 \nwill have a PET/CT scan which will last up to 70 minutes \n Patients in cohort 1 will be admitted for overnight stay.  \n Tumour biopsies at diagnosis will be retrieved for analysis of SSTR1-5 \nexpression after Day 0 on successful completion of subject scan. \n \n \n \n11.3 Radiation dosimetry. \nTable 4. Radiation dosimetry description for [18F]-FET-βAG-TOCA PET and \nCT. \nTracer [18F]-FET-βAG-TOCA CT \nMaximum dose per scan(MBq) 165  \nConversion factor (mSv/MBq) 0.04  \nEffective dose per scan (mSv) 5.11 2.4 \nNo of scans 1 2 (cohort 1) 1 (cohort 2) \nTotal effective dose (mSv)/ patient 5.11 mSv  cohort 1 \n12 mSv cohort 2 \n4.8 (cohort 1), 2.4 \n(cohort 2) \n \nTherefore total effective dose per patient is 12mSv for cohort 1 and 14mSv for \ncohort 2 (max dose injected 370Mbq)."
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "25",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "ef3192f4-4d29-4f9a-970e-82c7bb5aaeb0",
+    "content": "25 \nFETONET study      version 3.5      12th December 2016 \n \n11.4 PET parameters \nAttenuation corrected images will be reconstructed.  Regions of interest will \nbe drawn around the tumour to derive semi-quantitative uptake parameters, \nSUV (standardized uptake value) and AUC (area under curve, total activity over \nscanning time).  Venous blood samples will be taken for assessment of \ncounts during the [18F]-FET-βAG-TOCA scan in cohort 1.  These bloods will be \nused to generate  the  blood  input  function  that  is  required  to  derive  \nuptake  tracer \nparameters such as Ki (rate constant f or net irreversible uptake) and FRT \n(fractional retention of tracer) which will be used to set scanning parameters for \ncohort 2."
+  },
+  {
+    "section_title": "12. ASSESSMENT AND FOLLOW-UP",
+    "page_label": "25",
+    "heading_level": 1,
+    "heading_id": "12",
+    "parent_node_id": "ef3192f4-4d29-4f9a-970e-82c7bb5aaeb0",
+    "node_id": "866ff1ac-6f58-4039-b2ba-4fd440a6106d",
+    "content": "12.1 Clinical Assessments \n12.1.1 Screening \nConfirm eligibility \n Complete clinical history, including concomitant medications \n Full clinical examination \n Vital signs \n ECG \n Retrieve original tumour biopsies \n Somatostatin receptor imaging within 6 months of study entry \n \n12.1.2 Cohort 1: day of scan (Day 0) \n Confirm eligibility  \n Concomitant medication recording   \n Physical examination   \n Vital signs   \n ECG   \n Bloods   \n Urinalysis   \n Urine pregnancy test   \n [18F]-FET-βAG-TOCA PET/CT imaging   \n Baseline adverse event reporting   \n Cohort 1: Admit for overnight observation \nHammersmith Hospital \nat the Phase I unit, \n12.1.3 Cohort 1: Day 1 post scan \n Physical examination \n Vital signs \n ECG \n Bloods"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "26",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "faf99517-b61b-4e0b-a605-57cb25bd75b0",
+    "content": "26 \nFETONET study      version 3.5      12th December 2016 \n \n Urinalysis \n Adverse events reporting \n \n \n12.1.4 Cohort 2: day of scan \n Confirm eligibility \n Vital signs \n [18F]-FET-βAG-TOCA PET/CT imaging \n Baseline adverse event reporting \n Urine pregnancy test"
+  },
+  {
+    "section_title": "13. COMPLICATIONS AND RADIATION DOSE",
+    "page_label": "26",
+    "heading_level": 1,
+    "heading_id": "13",
+    "parent_node_id": "faf99517-b61b-4e0b-a605-57cb25bd75b0",
+    "node_id": "57139cf1-2352-4906-a0c7-87a1b8063881",
+    "content": "13.1 Complications \nAll patients will be recruited strictly according to protocol following the principles \nof the Declaration of Helsinki. All incl usion criteria would be satisfied before \napproaching patients.  There are no immediate complications of the PET scan \nexcept for a potential mild bruising at the site of insertion of the cannula which \nshould resolve in 1-2 weeks. \n \n13.2   Radiation dose \nThe total effective dose (ED) received from the PET-CT scan is estimated to be \n12mSv for cohort 1 and 14 mSv for cohort 2. In a dosimetry study such as this, \nthe estimate is necessarily uncertain but a conservative approach has been \ntaken that will overestimate the effective dose by using a high dose conversion \nfactor of 0.04 mSv/MBq injected activity. The total effective dose of 14 mSv \n(cohort2)  is equivalent to about 6 times the average yearly exposure (2.3 mSv) \nfrom natural background radiation in the United Kingdom. For an adult in good \nhealth, this exposure would result in a risk of around 1 in 1600 (cohort1) and 1 in \n1400  (cohort2)  of  contracting  a  fatal  cancer,  However,  for  someone  in  the \nplanned study groups who have shorter life expectancy t han the general \npopulation         it         represents         a         significantly         lower         risk. \nNote that as part of the standard practice for patients included in this study, a \nsingle [68Ga] Dotatate PET/CT scan will be performed; this is one of the entry \nqualifications but is not an additional examination that is part of the research \nprotocol."
+  },
+  {
+    "section_title": "14. STATISTICAL ANALYSIS AND SAMPLE SIZE CALCULATION",
+    "page_label": "26",
+    "heading_level": 1,
+    "heading_id": "14",
+    "parent_node_id": "faf99517-b61b-4e0b-a605-57cb25bd75b0",
+    "node_id": "39f4af5d-fb84-4274-b7e3-214ee9f25de6",
+    "content": "14.1 Cohort 1 \nUsing results of dynamic scanning and metabolite analysis, in particular the time \ncourse of tumour radiotracer uptake, we will design the appropriate protocol by \nwhich we will analyse the diagnostic, static scans in cohort 2.  We will calculate"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "27",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "2bf2e7dc-fa46-4e52-aa32-68d3aafcd150",
+    "content": "27 \nFETONET study      version 3.5      12th December 2016 \n \nthe  internal  radiation  dosimetry  as  well  as  biodistribution  of  the  tracer. \nDepending on these results we may alter the administered dose in cohort 2. \n \n14.1.1 Safety \nSafety data will be collected at baseline and after the administration of the tracer. \nThe safety of the regimen will be evaluated by the frequency and grade of \nadverse events. Rates will be reported with a 90% Binomial exact confidence \ninterval. With a sample size of N=12 the maximum half-width to the confidence \ninterval will be 0.25.Using results of dynamic scanning and metabolite analysis, \nin particular the time c ourse of tumour radiotracer uptake, we will design the \nappropriate protocol by which we will analyse the diagnostic, static scans in sub- \nstudy 2.Rates of adverse events will be reported by grade and summarized using \n95% Binomial exact confidence interval. \n \n14.1.2 Biodistribution \nThe temporal variations of 18F activity concentrations in whole blood and plasma \nand the rate and amount of 18F activity excreted through the urinary pathway will \nbe measured in patients and to evaluate the bio-distribution. \n \n \n14.1.3 Dosimetry \nWe will calculate the internal radiation dosimetry as well as biodistribution of the \ntracer. Descriptive statistics will be used to summarize the biodistribution of [18F] \nfollowing single i .v. administration of [18F]-FET-βAG-TOCA inj ection ( mean, \nmedian, range, interquartile range, and standard deviation).Depending on these \nresults we may alter the administered dose in sub-study 2. \n \n14.1.4 Somatostatin receptor expression \nSUV measures from [18F]-FET-βAG-TOCA PET/CT will be summarized by lesion. \nThe correlation of SUV measures to ordinal measures of SSTR1-5 detected by \nIHC staining of the diagnostic biopsy (-,+,++,+++) will be evaluated using non- \nparametric Kruskal-Wallis tests. \n \n14.2 Cohort 2 \nComparison will be made between FET-βAG-TOCA PET and the standard of \nacre somatostatin receptor imaging based on both a per-patient and per-lesion \nbased analysis.  Non-parametric McNemar t est with Bonferroni c orrection for \nmultiple comparisons will be used.   The association between SSTR1-5 \nexpression and imaging parameters obtained will be assessed. Data will be \nanalyzed using SPSS 16.0 for Windows. \n \n14.2.1 Power and sample size determination \nPower for the Wilcoxon signed-rank test is calculated by simulation using a \ntruncated log-normal distribution parameterized according to  Kabasakal et al.15 \n(median = 5, range = 1 to 25) to sample the total number of lesions in patients"
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "28",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "09005791-f5e4-46e7-a1b2-6edcac9932d0",
+    "content": "28 \nFETONET study      version 3.5      12th December 2016 \n \nacross a range of samples. With a total of N = 48 patients assessed by both \nmodalities, there will be 80% power to conclude non-inferiority equivalence if the \ntwo methods are equivalent ( = 0). \nThe  distributions  of  number  of  lesions  detected  by  [18F]-FET-βAG-TOCA  – \nPET/CT and by [68Ga]-DOTA-peptide-PET/CT will be summarized, and will be \ncompared using the Wilcoxon signed-rank test with the pre-specified level of \nequivalence of  = 0.64 and a one-sided alpha= 0.1. \n \n14.2.3 Somatostatin receptor expression \nSUV measures from [18F]-FET-βAG-TOCA will be summarized by lesion.  The \ncorrelation of SUV measures to ordinal measures of SSTR1-5 detected by IHC \nstaining of the diagnostic biopsy (-,+,++,+++) will be evaluated using non- \nparametric Kruskal-Wallis tests."
+  },
+  {
+    "section_title": "15. PHARMACOVIGILANCE",
+    "page_label": "28",
+    "heading_level": 1,
+    "heading_id": "15",
+    "parent_node_id": "09005791-f5e4-46e7-a1b2-6edcac9932d0",
+    "node_id": "2ec2202d-0fec-44c7-86ba-dcfc974ff049",
+    "content": "15.1 DEFINITIONS \nAdverse Event (AE): any untoward medical occurrence in a patient or clinical \ntrial subject administered a medicinal product and which does not necessarily \nhave a causal relati onship with this tre atment. An AE can therefore be any \nunfavourable and unintended si gn (including an abnormal laboratory finding), \nsymptom, or disease t emporally associated with the use of an investigational \nmedicinal product (IMP), whether or not considered related to the IMP. \n \nAdverse Reaction ( AR): all untoward and unintended responses to an IMP \nrelated to any dose administered. All AEs judged by either t he reporting \ninvestigator or t he sponsor as having reasonable causal relationship to a \nmedicinal  product  qualify  as  adverse  reactions.  The  expression  reasonable \ncausal  relationship  means  to  convey  in  general  that  there  is  evidence  or \nargument to suggest a causal relationship. \n \nUnexpected Adverse Reaction: an AR, the nature or severity of which is not \nconsistent with the applicable product information (eg investigator’s brochure for \nan unapproved investigational product or summary of product characteristics \n(SmPC) for an authorised product). When the outcome of the adverse reaction is \nnot  consistent  with  the  applicable  product  information  this  adverse  reaction \nshould be considered as unexpected. Side effects documented in the SmPC \nwhich occur in a more severe form than anticipated are also considered to be \nunexpected. \n \nSerious Adverse Event (SAE) or Serious Adverse Reaction: any untoward \nmedical occurrence or effect that at any dose \n \nResults in death"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "29",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "d85ba2a8-aebd-4fb4-9496-71399c3b913c",
+    "content": "29 \nFETONET study      version 3.5      12th December 2016 \n \nIs life-threatening – refers to an event in which the subject was at risk of \ndeath at the time of the event; it does not refer to an event which hypothetically \nmight have caused death if it were more severe \n \n      Requires hospitalisation, or prolongation of existing inpatients’ \n    hospitalisation \n \nResults in persistent or significant disability or incapacity \n \nIs a congenital anomaly or birth defect \n \nMedical judgement should be exercised in deciding whether an AE/AR is serious \nin other situations. Important AE/ARs that are not immediately life-threatening or \ndo not result in  death or hospitalisation but may jeopardise the subject or may \nrequire intervention to prevent one of the other outcomes listed in the definition \nabove, should also be considered serious. \nSuspected U nexpected Serious Adverse Reaction (SUSAR): any s uspected \nadverse reaction related to an IMP that is both unexpected and serious. \n \n15.2 CAUSALITY \nMost adverse events and adverse drug reactions that occur in this study, whether \nthey are serious or not, will be expected treatment-related toxicities due to the \ndrugs used in this study. The assignment of the causality should be made by the \ninvestigator responsible for the care of the participant using the definitions in the \ntable below. \nIf any doubt about the causality exists the local investigator should inform the \nstudy c oordination centre who will notify the Chief Investigators. The \npharmaceutical companies and/or other clinicians may be asked to advise in \nsome cases. \nIn the case of discrepant views on causality between the investigator and others, \nall parties will discuss the case. In the event that no agreement is made, the \nMHRA will be informed of both points of view. \n \n15.3 REPORTING PROCEDURES \nAll adverse events should be reported. Depending on the nature of the event the \nreporting procedures below s hould be f ollowed. Any questions concerning \nadverse event reporting should be directed to the study coordination centre in the \nfirst instance. A flowchart is given below to aid in the reporting procedures. \n \n15.3.1 Non serious AR/AEs \nAll such toxicities, whether expected or not, should be recorded in the toxicity \nsection of the relevant case report form and sent to the study coordination centre \nwithin one month of the form being due."
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "30",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "438a6c55-4d82-4e0e-a96f-ceea0f684946",
+    "content": "30 \nFETONET study      version 3.5      12th December 2016 \n \n \n15.3.2 Serious AR/AEs \nFatal or life threatening SAEs and SUSARs should be reported on the day that \nthe local site is aware of the event. The SAE form asks for nature of event, date \nof onset, s everity, corrective therapies given, outcome and c ausality ( i.e. \nunrelated, unlikely, possible, probably, definitely). The responsible investigator  \n \nshould sign the causality of the event. Additional information should be sent \nwithin 5 days if the reaction has not resolved at the time of reporting. \n \nSAEs \nAn SAE form should be completed and faxed to the study coordination centre for \nall SAEs within 24 hours. However, relapse and death due to  <condition>, and \nhospitalisations f or elective treatment of a pre-existing condition do not need \nreporting as SAEs. \n \nSUSARs \nIn the case of suspected unexpected serious adverse reactions, the staff at the \nsite should: \nComplete the SAE case report f orm & send it immediately (within 24 hours, \npreferably by fax), signed and dated to the study coordination centre together \nwith relevant treatment f orms and anonymised copies of all relevant \ninvestigations. \nOr \nContact the study coordination centre by phone and then send the completed \nSAE form to the study coordination centre within the following 24 hours as above. \nThe study coordination centre will notify the MHRA, REC and the Sponsor of all \nSUSARs occurring during the study according to the following timelines; fatal and \nlife-threatening within 7 days of notification and non-life threatening within 15 \ndays. All investigators will be informed of all SUSARs occurring throughout the \nstudy."
+  },
+  {
+    "section_title": "16. DATA MANAGEMENT",
+    "page_label": "30",
+    "heading_level": 1,
+    "heading_id": "16",
+    "parent_node_id": "438a6c55-4d82-4e0e-a96f-ceea0f684946",
+    "node_id": "2fd3e653-4605-4ef1-83f2-f3238c8a3536",
+    "content": "Data will be collected on electronic CRFs."
+  },
+  {
+    "section_title": "17. ADMINISTRATIVE AND LEGAL CONSIDERATIONS",
+    "page_label": "30",
+    "heading_level": 1,
+    "heading_id": "17",
+    "parent_node_id": "438a6c55-4d82-4e0e-a96f-ceea0f684946",
+    "node_id": "c5b82e6b-7a31-49b5-94ed-9ffa796f78b4",
+    "content": "To ensure compliance of this trial with Good Clinical Practice (GCP) principles, \nthe following procedures will be followed by the Investigators. \n \n \n \n17.1   Pre-Trial Requirements \n \nTreatment within this study will only start if the following prerequisites have been \nfulfilled and documentation is at hand:"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "31",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "6e363cb9-3de1-4e49-8906-4622b1715831",
+    "content": "31 \nFETONET study      version 3.5      12th December 2016 \n \n       Signed copy (original) of the approved protocol \n \n       EC approval of the protocol, consent form and information sheet \n \n       Approval / notification of local authorities \n \nThe Investigator will hold an Investigator’s File containing the relevant study \ndocuments. \n \n \n \n17.2 General Legal Requirements \n \nThe study will be conducted in agreement with the following directives and \nguidelines: \n \n- The Declaration of Helsinki ( version of Edinburgh, Scotland, October 2000) \n \n- The respective guidelines of the European Community: Guideline for Good \nClinical Practice (Note for Guidance on Good Clinical Practice / ICH E6) \n \n- Statutory Instrument 2004 No. 1031 – The Medicines for Human Use (Clinical \nTrials) Regulations 2004 as amended. \n \n \nAll clinical work conducted under this protocol will be subject to Good Clinical \nPractice rules. This includes an inspection by health authority representatives at \nany time. The Investigator agrees to the inspection of study-related records by \nhealth authority representatives and/or the sponsor. \n \n \n \n \n \n17.3 Protection of Subjects \n \n17.3.1 Ethics Committee \n \nThe protocol and a copy of the subject information and informed consent form \nwill be submitted to the competent EC(s). Written approval of the protocol and \nthe proposed information and consent form will be obtained prior to the start of \nthe trial. \n \n \n \n17.3.2 Informed Consent \n \nIt is the I nvestigator’s responsibility to  explain to each subject the study \nprocedure, potential benefits and hazards of trial participation, the right to \nwithdraw from the study at any time, and to obtain written informed consent prior \nto any st udy-specific procedures. The original copy of the signed and dated \nInformed Consent Form must be filed in the patient’s notes. The subject, the \nsubject’s legally authorized representative, or both will be given a copy of the"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "32",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "efbae90b-27a3-44bd-9939-cc1ac8af0539",
+    "content": "32 \nFETONET study      version 3.5      12th December 2016 \n \nsigned and dated Informed Consent Form. \n \n \n \n17.3.3 Privacy protection \n \nIn order to maintain subject privacy, all CRFs, study drug accountability records, \nstudy reports and communications will identify the subject by initials and the \nassigned subject number. \n \nThe investigator will grant monitor(s) and auditor(s) access to the subject’s \noriginal medical records for verification of data gathered on the CRFs and to \naudit the data collection process. The subject’s confidentiality will be maintained \nand will not be made publicly available to the extent permitted by the applicable \nlaws and regulations. \n \n \n \n17.4 Protocol Amendments \n \nThe protocol must be read thoroughly and the instructions must be followed \nexactly. \n \nAny changes in the protocol will require a formal amendment. Such amendments \nwill be agreed upon and approved in writing by t he Principal I nvestigator. \nAmendments to the protocol will be submitted to the relevant authorities and the \nEC for approval prior to implementation. \n \nAdministrative  changes  which  have  no  significant  impact  on  the  medical  or \nscientific validity of the study will be documented in a statement. The EC will be \nnotified of administrative changes, if applicable. \n \n \n \n17.5 Premature Termination of the Trial \n \nThe Investigator reserves the right to terminate the trial f or well-documented \nreasons. Instructions will be provided in a separate document should it be \ndetermined that assessments beyond those defined by the protocol are required. \n \n \n \nFurther recruitment of subjects will not take place under the following conditions:  \n \n- Premature termination of the trial. \n \n- Drug-related  events,  i.e.  SUSARs,  emerging  adverse  effects  that  are \nserious and the risk/benefit ratio is unacceptable. \n \n- Procedure-related  events,  i.e.,  the  recruitment  rate  is  too  low  or  the \nnumber of dropouts for administrative reasons is too high."
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "33",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "88b19e8d-5a5d-450d-9853-3e68307b84ee",
+    "content": "33 \nFETONET study      version 3.5      12th December 2016 \n \n \nAn ‘End of Trial Form’ must be completed for each subject who completes the \nstudy or who withdraws prematurely from this study. \n \n \n \n17.6 Record Retention \n \nAfter the end of study, the Investigator will maintain all site study records in a \nsafe and secure location.  The records will be stored in a location allowing easy \nand  timely  retrieval  when  needed  (for  example,  for  an  audit  or  inspection). \nWhere permitted by local regulations or institutional policy, some or all of these \nrecords may be maintained in a format other than hard copy (for example, in an \nelectronic format), but caution should be exercised.  The Investigator will ensure \nthat all reproductions are legible and are a true and accurate copy of the original. \nAll study records must be retained for at least 2 years after the last approval of a \nmarketing application in an ICH region and until (1) there are no pending or \ncontemplated marketing applications in an ICH region; or (2) at least 2 years \nhave elapsed since the formal discontinuation of clinical development of the IP. \nThe PI/institution should retain subject identifiers for at least 15 years after the \ncompletion or discontinuation of the study.  Subject files and other source data \nmust be kept for the maximum period of time permitted by the hospital, institution \nor private practice, but not less than 15 years. These documents should be \nretained for a longer period, however, if required by the applicable regulatory \nrequirements. The PI must be notified and will assist with retention should \ninstitution be unable to continue maintenance of subject files for the full 15 years. \nIt is the responsibility of PI to inform the institution as to when these documents \nno longer need to be retained. \n \nIf an I nvestigator moves, withdraws from an investigation, retires, requests to \nmove records to another location or to assign these records to another party or \n(e.g. other Investigator) who will accept the res ponsibility, written notice of this \ntransfer must be made to and agreed upon by each party. \n \n \n \n17.7 Study Monitoring \n \nThe Investigator is res ponsible for ensuring that t he study is  monitored \nappropriately in  order to ensure compliance with GCP and local regulatory \nguidelines. The monitor will check the completeness of medical records, verify \nthe accuracy of entries in the CRF, and ensure adherence to the protocol and \ncompliance with local regulatory requirements. \n \n \n17.8 Final Report \n \nA final in tegrated report will be prepared under t he responsibility of the \nInvestigator(s). It will include the tabulated raw data and the biostatistical report \non the data."
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "34",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "425ab060-618f-43ac-bfc7-09619e5157ba",
+    "content": "34 \nFETONET study      version 3.5      12th December 2016 \n \n \n17.9 Publications \n \nPublication of the results of the study, whether in whole or in part, shall be within \nthe sole and absolute discretion of the Investigator. \n \n \n \n17.10 Liability and insurance \n \nAll patients participating in the study will have insurance coverage by the sponsor \nwhich is in line with all applicable laws and/or regulations. \n \n \n17.11 Audits and Inspections \n \nTo ensure compliance with GCP and all applicable regulatory requirements, the \nsponsor may c onduct a  quality assurance audit in accordance with their local \ninternal procedures. \n \nAudits and/or inspections may also be carried out by loc al authorities, or \nauthorities to which information on this trial has been submitted. All documents \npertinent  to  the  trial  must  be  made  available  for  such  inspection  after  an \nadequate announcement."
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "35",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "content": "35 FETONET study      version 3.5      12th December 2016"
+  },
+  {
+    "section_title": "18. REFERENCES",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "18",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "da1e39fb-c705-43eb-9256-97a48388923a",
+    "content": ""
+  },
+  {
+    "section_title": "1. Modlin IM, Oberg K, Chung DC, et al. Gastroenteropancreatic neuroendocrine tumours.",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "1",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "022b75ba-1f96-4f3e-a49a-47d5745805ce",
+    "content": "Lancet Oncol. Jan 2008;9(1):61-72."
+  },
+  {
+    "section_title": "2. Yao JC, Hassan M, Phan A, et al. One hundred years after \"carcinoid\": epidemiology of",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "2",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "4823c513-c548-49ca-b735-b3a04bf45b66",
+    "content": "and prognostic factors for neuroendocrine tumors in 35,825 cases in the United States. J \nClin Oncol. Jun 20 2008;26(18):3063-3072."
+  },
+  {
+    "section_title": "3. Koopmans KP, Neels ON, Kema IP, et al. Molecular imaging in neuroendocrine tumors:",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "3",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "d92c5b70-5e00-4cdd-86b2-0e5c9e0c4c61",
+    "content": "molecular  uptake  mechanisms  and  clinical  results.  Crit  Rev  Oncol  Hematol.  Sep \n2009;71(3):199-213."
+  },
+  {
+    "section_title": "4. Marko J, Lamba R, Miller F, Buchman A, Spies S, Nikolaidis P. OctreoScan positive",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "4",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "b2ed44b9-dbe1-4804-bb30-93e2b8086385",
+    "content": "Crohn's  disease  mimicking  an   ileal  carcinoid  tumor.  J   Clin  Gastroenterol.  Jan \n2008;42(1):66-68."
+  },
+  {
+    "section_title": "5. Frilling A, Sotiropoulos GC, Radtke A, et al. The impact of 68Ga-DOTATOC positron",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "5",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "f46654a4-9bb0-4d08-b7bf-0ef7c05968bf",
+    "content": "emission tomography/computed tomography on the multimodal management of patients \nwith neuroendocrine tumors. Ann Surg. Nov;252(5):850-856."
+  },
+  {
+    "section_title": "6. Gabriel  M,  Decristoforo  C,  Kendler  D,  et  al.  68Ga-DOTA-Tyr3-octreotide  PET  in",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "6",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "8257954a-a343-431c-b765-466f74cddaf2",
+    "content": "neuroendocrine tumors: comparison with somatostatin receptor scintigraphy and CT. J \nNucl Med. Apr 2007;48(4):508-518."
+  },
+  {
+    "section_title": "7. Krausz Y, Freedman N, Rubinstein R, et al. (68)Ga-DOTA-NOC PET/CT Imaging of",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "7",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "33f3145b-f9cb-4565-96e1-a03831dc665b",
+    "content": "Neuroendocrine Tumors: Comparison with (111)In-DTPA-Octreotide (OctreoScan(R)). \nMol Imaging Biol. Jul 22."
+  },
+  {
+    "section_title": "8. Haug AR, Auernhammer CJ, Wangler B, et al. 68Ga-DOTATATE PET/CT for the early",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "8",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "e8353696-3bea-4af1-881b-6cf0901142cf",
+    "content": "prediction of response to somatostatin receptor-mediated radionuclide therapy in patients \nwith well-differentiated neuroendocrine tumors. J Nucl Med. Sep;51(9):1349-1356."
+  },
+  {
+    "section_title": "9. Binderup T, Knigge U, Loft A, et al. Functional imaging of neuroendocrine tumors: a",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "9",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "e126cebb-3726-4224-89dd-3a58eb65c3ea",
+    "content": "head-to-head comparison of somatostatin receptor scintigraphy, 123I-MIBG scintigraphy, \nand 18F-FDG PET. J Nucl Med. May;51(5):704-712."
+  },
+  {
+    "section_title": "10. Buchmann I, Henze M, Engelbrecht S, et al. Comparison of 68Ga-DOTATOC PET and",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "10",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "987c1509-bd5f-43f8-b62e-b32cdcc5fc76",
+    "content": "111In-DTPAOC (Octreoscan) SPECT in patients with neuroendocrine tumours. Eur J \nNucl Med Mol Imaging. Oct 2007;34(10):1617-1626."
+  },
+  {
+    "section_title": "11. Srirajaskanthan R, Kayani I, Quigley AM, Soh J, Caplin ME, Bomanji J. The role of 68Ga-",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "11",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "030609e3-a139-47d7-92a2-fcd15ff33679",
+    "content": "DOTATATE PET in patients with neuroendocrine tumors and negative or equivocal \nfindings on 111In-DTPA-octreotide scintigraphy. J Nucl Med. Jun 2010;51(6):875-882."
+  },
+  {
+    "section_title": "12. Iddon L, Leyton J, Indrevoll B, et al. Synthesis and in vitro evaluation of [18F]fluoroethyl",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "12",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "58c8881c-e361-4567-8bd1-87689fbefa9a",
+    "content": "triazole labelled [Tyr3]octreotate analogues using click chemistry. Bioorg Med Chem Lett. \nMay 15 2011;21(10):3122-3127."
+  },
+  {
+    "section_title": "13. Leyton J,  Iddon L,  Perumal M,  et  al.  Targeting Somatostatin Receptors: Preclinical",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "13",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "7a92688b-7186-4464-81dd-dfb58fef1098",
+    "content": "Evaluation of  Novel 18F-Fluoroethyltriazole-Tyr3-Octreotate Analogs for PET. J  Nucl \nMed. 2011;52(9):1-8."
+  },
+  {
+    "section_title": "14. Laverman P, McBride WJ, Sharkey RM, et al. A novel facile method of labeling octreotide",
+    "page_label": "35",
+    "heading_level": 1,
+    "heading_id": "14",
+    "parent_node_id": "aa16258e-a908-4ebb-a81f-19ab41d5a418",
+    "node_id": "b9701ffd-ed3e-4e1d-811c-5dfbdd18a564",
+    "content": ""
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "36",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "70ba799b-4cb8-4757-851e-78ff752c7cea",
+    "content": "36 FETONET study      version 3.5      12th December 2016 \n \nwith (18)F-fluorine. J Nucl Med. Mar;51(3):454-461.15. Kabasakal L, Demirci E, Ocak M,"
+  },
+  {
+    "section_title": "Full Document Content",
+    "page_label": "37",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "1f3e71d0-7d6f-4958-b33d-4641717c73cd",
+    "content": "35 \nFETONET study      version 3.5      12th December 2016 \n \nDecristoforo C, Araman A, Ozsoy Y, Uslu I, Kanmaz B. Comparison of 68Ga-DOTATATE \nand 68Ga-DOTANOC PET/CT imaging in the same patient group with neuroendocrine \ntumours.Eur J Nucl Med Mol Imaging. 2012;1271-7."
+  },
+  {
+    "section_title": "Document Preamble",
+    "page_label": "38",
+    "heading_level": 0,
+    "heading_id": "",
+    "parent_node_id": null,
+    "node_id": "ef4cd9bc-311c-4a8a-8555-897d770dd013",
+    "content": "36 \nFETONET study      version 3.5      12th December 2016"
+  },
+  {
+    "section_title": "19. Appendix A: WHO performance status scale",
+    "page_label": "38",
+    "heading_level": 1,
+    "heading_id": "19",
+    "parent_node_id": "ef4cd9bc-311c-4a8a-8555-897d770dd013",
+    "node_id": "e1149d33-824c-4bcb-aced-804c38c89813",
+    "content": "Grade Performance scale \n0 Able to carry out all normal activity without restriction \n1 Restricted in physically strenuous activity but ambulatory and able to \ncarry out light work. \n2 Ambulatory and capable of all self-care but unable to carry out any \nwork; up and about more than 50% of waking hours. \n3 Capable of only limited self-care; confined to bed or chair more than \n50% of waking hours \n4 Completely disabled; cannot carry on any self-care; totally confined to \nbed or chair."
+  }
+]

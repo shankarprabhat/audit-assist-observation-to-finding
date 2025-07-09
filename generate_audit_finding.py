@@ -66,8 +66,35 @@ def prepare_data():
     return example_string
 
 def prepare_context(input_payload):
-    document_name = input_payload['reference_document_name']
-    doc_section = input_payload['clause_number']
+    regulatory_document_name = input_payload['regulatoryDocumentName']
+    protocol_document_name = input_payload['protocolDocumentName']    
+    clause_number = input_payload['clauseNumber']
+    category_name = input_payload['categoryName']
+    
+    # If both the regulatory clause and protocol clause are present
+    if '\n' in clause_number and '\n' in category_name:
+        split_clause = clause_number.split('\n')
+        clause_protocol = split_clause[1]
+        clause_regularoty = split_clause[0]        
+    elif '\n' not in clause_number:
+        clause_regulatory = clause_number
+    else:
+        print("Protocol clauses not provided")
+        
+    # 1. Use semantic search on entire data to find the context
+    # 2. Use semantic search on the section data to find the context
+    # 3. Use the section data to extract the context
+    
+    # 3. For the regulatory document, extract the section
+    file_name = 'extracted_nodes_' + regulatory_document_name + '.json'
+    # Load the json file
+    with open(file_name, 'r') as file:
+        data = json.load(file)
+    
+    # Extract the regulatory clause from the json data
+    obtained_context = ""
+    
+        
 
     obtained_context = "GCP: 4.1.1. The investigator(s) should be qualified by education, training," \
     " and experience to assume responsibility for the proper conduct of the trial, should meet all" \
@@ -123,7 +150,7 @@ def generate_audit_findings(input_payload,run_config=None):
 
     # print('example_string: ', example_string)
 
-    input_observation = input_payload['short_observations']
+    input_observation = input_payload['shortObservations']
     input_context = prepare_context(input_payload)
 
     prompt = prepare_prompt(example_string, input_observation, input_context)
@@ -168,12 +195,23 @@ def generate_audit_findings(input_payload,run_config=None):
 
 def bulk_output():
     inference_type = "local" # or online
-    model_name = ["qwen3:0.6b","gemma3:1b","deepseek-r1:1.5b"]
     embedding_model = "BAAI/bge-large-en-v1.5"  # Example embedding model
+    
+    model_name = ["qwen3:0.6b","gemma3:1b","deepseek-r1:1.5b"]
+    model_name = ["qwen3:0.6b"]    
 
     data_sheet = ["21CFR Part 312","21CFR Part 50","21CFR Part 56"]
     data_sheet = ["21CFR Part 50"]
-    source_file = ["21 CFR Part 50.pdf","21 CFR Part 56.pdf","21 CFR Part 58.pdf","NITLT01.pdf","AZD9291.pdf","ich-gcp-r3.pdf"]
+    
+    regulatory_source_file = ["21 CFR Part 50.pdf","21 CFR Part 56.pdf","21 CFR Part 58.pdf","ich-gcp-r3.pdf"]
+    regulatory_source_file = ["21 CFR Part 50.pdf"]
+    
+    protocol_document_list = {
+        "NITLT01": "NITLT01.pdf",
+        "FETONET": "FETONET.pdf",
+        "AZD9291": "AZD9291.pdf",
+        "DIAN-TU-001": "DIAN-TU-001.pdf"        
+        }
 
     run_config = {
         "embedding_model": embedding_model
@@ -182,6 +220,7 @@ def bulk_output():
     # Read the source file for question and answer pairs
     for model_llm in model_name:
         run_config["model_name"] = model_llm
+        count = 0
         for sheet in data_sheet:
             print(f"\nRunning workflow with model: {model_llm} sheet: {sheet}")
 
@@ -206,13 +245,13 @@ def bulk_output():
                     long_observation = df['Long Observation'][ii]
 
                     input_payload = {
-                            "short_observations" : short_observation,
+                            "shortObservations" : short_observation,
                             "protocol" : protocol,
-                            "reference_document_name" : reference_document_name,
-                            "clause_number" : clause_number,
-                            "category_name" : category_name
+                            "protoclDocumentName" : reference_document_name,
+                            "regulatoryDocumentName": regulatory_source_file[count],
+                            "clauseNumber" : clause_number,
+                            "categoryName" : category_name
                             }
-
 
                     output_observation, context = generate_audit_findings(input_payload,run_config)
                     response = output_observation[0]['response']
@@ -232,7 +271,7 @@ def bulk_output():
                     # Add the question and full response to our list
                     qa_pairs.append({
                         "short_observation": short_observation,
-                        "Ground_truth": long_observation,
+                        "ground_truth": long_observation,
                         "output_response": response,
                         "input_context": context,
                         "output_thinking": out_think,
@@ -248,7 +287,7 @@ def bulk_output():
 
                     qa_pairs.append({
                         "short_observation": short_observation,
-                        "Ground_truth": long_observation,
+                        "ground_truth": long_observation,
                         "output_response": [],
                         "input_context": context,
                         "output_thinking": [],
@@ -267,6 +306,8 @@ def bulk_output():
             qa_df.to_csv(csv_filename, index=False, encoding="utf-8")
             print(f"\nDataFrame saved to {csv_filename} time taken: {toc-tic} seconds")
 
+        # Increase the count for next sheet
+        count = count + 1
     return
 
 if __name__ == "__main__":
