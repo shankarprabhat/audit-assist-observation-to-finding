@@ -9,3 +9,4 @@ chroma_db*
 chroma_db_pdfs/*
 .vscode*
 *.csv
+*.json
