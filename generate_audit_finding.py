@@ -5,6 +5,7 @@ import os
 from dotenv import load_dotenv
 import time
 import re
+import json
 
 load_dotenv()  # Load variables from .env into the environment
 
@@ -67,53 +68,97 @@ def prepare_data():
 
 def prepare_context(input_payload):
     regulatory_document_name = input_payload['regulatoryDocumentName']
-    protocol_document_name = input_payload['protocolDocumentName']    
+    protocol_document_name = input_payload['protocolDocumentName']
+
+    # 3. For the regulatory document, extract the section
+    source = 'section_metadata/'
+    regulatory_file = source + regulatory_document_name + '.json'
+    # Load the json file
+    with open(regulatory_file, 'r') as file:
+        regulatory_data = json.load(file)
+
+    protocol_data = []
+    if protocol_document_name != 'None':
+        protocol_file = source + protocol_document_name + '.json'
+        # load protocol file
+        with open(protocol_file,'r') as file:
+            protocol_data = json.load(file)
+
+    # Get the protocol and regulatory clause
     clause_number = input_payload['clauseNumber']
     category_name = input_payload['categoryName']
     
+    clause_protocol = []
+    clause_regulatory = []
+
     # If both the regulatory clause and protocol clause are present
     if '\n' in clause_number and '\n' in category_name:
         split_clause = clause_number.split('\n')
-        clause_protocol = split_clause[1]
-        clause_regularoty = split_clause[0]        
+        clause_regulatory = split_clause[1]
+        
+        clause_protocol = split_clause[0]        
+        clause_protocol = clause_protocol.replace('Protocol section ','')
+        clause_protocol = clause_protocol.replace('Protocol section-','')
+        clause_protocol = clause_protocol.replace('Protocol-section ','')        
+        clause_protocol = clause_protocol.strip()
+        
     elif '\n' not in clause_number:
         clause_regulatory = clause_number
     else:
         print("Protocol clauses not provided")
         
+    clause_regulatory = clause_regulatory.replace('21 CFR ','')
+    clause_regulatory = clause_regulatory.strip()
+    
+    print('regulatory clause: ', clause_regulatory,regulatory_document_name)
+    print('protocol clause: ', clause_protocol,protocol_document_name)
     # 1. Use semantic search on entire data to find the context
     # 2. Use semantic search on the section data to find the context
     # 3. Use the section data to extract the context
-    
-    # 3. For the regulatory document, extract the section
-    file_name = 'extracted_nodes_' + regulatory_document_name + '.json'
-    # Load the json file
-    with open(file_name, 'r') as file:
-        data = json.load(file)
-    
-    # Extract the regulatory clause from the json data
-    obtained_context = ""
-    
-        
 
-    obtained_context = "GCP: 4.1.1. The investigator(s) should be qualified by education, training," \
-    " and experience to assume responsibility for the proper conduct of the trial, should meet all" \
-    " the qualifications specified by the applicable regulatory requirement(s), and should provide " \
-    "evidence of such qualifications through up-to-date curriculum vitae and/or other relevant" \
-    " documentation requested by the sponsor, the IRB/IEC, and/or the regulatory authority(ies)." \
-    " GCP: 4.2.3. The investigator should have available an adequate number of qualified staff" \
-    " and adequate facilities for the foreseen duration of the trial to conduct the trial properly" \
-    " and safely."
+    if len(clause_regulatory) > 0:
+        regulatory_context = [data['content'] for data in regulatory_data["sections"] if clause_regulatory in data['title']]
+        regulatory_context = ' '.join(regulatory_context)
+        regulatory_context = regulatory_context[:200]
+        print('\nregulatory_context: ', regulatory_context)
+    else:
+        regulatory_context = ""
+
+    if len(clause_protocol)> 0 and len(protocol_data) > 0:
+        protocol_context = [data['content'] for data in protocol_data["sections"] if clause_protocol in data['title']]
+        protocol_context = ' '.join(protocol_context)
+        protocol_context = protocol_context[:200]
+        print('\nprotocol_context: ', protocol_context)
+    else:
+        protocol_context =""
+        
+    if len(regulatory_context) > 0:        
+        obtained_context = "Regulatory Context: " + regulatory_context + " Protocol Context: " + protocol_context    
+    else:
+        # Extract the regulatory clause from the json data
+        obtained_context = ""
+    
+        # obtained_context = "Regulatory Context: GCP: 4.1.1. The investigator(s) should be qualified by education, training," \
+        # " and experience to assume responsibility for the proper conduct of the trial, should meet all" \
+        # " the qualifications specified by the applicable regulatory requirement(s), and should provide " \
+        # "evidence of such qualifications through up-to-date curriculum vitae and/or other relevant" \
+        # " documentation requested by the sponsor, the IRB/IEC, and/or the regulatory authority(ies)." \
+        # " GCP: 4.2.3. The investigator should have available an adequate number of qualified staff" \
+        # " and adequate facilities for the foreseen duration of the trial to conduct the trial properly" \
+        # " and safely. Protocol Context: None"
+    
+    print("\nobtained context: ", obtained_context)
 
     return obtained_context
 
 def prepare_prompt(example_string, input_observation, input_context):
 
     # Create the prompt
-    promt_question = "You are an Auditor for analyzing clinical trials reports. You are being provided" \
-    " an example of audit observation and its context, and are required to provide the finding for the real observation. One"\
-    " example is given. Provide the findings for real observation using the real context provided."\
-    " Try to find the implications of the observations on the clinical trial."
+    promt_question = "You are an Auditor for analyzing clinical trials reports. Based on an input short observation "\
+    "and its context, your job is to come up with your findings. The context will contain"\
+    " regulatory context, and may or may not contain protocol context. One example of audit observation, its context,"\
+    " and corresponding findings are been provided. You need to come up with the findings for cases provided to you "\
+    "based on thinking and logical observation, dont copy from the example given, come up with own findings."
 
     prompt = f"{promt_question}:\n\n{example_string}\nReal Observation: {input_observation}\n Real Context: {input_context}"
 
@@ -156,61 +201,70 @@ def generate_audit_findings(input_payload,run_config=None):
     prompt = prepare_prompt(example_string, input_observation, input_context)
     # print(prompt)
 
-    # If the run config is provided, get the model name from there
-    if run_config:
-        # llm_selection = run_config['model_name']
-        model_name = run_config['model_name']
+    run_llm = True
 
-    if llm_selection in "local_ollama":
+    if run_llm is True:
 
-        payload = {
-            "model": model_name,
-            "prompt": prompt,
-            "stream": False # Set to True for streaming responses
-        }
+        # If the run config is provided, get the model name from there
+        if run_config:
+            # llm_selection = run_config['model_name']
+            model_name = run_config['model_name']
 
-        # Send the prompt to the model
-        output = run_inference_query(payload)
+        if llm_selection in "local_ollama":
 
-    else:
-        payload = {
-          "model": "bartowski/Qwen2.5-Coder-32B-Instruct-GGUF",
-          "messages": [
-            {
-              "role": "user",
-              "content": prompt
+            payload = {
+                "model": model_name,
+                "prompt": prompt,
+                "stream": False # Set to True for streaming responses
             }
-          ],
-          "max_tokens": 150,
-          "stream": False
-        }
-        headers = {
-          'Authorization': 'Bearer ' + my_hf_model_token,
-          'Content-Type': 'application/json'
-        }
-        # Send the prompt to the model
-        output = run_inference_query(payload)
 
+            # Send the prompt to the model
+            output = run_inference_query(payload)
+
+        else:
+            payload = {
+              "model": "bartowski/Qwen2.5-Coder-32B-Instruct-GGUF",
+              "messages": [
+                {
+                  "role": "user",
+                  "content": prompt
+                }
+              ],
+              "max_tokens": 150,
+              "stream": False
+            }
+            headers = {
+              'Authorization': 'Bearer ' + my_hf_model_token,
+              'Content-Type': 'application/json'
+            }
+            # Send the prompt to the model
+            output = run_inference_query(payload)
+    else:
+        output = []
+    
+    # print('input context: ', input_context)    
+    # print("output: ", output)
+    
     return output, input_context
 
 def bulk_output():
     inference_type = "local" # or online
     embedding_model = "BAAI/bge-large-en-v1.5"  # Example embedding model
-    
+
     model_name = ["qwen3:0.6b","gemma3:1b","deepseek-r1:1.5b"]
-    model_name = ["qwen3:0.6b"]    
+    model_name = ["qwen3:0.6b"]
 
     data_sheet = ["21CFR Part 312","21CFR Part 50","21CFR Part 56"]
     data_sheet = ["21CFR Part 50"]
-    
-    regulatory_source_file = ["21 CFR Part 50.pdf","21 CFR Part 56.pdf","21 CFR Part 58.pdf","ich-gcp-r3.pdf"]
-    regulatory_source_file = ["21 CFR Part 50.pdf"]
-    
+
+    regulatory_source_file = ["21 CFR Part 50","21 CFR Part 56","21 CFR Part 58","ich-gcp-r3"]
+    regulatory_source_file = ["21 CFR Part 50"]
+
     protocol_document_list = {
-        "NITLT01": "NITLT01.pdf",
-        "FETONET": "FETONET.pdf",
-        "AZD9291": "AZD9291.pdf",
-        "DIAN-TU-001": "DIAN-TU-001.pdf"        
+        "NITLT01": "NITLT01",
+        "FETONET": "FETONET",
+        "AZD9291": "AZD9291",
+        "DIAN-TU-001": "DIAN-TU-001"
         }
 
     run_config = {
@@ -226,20 +280,29 @@ def bulk_output():
 
             df = pd.read_excel('Observations To Finding Training Data.xlsx',sheet_name=sheet)
 
-            df = df.iloc[:3,:]
+            df = df.iloc[:10,:]
 
             # List to store dictionaries of questions and responses
             qa_pairs = []
 
             for ii in range(0,df.shape[0]):
-                print(f"Question Number: {ii}")
+                print(f"\nQuestion Number: {ii}")
 
                 # Do the inference in try catch block for each observation
                 try:
                     tic = time.time()
                     short_observation = df['Short Observation'][ii]
                     protocol = df['Protocol'][ii]
-                    reference_document_name = df['Reference Document Number'][ii]
+                    protocol_absent = pd.isna(df['Reference Document Number'][ii])
+
+                    if protocol_absent is False:
+                        try:
+                            reference_document_name = df['Reference Document Number'][ii].strip()
+                        except:
+                            reference_document_name = 'None'
+                    else:
+                        reference_document_name = 'None'
+
                     clause_number = df['Clause Number'][ii]
                     category_name = df['Category Name'][ii]
                     long_observation = df['Long Observation'][ii]
@@ -247,24 +310,33 @@ def bulk_output():
                     input_payload = {
                             "shortObservations" : short_observation,
                             "protocol" : protocol,
-                            "protoclDocumentName" : reference_document_name,
+                            "protocolDocumentName" : reference_document_name,
                             "regulatoryDocumentName": regulatory_source_file[count],
                             "clauseNumber" : clause_number,
                             "categoryName" : category_name
                             }
 
                     output_observation, context = generate_audit_findings(input_payload,run_config)
-                    response = output_observation[0]['response']
-                    clean_response = response.replace("\\n", " ")
-                    # Using regular expressions to extract content
-                    match = re.search(r'<think>(.*?)</think>(.*)', clean_response, re.DOTALL)
-
-                    if match:
-                        out_think = match.group(1).strip()
-                        response = match.group(2).strip()
+                    print('\ninput context: ', context)    
+                    print("\noutput: ", output_observation)
+                    
+                    if len(output_observation) > 0:
+                        response = output_observation[0]['response']
+                        clean_response = response.replace("\\n", " ")                    
+                        
+                        # Using regular expressions to extract content
+                        match = re.search(r'<think>(.*?)</think>(.*)', clean_response, re.DOTALL)
+    
+                        if match:
+                            out_think = match.group(1).strip()
+                            response = match.group(2).strip()
+                        else:
+                            out_think = ""
+                            response = clean_response # If no <think> tag, the whole thing is the response
                     else:
-                        out_think = ""
-                        response = clean_response # If no <think> tag, the whole thing is the response
+                        response =[]
+                        clean_response = []
+                        out_think = []
 
                     # out_think = []
                     toc = time.time()

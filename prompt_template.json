@@ -1,3 +1,18 @@
-"prompt" : [{
-	"template1": "You are an Auditor for analyzing clinical trials reports. You are being provided an example of audit observation and its context, and are required to provide the finding for the real observation. One example is given. Provide the findings for real observation using the real context provided. Try to find the implications of the observations on the clinical trial."
-}]
+"prompt" : [
+	{
+	"index": 1,
+	"template": "You are an Auditor for analyzing clinical trials reports. You are being provided an example of audit observation and its context, and are required to provide the finding for the real observation. One example is given. Provide the findings for real observation using the real context provided. Try to find the implications of the observations on the clinical trial."
+	},
+	{
+	"index": 2,
+	"template": "You are an Auditor for analyzing clinical trials reports. Based on an input short observation and its context, your job is to come up with your findings in short and less than 200 words. The context will contain regulatory context, and may or may not contain protocol context. One example of audit observation, its context, and corresponding findings are been provided. You need to come up with the findings for cases provided to you based on thinking and logical observation."
+	},
+	{
+	"index": 3,
+	"template": "You are an Auditor for analyzing clinical trials reports. You are being provided an example of audit observation and its context, and are required to provide the finding for the real observation. One example is given. Provide the findings for real observation using the real context provided. Try to find the implications of the observations on the clinical trial."
+	},
+	{
+	"index": 4,
+	"template": "You are an Auditor for analyzing clinical trials reports. You are being provided an example of audit observation and its context, and are required to provide the finding for the real observation. One example is given. Provide the findings for real observation using the real context provided. Try to find the implications of the observations on the clinical trial."
+	}
+]
