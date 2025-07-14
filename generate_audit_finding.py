@@ -66,11 +66,47 @@ def prepare_data():
 
     return example_string
 
-def prepare_context(input_payload):
+def get_clause_number(input_payload):
+
+    # Get the protocol and regulatory clause
+    clause_number = input_payload['clauseNumber']
+    category_name = input_payload['categoryName']
+
+    clause_protocol = []
+    clause_regulatory = []
+
+    # If both the regulatory clause and protocol clause are present
+    if '\n' in clause_number and '\n' in category_name:
+        split_clause = clause_number.split('\n')
+        clause_regulatory = split_clause[1]
+
+        clause_protocol = split_clause[0]
+        clause_protocol = clause_protocol.replace('Protocol section ','')
+        clause_protocol = clause_protocol.replace('Protocol section-','')
+        clause_protocol = clause_protocol.replace('Protocol-section ','')
+        clause_protocol = clause_protocol.strip()
+
+    elif '\n' not in clause_number:
+        clause_regulatory = clause_number
+    else:
+        print("Protocol clauses not provided")
+
+    clause_regulatory = clause_regulatory.replace('21 CFR ','')
+    clause_regulatory = clause_regulatory.strip()
+
+    print('regulatory clause: ', clause_regulatory)
+    print('protocol clause: ', clause_protocol)
+    
+    return clause_regulatory, clause_protocol
+
+def prepare_context_section(input_payload, clause_regulatory, clause_protocol):
+    # 1. Use semantic search on entire data to find the context
+    # 2. Use semantic search on the section data to find the context
+    # 3. Use the section data to extract the context
+    # 3. For the regulatory document, extract the section
     regulatory_document_name = input_payload['regulatoryDocumentName']
     protocol_document_name = input_payload['protocolDocumentName']
 
-    # 3. For the regulatory document, extract the section
     source = 'section_metadata/'
     regulatory_file = source + regulatory_document_name + '.json'
     # Load the json file
@@ -83,38 +119,6 @@ def prepare_context(input_payload):
         # load protocol file
         with open(protocol_file,'r') as file:
             protocol_data = json.load(file)
-
-    # Get the protocol and regulatory clause
-    clause_number = input_payload['clauseNumber']
-    category_name = input_payload['categoryName']
-    
-    clause_protocol = []
-    clause_regulatory = []
-
-    # If both the regulatory clause and protocol clause are present
-    if '\n' in clause_number and '\n' in category_name:
-        split_clause = clause_number.split('\n')
-        clause_regulatory = split_clause[1]
-        
-        clause_protocol = split_clause[0]        
-        clause_protocol = clause_protocol.replace('Protocol section ','')
-        clause_protocol = clause_protocol.replace('Protocol section-','')
-        clause_protocol = clause_protocol.replace('Protocol-section ','')        
-        clause_protocol = clause_protocol.strip()
-        
-    elif '\n' not in clause_number:
-        clause_regulatory = clause_number
-    else:
-        print("Protocol clauses not provided")
-        
-    clause_regulatory = clause_regulatory.replace('21 CFR ','')
-    clause_regulatory = clause_regulatory.strip()
-    
-    print('regulatory clause: ', clause_regulatory,regulatory_document_name)
-    print('protocol clause: ', clause_protocol,protocol_document_name)
-    # 1. Use semantic search on entire data to find the context
-    # 2. Use semantic search on the section data to find the context
-    # 3. Use the section data to extract the context
 
     if len(clause_regulatory) > 0:
         regulatory_context = [data['content'] for data in regulatory_data["sections"] if clause_regulatory in data['title']]
@@ -131,13 +135,39 @@ def prepare_context(input_payload):
         print('\nprotocol_context: ', protocol_context)
     else:
         protocol_context =""
+    
+    return regulatory_context, protocol_context
+
+async def prepare_context(input_payload):
+    
+    context_fetch = input_payload['context_fetch']
+    clause_regulatory, clause_protocol = get_clause_number(input_payload)
+    protocol_context = ""
+    
+    if context_fetch == 'section':        
+        regulatory_context, protocol_context = prepare_context_section(input_payload, clause_regulatory, clause_protocol)        
+    
+    if context_fetch == 'RAG':
+        import RAG_retrieve as RAG
+        embedding_model_choice = "BAAI/bge-large-en-v1.5"
+        run_config_for_retrieval = {
+            "question": "Informed consent did not mention the expected duration of the subject's participation",
+            "embedding_model": embedding_model_choice,
+            "source_file": input_payload['regulatoryDocumentName'] + ".pdf" # Make sure this matches an actual filename if used for filtering
+        }
+        if len(clause_regulatory) > 0:
+            regulatory_context, success = await RAG.main_function(run_config_for_retrieval)
         
-    if len(regulatory_context) > 0:        
-        obtained_context = "Regulatory Context: " + regulatory_context + " Protocol Context: " + protocol_context    
+        if len(clause_protocol) > 0:
+            run_config_for_retrieval['source_file'] = input_payload['protocolDocumentName'] + ".pdf"
+            protocol_context, success = await RAG.main_function(run_config_for_retrieval)
+
+    if len(regulatory_context) > 0:
+        obtained_context = "Regulatory Context: " + regulatory_context + " Protocol Context: " + protocol_context
     else:
         # Extract the regulatory clause from the json data
         obtained_context = ""
-    
+
         # obtained_context = "Regulatory Context: GCP: 4.1.1. The investigator(s) should be qualified by education, training," \
         # " and experience to assume responsibility for the proper conduct of the trial, should meet all" \
         # " the qualifications specified by the applicable regulatory requirement(s), and should provide " \
@@ -146,7 +176,7 @@ def prepare_context(input_payload):
         # " GCP: 4.2.3. The investigator should have available an adequate number of qualified staff" \
         # " and adequate facilities for the foreseen duration of the trial to conduct the trial properly" \
         # " and safely. Protocol Context: None"
-    
+
     print("\nobtained context: ", obtained_context)
 
     return obtained_context
@@ -189,19 +219,19 @@ def prepare_example_data():
 
     return example_string
 
-def generate_audit_findings(input_payload,run_config=None):
+async def generate_audit_findings(input_payload,run_config=None):
 
     example_string = prepare_example_data()
 
     # print('example_string: ', example_string)
 
     input_observation = input_payload['shortObservations']
-    input_context = prepare_context(input_payload)
+    input_context = await prepare_context(input_payload)
 
     prompt = prepare_prompt(example_string, input_observation, input_context)
     # print(prompt)
 
-    run_llm = True
+    run_llm = False
 
     if run_llm is True:
 
@@ -241,15 +271,16 @@ def generate_audit_findings(input_payload,run_config=None):
             output = run_inference_query(payload)
     else:
         output = []
-    
-    # print('input context: ', input_context)    
+
+    # print('input context: ', input_context)
     # print("output: ", output)
-    
+
     return output, input_context
 
-def bulk_output():
+async def bulk_output():
     inference_type = "local" # or online
     embedding_model = "BAAI/bge-large-en-v1.5"  # Example embedding model
+    context_fetch = "RAG"  # other option is RAG
 
     model_name = ["qwen3:0.6b","gemma3:1b","deepseek-r1:1.5b"]
     model_name = ["qwen3:0.6b"]
@@ -280,7 +311,7 @@ def bulk_output():
 
             df = pd.read_excel('Observations To Finding Training Data.xlsx',sheet_name=sheet)
 
-            df = df.iloc[:10,:]
+            df = df.iloc[:3,:]
 
             # List to store dictionaries of questions and responses
             qa_pairs = []
@@ -313,20 +344,21 @@ def bulk_output():
                             "protocolDocumentName" : reference_document_name,
                             "regulatoryDocumentName": regulatory_source_file[count],
                             "clauseNumber" : clause_number,
-                            "categoryName" : category_name
+                            "categoryName" : category_name,
+                            "context_fetch": context_fetch
                             }
 
-                    output_observation, context = generate_audit_findings(input_payload,run_config)
-                    print('\ninput context: ', context)    
+                    output_observation, context = await generate_audit_findings(input_payload,run_config)
+                    print('\ninput context: ', context)
                     print("\noutput: ", output_observation)
-                    
+
                     if len(output_observation) > 0:
                         response = output_observation[0]['response']
-                        clean_response = response.replace("\\n", " ")                    
-                        
+                        clean_response = response.replace("\\n", " ")
+
                         # Using regular expressions to extract content
                         match = re.search(r'<think>(.*?)</think>(.*)', clean_response, re.DOTALL)
-    
+
                         if match:
                             out_think = match.group(1).strip()
                             response = match.group(2).strip()
@@ -383,14 +415,23 @@ def bulk_output():
     return
 
 if __name__ == "__main__":
+    import nest_asyncio
+    nest_asyncio.apply()
 
     run_type = 'bulk'
+    context_fetch = "RAG"
 
     if run_type == 'single':
         input_payload = {
-            "input_observations" : "Some study personnel had no documented GCP training. A study coordinator, with no ECG certification, conducted ECG assessments.",
+            "shortObservations" : "Some study personnel had no documented GCP training. A study coordinator, with no ECG certification, conducted ECG assessments.",
             "reference_document_name" : "ich-gcp.pdf",
-            "clause_number" : "5.4.3"
+            "clause_number" : "5.4.3",
+            "protocol" : "AZD9291",
+            "protocolDocumentName" : "AZD9291",
+            "regulatoryDocumentName": "21 CFR 50",
+            "clauseNumber" : "Protocol section 17\n21 CFR  50.27",
+            "categoryName" : "Administrative and Legal",
+            "context_fetch": context_fetch
             }
 
         tic = time.time()
@@ -404,4 +445,5 @@ if __name__ == "__main__":
 
         print(f"Time taken: {toc-tic} seconds" )
     else:
-        bulk_output()
+        import asyncio
+        asyncio.run(bulk_output())

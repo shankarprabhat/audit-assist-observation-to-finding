@@ -10,3 +10,5 @@ chroma_db_pdfs/*
 .vscode*
 *.csv
 *.json
+storage/*
+fastembed_models_cache/*
