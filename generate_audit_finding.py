@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 import time
 import re
 import json
+import config
 
 load_dotenv()  # Load variables from .env into the environment
 
@@ -19,12 +20,19 @@ if llm_selection == 'flan-t5-large':
     base_llm_model_URL = "https://api-inference.huggingface.co/models/google/flan-t5-large"
 
 elif llm_selection == 'hugging-face-qwen':
-    base_llm_model_URL = "https://ytqej0aypbclmmsl.us-east-1.aws.endpoints.huggingface.cloud/v1/chat/completions"
+    base_llm_model_URL = os.environ.get("hugging_face_qwen")
     my_hf_model_token = os.environ.get("HUGGINGFACEHUB_API_TOKEN")
     headers = {
       'Authorization': 'Bearer ' + my_hf_model_token,
       'Content-Type': 'application/json'
     }
+elif llm_selection == 'hugging-face-phi4':
+    base_llm_model_URL = os.environ.get("hugging_face_phi4")
+    my_hf_model_token = os.environ.get("HUGGINGFACEHUB_API_TOKEN")
+    headers = {
+      'Authorization': 'Bearer ' + my_hf_model_token,
+      'Content-Type': 'application/json'
+    }    
 
 elif llm_selection == 'local_ollama':
     model_name = "qwen3:0.6b"
@@ -140,7 +148,7 @@ def prepare_context_section(input_payload, clause_regulatory, clause_protocol):
 
 async def prepare_context(input_payload):
     
-    context_fetch = input_payload['context_fetch']
+    context_fetch = input_payload['contextFetch']
     clause_regulatory, clause_protocol = get_clause_number(input_payload)
     protocol_context = ""
     
@@ -152,8 +160,9 @@ async def prepare_context(input_payload):
         embedding_model_choice = "BAAI/bge-large-en-v1.5"
         run_config_for_retrieval = {
             "question": "Informed consent did not mention the expected duration of the subject's participation",
-            "embedding_model": embedding_model_choice,
-            "source_file": input_payload['regulatoryDocumentName'] + ".pdf" # Make sure this matches an actual filename if used for filtering
+            "embeddingModel": embedding_model_choice,
+            "sourceFile": input_payload['regulatoryDocumentName'] + ".pdf",
+            "useCloudEmbed": input_payload['useCloudEmbed']
         }
         if len(clause_regulatory) > 0:
             regulatory_context, success = await RAG.main_function(run_config_for_retrieval)
@@ -345,7 +354,7 @@ async def bulk_output():
                             "regulatoryDocumentName": regulatory_source_file[count],
                             "clauseNumber" : clause_number,
                             "categoryName" : category_name,
-                            "context_fetch": context_fetch
+                            "contextFetch": context_fetch
                             }
 
                     output_observation, context = await generate_audit_findings(input_payload,run_config)
@@ -424,14 +433,14 @@ if __name__ == "__main__":
     if run_type == 'single':
         input_payload = {
             "shortObservations" : "Some study personnel had no documented GCP training. A study coordinator, with no ECG certification, conducted ECG assessments.",
-            "reference_document_name" : "ich-gcp.pdf",
-            "clause_number" : "5.4.3",
+            "referenceDocumentName" : "ich-gcp.pdf",            
             "protocol" : "AZD9291",
             "protocolDocumentName" : "AZD9291",
             "regulatoryDocumentName": "21 CFR 50",
             "clauseNumber" : "Protocol section 17\n21 CFR  50.27",
             "categoryName" : "Administrative and Legal",
-            "context_fetch": context_fetch
+            "contextFetch": context_fetch,
+            "useCloudEmbed": False
             }
 
         tic = time.time()
